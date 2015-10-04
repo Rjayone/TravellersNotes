@@ -1,0 +1,25 @@
+#############################################################################
+## Crytek Source File
+## Copyright (C) 2013, Crytek Studios
+##
+## Creator: Christopher Bolte
+## Date: Oct 31, 2013
+## Description: WAF  based build system
+#############################################################################
+QT_TO_MOC_FILES = [
+	'AudioControlsBrowserWindow.h',
+	'ATLControlsPanel.h',
+	'InspectorPanel.h',
+	'AudioSystemPanel.h',
+	'QSimpleAudioControlListWidget.h',
+	'ATLControlsResourceDialog.h',
+	'QConnectionsWidget.h',
+	]
+
+def build(bld):	
+
+	bld.CryFileContainer(
+		target		= 'EditorAudioControlsEditorCommon',
+		vs_filter	= 'Sandbox/Plugins/EditorAudioControlsEditor',
+		file_list	= 'editoraudiocontrolseditorcommon.waf_files',
+	)

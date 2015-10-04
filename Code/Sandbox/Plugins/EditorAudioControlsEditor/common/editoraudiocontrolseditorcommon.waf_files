@@ -1,0 +1,12 @@
+{
+	"NoUberFile":
+	{
+		"Root":
+		[
+			"ACETypes.h",
+			"IAudioConnection.h",
+			"IAudioSystemControl.h",
+			"IAudioSystemEditor.h"
+		]
+	}
+}

@@ -1,0 +1,4 @@
+<AnimationSettings>
+ <AdditiveAnimation value="1"/>
+ <Skeleton value="skeleton_player_generic"/>
+</AnimationSettings>

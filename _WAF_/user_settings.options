@@ -1,0 +1,60 @@
+[Compiler Detection]
+auto_detect_compiler = True
+auto_detect_verbose = False
+force_msvc = auto
+force_winsdk = auto
+minimum_msvc_compiler = 11
+
+[Visual Studio Project Generator]
+generate_vs_projects_automatically = True
+visual_studio_solution_name = TravellersNotes_3.8.4
+visual_studio_solution_folder = Solutions
+specs_to_include_in_project_generation = gamesdk,gamesdk_and_tools
+
+[Misc Options]
+max_cores = 8
+support_recode = False
+
+[Incredibuild Options]
+use_incredibuild = False
+use_incredibuild_win = False
+use_incredibuild_durango = False
+use_incredibuild_orbis = False
+incredibuild_max_cores = 128
+
+[Build Options]
+version = 3.7.0.0
+generate_debug_info = True
+generate_map_file = False
+use_precompiled_header = True
+use_uber_files = False
+use_static_code_analyzer = False
+
+[Bootstrap Support]
+auto_run_bootstrap = False
+bootstrap_dat_file = 
+p4host = perforce:1666
+p4user = 
+p4client = 
+third_party_p4host = perforce:1666
+third_party_p4user = 
+third_party_p4client = 
+third_party_rootfolder = 
+
+[Output Folder]
+output_extension_debug = 
+output_extension_profile = 
+output_extension_performance = _performance
+output_extension_release = _release
+out_folder_win32 = bin/win_x86
+out_folder_win64 = bin/win_x64
+out_folder_durango = bin/durango
+out_folder_orbis = bin/orbis
+out_folder_linux32_gcc = bin/linux_x86_gcc
+out_folder_linux64_gcc = bin/linux_x64_gcc
+out_folder_linux32_clang = bin/linux_x86_clang
+out_folder_linux64_clang = bin/linux_x64_clang
+out_folder_darwin32 = bin/darwin_x86
+out_folder_darwin64 = bin/darwin_x64
+out_folder_android = bin/android_arm_gcc
+

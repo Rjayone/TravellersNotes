@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="[GameSDK] Debug|Win32">
+			<Configuration>[GameSDK] Debug</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameSDK] Debug|x64">
+			<Configuration>[GameSDK] Debug</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameSDK] Profile|Win32">
+			<Configuration>[GameSDK] Profile</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameSDK] Profile|x64">
+			<Configuration>[GameSDK] Profile</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameSDK] Performance|Win32">
+			<Configuration>[GameSDK] Performance</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameSDK] Performance|x64">
+			<Configuration>[GameSDK] Performance</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameSDK] Release|Win32">
+			<Configuration>[GameSDK] Release</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameSDK] Release|x64">
+			<Configuration>[GameSDK] Release</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameSDK and Editor] Debug|Win32">
+			<Configuration>[GameSDK and Editor] Debug</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameSDK and Editor] Debug|x64">
+			<Configuration>[GameSDK and Editor] Debug</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameSDK and Editor] Profile|Win32">
+			<Configuration>[GameSDK and Editor] Profile</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameSDK and Editor] Profile|x64">
+			<Configuration>[GameSDK and Editor] Profile</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{DAAA946A-9F9E-4EFD-A688-BCEBA1BF2CB7}</ProjectGuid>
+		<Keyword>MakeFileProj</Keyword>
+		<ProjectName>yasli</ProjectName>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+	<ImportGroup Label="ExtensionSettings">
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|Win32'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|x64'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|Win32'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|x64'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|Win32'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|x64'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|Win32'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|x64'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|Win32'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|x64'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|Win32'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|x64'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|Win32'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_DEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\SDKs\Steamworks\public</IncludePath>
+		<NMakeOutput>c:\CRYENGINE\bin\win_x86\yasli.lib</NMakeOutput>
+		<ExecutablePath>c:\CRYENGINE\bin\win_x86\yasli.lib</ExecutablePath>
+		<OutDir>c:\CRYENGINE\bin\win_x86</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|x64'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_DEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\SDKs\Steamworks\public</IncludePath>
+		<NMakeOutput>c:\CRYENGINE\bin\win_x64\yasli.lib</NMakeOutput>
+		<ExecutablePath>c:\CRYENGINE\bin\win_x64\yasli.lib</ExecutablePath>
+		<OutDir>c:\CRYENGINE\bin\win_x64</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|Win32'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_PROFILE;PROFILE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\SDKs\Steamworks\public</IncludePath>
+		<NMakeOutput>c:\CRYENGINE\bin\win_x86\yasli.lib</NMakeOutput>
+		<ExecutablePath>c:\CRYENGINE\bin\win_x86\yasli.lib</ExecutablePath>
+		<OutDir>c:\CRYENGINE\bin\win_x86</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|x64'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_PROFILE;PROFILE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\SDKs\Steamworks\public</IncludePath>
+		<NMakeOutput>c:\CRYENGINE\bin\win_x64\yasli.lib</NMakeOutput>
+		<ExecutablePath>c:\CRYENGINE\bin\win_x64\yasli.lib</ExecutablePath>
+		<OutDir>c:\CRYENGINE\bin\win_x64</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|Win32'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_performance build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_RELEASE;PERFORMANCE_BUILD;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now);USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\SDKs\Steamworks\public</IncludePath>
+		<NMakeOutput>c:\CRYENGINE\bin\win_x86_performance\yasli.lib</NMakeOutput>
+		<ExecutablePath>c:\CRYENGINE\bin\win_x86_performance\yasli.lib</ExecutablePath>
+		<OutDir>c:\CRYENGINE\bin\win_x86_performance</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|x64'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_performance build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_RELEASE;PERFORMANCE_BUILD;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now);USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\SDKs\Steamworks\public</IncludePath>
+		<NMakeOutput>c:\CRYENGINE\bin\win_x64_performance\yasli.lib</NMakeOutput>
+		<ExecutablePath>c:\CRYENGINE\bin\win_x64_performance\yasli.lib</ExecutablePath>
+		<OutDir>c:\CRYENGINE\bin\win_x64_performance</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|Win32'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_release build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_RELEASE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now);USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\SDKs\Steamworks\public</IncludePath>
+		<NMakeOutput>c:\CRYENGINE\bin\win_x86_release\yasli.lib</NMakeOutput>
+		<ExecutablePath>c:\CRYENGINE\bin\win_x86_release\yasli.lib</ExecutablePath>
+		<OutDir>c:\CRYENGINE\bin\win_x86_release</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|x64'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_release build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_RELEASE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now);USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\SDKs\Steamworks\public</IncludePath>
+		<NMakeOutput>c:\CRYENGINE\bin\win_x64_release\yasli.lib</NMakeOutput>
+		<ExecutablePath>c:\CRYENGINE\bin\win_x64_release\yasli.lib</ExecutablePath>
+		<OutDir>c:\CRYENGINE\bin\win_x64_release</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|Win32'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath></NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath></IncludePath>
+		<NMakeOutput>Error__Invalid_startup_project__yasli__Selected_project_not_supported_for_configuration___GameSDK_and_Editor__Debug__</NMakeOutput>
+		<ExecutablePath>Error__Invalid_startup_project__yasli__Selected_project_not_supported_for_configuration___GameSDK_and_Editor__Debug__</ExecutablePath>
+		<OutDir>c:\CRYENGINE\bin\win_x86</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|x64'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_DEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\SDKs\Steamworks\public</IncludePath>
+		<NMakeOutput>c:\CRYENGINE\bin\win_x64\yasli.lib</NMakeOutput>
+		<ExecutablePath>c:\CRYENGINE\bin\win_x64\yasli.lib</ExecutablePath>
+		<OutDir>c:\CRYENGINE\bin\win_x64</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|Win32'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath></NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath></IncludePath>
+		<NMakeOutput>Error__Invalid_startup_project__yasli__Selected_project_not_supported_for_configuration___GameSDK_and_Editor__Profile__</NMakeOutput>
+		<ExecutablePath>Error__Invalid_startup_project__yasli__Selected_project_not_supported_for_configuration___GameSDK_and_Editor__Profile__</ExecutablePath>
+		<OutDir>c:\CRYENGINE\bin\win_x86</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|x64'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=yasli</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_PROFILE;PROFILE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\SDKs\Steamworks\public</IncludePath>
+		<NMakeOutput>c:\CRYENGINE\bin\win_x64\yasli.lib</NMakeOutput>
+		<ExecutablePath>c:\CRYENGINE\bin\win_x64\yasli.lib</ExecutablePath>
+		<OutDir>c:\CRYENGINE\bin\win_x64</OutDir>
+	</PropertyGroup>
+	<ItemGroup>
+		<ClInclude Include='c:\CRYENGINE\Code\Libs\yasli\wscript' />
+		<ClInclude Include='c:\CRYENGINE\Code\Libs\yasli\yasli.waf_files' />
+		<ClInclude Include='c:\CRYENGINE\Code\Libs\yasli\yasli\ConfigLocal.h' />
+		<ClCompile Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\Archive.cpp' />
+		<ClInclude Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\Archive.h' />
+		<ClInclude Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\Assert.h' />
+		<ClCompile Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\BinArchive.cpp' />
+		<ClInclude Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\BinArchive.h' />
+		<ClInclude Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\BitVector.h' />
+		<ClInclude Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\BitVectorImpl.h' />
+		<ClInclude Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\BlackBox.h' />
+		<ClInclude Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\Callback.h' />
+		<ClInclude Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\ClassFactory.h' />
+		<ClInclude Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\ClassFactoryBase.h' />
+		<ClInclude Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\Config.h' />
+		<ClInclude Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\Enum.h' />
+		<ClInclude Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\Helpers.h' />
+		<ClCompile Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\JSONIArchive.cpp' />
+		<ClInclude Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\JSONIArchive.h' />
+		<ClCompile Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\JSONOArchive.cpp' />
+		<ClInclude Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\JSONOArchive.h' />
+		<ClInclude Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\KeyValue.h' />
+		<ClCompile Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\MemoryReader.cpp' />
+		<ClInclude Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\MemoryReader.h' />
+		<ClCompile Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\MemoryWriter.cpp' />
+		<ClInclude Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\MemoryWriter.h' />
+		<ClInclude Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\Object.h' />
+		<ClInclude Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\Pointers.h' />
+		<ClInclude Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\PointersImpl.h' />
+		<ClInclude Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\STL.h' />
+		<ClInclude Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\STLImpl.h' />
+		<ClInclude Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\Serializer.h' />
+		<ClInclude Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\SerializerImpl.h' />
+		<ClCompile Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\StdAfx.cpp' />
+		<ClInclude Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\StdAfx.h' />
+		<ClInclude Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\StringList.h' />
+		<ClInclude Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\Token.h' />
+		<ClInclude Include='c:\CRYENGINE\Code\SDKs\yasli\yasli\TypeID.h' />
+	</ItemGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+	<Import Project="$(MSBuildProjectDirectory)\..\..\_WAF_\msbuild\waf_build.targets" />
+	<ImportGroup Label="ExtensionTargets">
+	</ImportGroup>
+</Project>

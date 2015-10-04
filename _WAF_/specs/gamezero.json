@@ -1,0 +1,56 @@
+{
+    "description": "Configuration to build the Engine and the GameZero Project",
+
+    "valid_platforms": ["win", "linux"],
+    "valid_configuration": ["debug", "profile", "performance", "release"],
+
+    "visual_studio_name": "GameZero",
+
+    "game_projects": "GameZero",
+
+    "win_module_extensions": ["steam"],
+
+    "modules": [
+        "CryCommon",
+        "Cry3DEngine",
+        "CryAISystem",
+        "CryAnimation",
+        "CryDynamicResponseSystem",
+        "CryEntitySystem",
+        "CryFont",
+        "CryInput",
+        "CryLobby",
+        "CryMovie",
+        "CryNetwork",
+        "CryPhysics",
+        "CryScriptSystem",
+        "CrySoundSystem",
+        "CryAudioCommon",
+        "CryAudioImplWwise",
+        "CrySystem",
+        "CryAction",
+        "HWScripts",
+        "zlib",
+        "expat",
+        "lz4",
+        "md5",
+        "lzma",
+        "lzss",
+        "lua",
+        "freetype",
+        "bigdigits",
+        "yasli",
+        "tomcrypt",
+        "CryGameZero"
+    ],
+
+    "win_modules": ["WindowsLauncher", "CryRenderD3D11", "CryAudioImplSDLMixer", "oculus"],
+    "win_debug_modules": ["DedicatedLauncher", "CryRenderOpenGL", "CryRenderNULL", "CryLiveCreate", "GameStream"],
+    "win_profile_modules": ["DedicatedLauncher", "CryRenderOpenGL", "CryRenderNULL", "CryLiveCreate", "GameStream"],
+    "win_performance_defines": "PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now)",
+    "win_release_defines": "PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now)",
+
+    "linux_modules": ["LinuxLauncher", "CryRenderOpenGL", "CryAudioImplSDLMixer"],
+
+    "module_extensions": ["eaas"]
+}

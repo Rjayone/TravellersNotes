@@ -1,0 +1,60 @@
+<Dialog>
+	<Phrase id="1" next="2" message="@collee_quest_peck" duration="106" audio="Play_scar_fire_loop_fp" initWithoutMessage="1"/>  <!-- Реплика игрока, не отображается -->
+	<Phrase id="2" message="@collee_quest_notreally" duration="170" audio="Play_scar_fire_loop_fp">	
+		<PlayerAnswer parentId="2" answer="@collee_quest_andsoalotoffish" next="3" duration="190" audio="Play_w_hmg_fire_fire_loop_3p"/>
+		<PlayerAnswer parentId="2" answer="@collee_quest_interestingtotell" next="9" duration="250" audio="Play_w_hmg_fire_fire_loop_3p"/>
+		<PlayerAnswer parentId="2" answer="@collee_quest_howistheweather" next="10" duration="150" audio="Play_w_hmg_fire_fire_loop_3p"/>
+		<PlayerAnswer parentId="2" answer="@dialog_bye" next="" audio="-1"/>	
+	</Phrase>
+
+	<Phrase id="3" message="@collee_quest_notreallyit'stheweatherandcolle" duration="359" audio="Play_scar_fire_loop_fp">
+		<actions>
+			<timer timeforanswering="250" failedToAnswerNextDialogId="4"/>
+		</actions>
+		<PlayerAnswer parentId="3" answer="@collee_quest_colle" next="4" duration="190" audio="Play_w_hmg_fire_fire_loop_3p"/>
+	</Phrase>
+
+	<Phrase id="4" message="@collee_quest_yesthatthief" duration="700" audio="Play_scar_fire_loop_fp">
+		<actions>
+			<timer timeforanswering="250" failedToAnswerNextDialogId="5"/>
+		</actions>
+		<PlayerAnswer parentId="4" answer="@collee_quest_ineverheardnotfromthisregion" next="5" duration="500"/>
+	</Phrase>
+
+	<Phrase id="5" message="@collee_quest_wellitis" duration="800" audio="Play_scar_fire_loop_fp">
+		<PlayerAnswer parentId="5" answer="@collee_quest_cannibals" next="6" duration="100" audio="Play_scar_fire_loop_fp"/>
+	</Phrase>
+	
+	<Phrase id="6" message="@collee_quest_surprisedyoulook" duration="750" audio="Play_scar_fire_loop_fp">
+		<PlayerAnswer parentId="6" answer="@collee_quest_read" next="7" duration="100" audio="Play_scar_fire_loop_fp"/>
+	</Phrase>
+
+	<Phrase id="7" message="@collee_quest_maywilldeal" duration="600" audio="Play_scar_fire_loop_fp">
+		<actions>
+			<quest title="MountainQuest" status="1"/>
+		</actions>
+		<PlayerAnswer parentId="7" answer="@collee_quest_colleyousay" next="8" duration="150" audio="Play_scar_fire_loop_fp"/>
+	</Phrase>
+
+	<Phrase id="8" message="@collee_quest_yestothenorth" duration="750" audio="Play_scar_fire_loop_fp">
+		<actions>
+			<timer timeforanswering="250" failedToAnswerNextDialogId="-1"/>
+		</actions>
+		<PlayerAnswer parentId="8" answer="@collee_quest_youhavefishbite" next="-1" duration="150" audio="Play_scar_fire_loop_fp"/>
+	</Phrase>
+
+	<Phrase id="9" message="@collee_quest_nothinginteresting" duration="750" audio="Play_scar_fire_loop_fp">
+		<PlayerAnswer parentId="9" answer="@collee_quest_andsoalotoffish" next="3" duration="190" audio="Play_w_hmg_fire_fire_loop_3p"/>
+		<PlayerAnswer parentId="9" answer="@collee_quest_howistheweather" next="10" duration="150" audio="Play_w_hmg_fire_fire_loop_3p"/>
+		<PlayerAnswer parentId="9" answer="@dialog_thatisallwhatineed" next="-1" audio="-1"/>	
+	</Phrase>
+
+	<Phrase id="10" message="@collee_quest_aridburnedtheharvestafraid" duration="750" audio="Play_scar_fire_loop_fp">
+		<PlayerAnswer parentId="10" answer="@collee_quest_andsoalotoffish" next="3" duration="190" audio="Play_w_hmg_fire_fire_loop_3p"/>
+		<PlayerAnswer parentId="10" answer="@collee_quest_interestingtotell" next="9" duration="250" audio="Play_w_hmg_fire_fire_loop_3p"/>
+		<PlayerAnswer parentId="10" answer="@dialog_thatisallwhatineed" next="-1" audio="-1"/>	
+	</Phrase>
+
+	<Phrase id="-1"   special="Exit"/>
+	<Phrase id="-2"   special="Trade"/>
+</Dialog><!--Закрытие тега диалога в котором само тело диалога-->

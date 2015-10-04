@@ -1,0 +1,9 @@
+# Copyright (C) 2015, Crytek GmbH
+
+SUBFOLDERS = [
+	'CryAudioImplSDLMixer',
+	'CryAudioImplWwise',
+	]
+
+def build(bld):
+	bld.recurse(SUBFOLDERS, name='build')

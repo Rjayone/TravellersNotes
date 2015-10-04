@@ -1,0 +1,11 @@
+# Copyright (c) 2015 Crytek.
+# WAF-based build system
+
+SUBFOLDERS = [
+	'lua',
+	'yasli',
+	]
+	
+def build(bld):
+	# Recursive into all sub projects	
+	bld.recurse(SUBFOLDERS)

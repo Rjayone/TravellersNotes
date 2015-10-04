@@ -1,0 +1,57 @@
+<Dialog>
+	<Phrase id="1" next="2" message="Well, peck?" duration="106" audio="Play_scar_fire_loop_fp" initWithoutMessage="1"/>  <!-- Реплика игрока, не отображается -->
+	<Phrase id="2" message="Not really..." duration="170" audio="Play_scar_fire_loop_fp">	
+		<PlayerAnswer parentId="2" answer="And so a lot of fish?" next="3" duration="190" audio="Play_w_hmg_fire_fire_loop_3p"/>
+		<PlayerAnswer parentId="2" answer="Do you have something interesting to tell?" next="9" duration="250" audio="Play_w_hmg_fire_fire_loop_3p"/>
+		<PlayerAnswer parentId="2" answer="How is the weather?" next="10" duration="150" audio="Play_w_hmg_fire_fire_loop_3p"/>		
+	</Phrase>
+
+	<Phrase id="3" message="Not really. It's the weather and Colle" duration="359" audio="Play_scar_fire_loop_fp">
+		<actions>
+			<timer timeforanswering="250" failedToAnswerNextDialogId="4"/>
+		</actions>
+		<PlayerAnswer parentId="3" answer="Colle?" next="4" duration="190" audio="Play_w_hmg_fire_fire_loop_3p"/>
+	</Phrase>
+
+	<Phrase id="4" message="Yes, that thief. Wears food for Kaban, eater that. Never heard of him?" duration="700" audio="Play_scar_fire_loop_fp">
+		<actions>
+			<timer timeforanswering="250" failedToAnswerNextDialogId="5"/>
+		</actions>
+		<PlayerAnswer parentId="4" answer="I never heard, not from this region." next="5" duration="500"/>
+	</Phrase>
+
+	<Phrase id="5" message="Well it is clear. Kaban, a robber who, with his servant Colle mind untouched, hiding in a forest. Either in a village stolen or lonely travelers for lunch or dinner. A sword hangs at you, and with a strong mean." duration="800" audio="Play_scar_fire_loop_fp">
+		<PlayerAnswer parentId="5" answer="Cannibals?!" next="6" duration="100" audio="Play_scar_fire_loop_fp"/>
+	</Phrase>
+	
+	<Phrase id="6" message="Surprised you look, lately more and more such cases as if that something is changing in people, you did not hear about the cannibals?" duration="750" audio="Play_scar_fire_loop_fp">
+		<PlayerAnswer parentId="6" answer="Read." next="7" duration="100" audio="Play_scar_fire_loop_fp"/>
+	</Phrase>
+
+	<Phrase id="7" message="May will deal with them? You're looks terrible, just scare them and they will go to hell, they do not scare me. I'm old already." duration="600" audio="Play_scar_fire_loop_fp">
+		<actions>
+			<quest title="MountainQuest" status="1"/>
+		</actions>
+		<PlayerAnswer parentId="7" answer="Colle, you say?" next="8" duration="150" audio="Play_scar_fire_loop_fp"/>
+	</Phrase>
+
+	<Phrase id="8" message="Yes, to the north of the road to village, usually closer to forest seen them. They are accustomed to harmless travelers, you all will be well!" duration="750" audio="Play_scar_fire_loop_fp">
+		<actions>
+			<timer timeforanswering="250" failedToAnswerNextDialogId="-1"/>
+		</actions>
+		<PlayerAnswer parentId="8" answer="You have fish bite!" next="-1" duration="150" audio="Play_scar_fire_loop_fp"/>
+	</Phrase>
+
+	<Phrase id="9" message="Nothing interesting..." duration="750" audio="Play_scar_fire_loop_fp">
+		<PlayerAnswer parentId="9" answer="And so a lot of fish?" next="3" duration="190" audio="Play_w_hmg_fire_fire_loop_3p"/>
+		<PlayerAnswer parentId="9" answer="How is the weather?" next="10" duration="150" audio="Play_w_hmg_fire_fire_loop_3p"/>
+	</Phrase>
+
+	<Phrase id="10" message="Arid, burned the harvest afraid..." duration="750" audio="Play_scar_fire_loop_fp">
+		<PlayerAnswer parentId="10" answer="And so a lot of fish?" next="3" duration="190" audio="Play_w_hmg_fire_fire_loop_3p"/>
+		<PlayerAnswer parentId="10" answer="Do you have something interesting to tell?" next="9" duration="250" audio="Play_w_hmg_fire_fire_loop_3p"/>
+	</Phrase>
+
+	<Phrase id="-1"   special="Exit"/>
+	<Phrase id="-2"  special="Trade"/>
+</Dialog><!--Закрытие тега диалога в котором само тело диалога-->

@@ -1,0 +1,27 @@
+<BehaviorTree>
+ <Variables>
+  <Variable name="ExecuteSequence"/>
+  <Variable name="ExecuteInterruptibleSequence"/>
+  <Variable name="HasTarget"/>
+  <Variable name="lastPosition"/>
+ </Variables>
+ <SignalVariables />
+ <Timestamps />
+ <Root>
+  <Sequence class="TreeNode">
+   <ExecuteLua code="entity:SelectPrimaryWeapon()"/>
+   <SetAlertness value="2"/>
+   <Move class="TreeNode" to="Target" speed="Run" stance="Alerted" stopWithinDistance="2.3" stopDistanceVariation="0.5" avoidDangers="0" avoidGroupMates="0"/>
+   <Parallel class="TreeNode">
+    <Selector class="TreeNode">
+     <Shoot class="TreeNode" at="Target" stance="Stand" duration="1" fireMode="Melee" aimObstructedTimeout="0"/>
+     <Parallel class="TreeNode">
+      <Move class="TreeNode" to="Target" speed="Run" stance="Stand" stopWithinDistance="2.2" stopDistanceVariation="0.5" avoidDangers="0" avoidGroupMates="0"/>
+      <Look class="TreeNode" at="Target"/>
+     </Parallel>
+    </Selector>
+    <Move class="TreeNode" to="Target" speed="Run" stance="Stand" stopWithinDistance="3" stopDistanceVariation="1" avoidDangers="0" avoidGroupMates="0"/>
+   </Parallel>
+  </Sequence>
+ </Root>
+</BehaviorTree>

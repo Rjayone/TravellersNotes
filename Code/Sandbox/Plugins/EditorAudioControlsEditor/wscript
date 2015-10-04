@@ -1,0 +1,10 @@
+# Copyright (C) 2015, Crytek GmbH
+
+SUBFOLDERS = [
+	'EditorWwise',
+	'EditorSDLMixer',
+	'common',
+	]
+
+def build(bld):
+	bld.recurse(SUBFOLDERS, name='build')

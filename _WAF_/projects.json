@@ -1,0 +1,16 @@
+{
+    "GameSDK": {
+        "code_folder": "Code/GameSDK",
+        "product_name": "CRYENGINE SDK",
+        "executable_name": "GameSDK",
+        "game_data_dir": "GameSDK",
+        "game_dll_filename": "CryGameSDK.dll"
+    },
+    "GameZero": {
+        "code_folder": "Code/GameZero",
+        "product_name": "CRYENGINE SDK",
+        "executable_name": "GameZero",
+        "game_data_dir": "GameZero",
+        "game_dll_filename": "CryGameZero.dll"
+    }
+}

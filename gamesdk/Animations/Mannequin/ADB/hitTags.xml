@@ -1,0 +1,28 @@
+<TagDefinition version="2">
+ <Tags>
+  <Group name="side">
+   <Tag name="leftSide"/>
+   <Tag name="rightSide"/>
+   <Tag name="down"/>
+   <Tag name="up"/>
+   <Tag name="front"/>
+  </Group>
+  <Group name="direction">
+   <Tag name="vertical"/>
+   <Tag name="horizontal"/>
+   <Tag name="diagonal"/>
+   <Tag name="pricking"/>
+   <Tag name="defence"/>
+  </Group>
+  <Group name="holding">
+   <Tag name="swing"/>
+   <Tag name="hold"/>
+   <Tag name="release"/>
+   <Tag name="cancel"/>
+  </Group>
+  <Group name="status">
+   <Tag name="miss"/>
+   <Tag name="hit"/>
+  </Group>
+ </Tags>
+</TagDefinition>

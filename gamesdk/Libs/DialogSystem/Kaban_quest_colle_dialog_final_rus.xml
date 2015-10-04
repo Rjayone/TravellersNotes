@@ -1,0 +1,30 @@
+<Dialog>
+	<Phrase id="1" next="2" message="collee_quest_heylisten" duration="106" audio="Play_scar_fire_loop_fp" initWithoutMessage="1"/>  <!-- Реплика игрока, не отображается -->
+	<Phrase id="2" message="collee_quest_whatfull" duration="170" audio="Play_scar_fire_loop_fp">
+		<PlayerAnswer parentId="1" answer="@collee_quest_youcollee" next="3" duration="190" audio="Play_w_hmg_fire_fire_loop_3p"/>
+	</Phrase>
+
+	<Phrase id="3" message="@collee_quest_maybeyes" duration="200" audio="Play_scar_fire_loop_fp">
+		<PlayerAnswer parentId="3" answer="@collee_quest_yoursister" next="4" duration="220" audio="Play_w_hmg_fire_fire_loop_3p"/>
+		<PlayerAnswer parentId="3" answer="@collee_quest_alt_inchildhood" next="4" duration="210" audio="Play_w_hmg_fire_fire_loop_3p"/>
+	</Phrase>
+
+	<Phrase id="4" message="@collee_whatdoyounowaboutsister" duration="200" audio="Play_scar_fire_loop_fp">
+		<PlayerAnswer parentId="4" answer="@collee_quest_nonoreason" next="5" duration="190" audio="Play_w_hmg_fire_fire_loop_3p"/>
+	</Phrase>
+
+	<Phrase id="5" message="@collee_quest_whatareyoutalkingabout" duration="270" audio="Play_scar_fire_loop_fp">
+		<PlayerAnswer parentId="5" answer="@collee_quest_shedisapperared" next="6" duration="290" audio="Play_w_hmg_fire_fire_loop_3p"/>
+	</Phrase>
+
+	<Phrase id="6" message="@collee_quest_eatenqestion" duration="270" audio="Play_scar_fire_loop_fp">
+		<PlayerAnswer parentId="6" answer="@collee_quest_yeseaten" next="7" duration="290" audio="Play_w_hmg_fire_fire_loop_3p"/>
+	</Phrase>
+
+
+	<Phrase id="7" next="-1" message="@collee_quest_cabandots" duration="700" audio="Play_scar_fire_loop_fp">
+	</Phrase>
+	
+	<Phrase id="-1"   special="Exit"/>
+	<Phrase id="-2"   special="Trade"/>
+</Dialog><!--Закрытие тега диалога в котором само тело диалога-->

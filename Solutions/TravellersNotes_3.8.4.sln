@@ -1,0 +1,233 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Audio", "Audio", "{B22F0418-E8AC-415E-B66F-829D262D14A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{D13BC5B6-8B2B-49E1-8F29-777DB17CC563}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CryEngine", "CryEngine", "{0D77BA34-6353-4EA8-86C8-8E0A8FEB30DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GameSDK", "GameSDK", "{55FDD6E7-A688-459F-BC6E-98FBC54B97FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Implementations", "Implementations", "{3C81CC62-CD8A-44B2-B1D0-C0DB34FEDA61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{D12171A9-6008-4473-984B-35B1CA3E5D94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{54E1D446-09E3-4BED-91F6-E1EB6AE54988}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CryAction", "c:\CRYENGINE\Solutions\.depproj\CryAction.vcxproj", "{148A3C40-2756-4DC5-B090-B2F263EF7D26}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CryAudioCommon", "c:\CRYENGINE\Solutions\.depproj\CryAudioCommon.vcxproj", "{13F335B6-8491-4242-9340-F0C43869F679}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CryAudioImplSDLMixer", "c:\CRYENGINE\Solutions\.depproj\CryAudioImplSDLMixer.vcxproj", "{7E5AB9E6-45C7-4B5D-82DD-DC2FE5134214}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CryAudioImplWwise", "c:\CRYENGINE\Solutions\.depproj\CryAudioImplWwise.vcxproj", "{4D1CFE0F-B3BE-4D3E-92B2-CA008CC4B0AF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CryCommon", "c:\CRYENGINE\Solutions\.depproj\CryCommon.vcxproj", "{2185A00E-58FF-464C-B8A9-E71C1A5714B5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CryEntitySystem", "c:\CRYENGINE\Solutions\.depproj\CryEntitySystem.vcxproj", "{D5313E03-C85B-4E21-930E-8999F2FEDF22}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CryGameSDK", "c:\CRYENGINE\Solutions\.depproj\CryGameSDK.vcxproj", "{82D682AC-2A65-40FF-B87D-A4C4A4061BAB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CryInput", "c:\CRYENGINE\Solutions\.depproj\CryInput.vcxproj", "{332DBDD2-48F7-4C81-9A30-B953615CFBB8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CryScriptSystem", "c:\CRYENGINE\Solutions\.depproj\CryScriptSystem.vcxproj", "{FDB25A67-C991-4B77-9AE1-4F4E6BAE7DDD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_WAF_", "c:\CRYENGINE\Solutions\.depproj\_WAF_.vcxproj", "{4B0A8E14-2DA2-478A-AA4F-FD880A2F06C1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lua", "c:\CRYENGINE\Solutions\.depproj\lua.vcxproj", "{32211451-9D2B-4919-859E-2B7B894CA840}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "yasli", "c:\CRYENGINE\Solutions\.depproj\yasli.vcxproj", "{DAAA946A-9F9E-4EFD-A688-BCEBA1BF2CB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		[GameSDK] Debug|Win32 = [GameSDK] Debug|Win32
+		[GameSDK] Debug|x64 = [GameSDK] Debug|x64
+		[GameSDK] Profile|Win32 = [GameSDK] Profile|Win32
+		[GameSDK] Profile|x64 = [GameSDK] Profile|x64
+		[GameSDK] Performance|Win32 = [GameSDK] Performance|Win32
+		[GameSDK] Performance|x64 = [GameSDK] Performance|x64
+		[GameSDK] Release|Win32 = [GameSDK] Release|Win32
+		[GameSDK] Release|x64 = [GameSDK] Release|x64
+		[GameSDK and Editor] Debug|Win32 = [GameSDK and Editor] Debug|Win32
+		[GameSDK and Editor] Debug|x64 = [GameSDK and Editor] Debug|x64
+		[GameSDK and Editor] Profile|Win32 = [GameSDK and Editor] Profile|Win32
+		[GameSDK and Editor] Profile|x64 = [GameSDK and Editor] Profile|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+				{148A3C40-2756-4DC5-B090-B2F263EF7D26}.[GameSDK] Debug|Win32.ActiveCfg = [GameSDK] Debug|Win32
+				{148A3C40-2756-4DC5-B090-B2F263EF7D26}.[GameSDK] Debug|x64.ActiveCfg = [GameSDK] Debug|x64
+				{148A3C40-2756-4DC5-B090-B2F263EF7D26}.[GameSDK] Profile|Win32.ActiveCfg = [GameSDK] Profile|Win32
+				{148A3C40-2756-4DC5-B090-B2F263EF7D26}.[GameSDK] Profile|x64.ActiveCfg = [GameSDK] Profile|x64
+				{148A3C40-2756-4DC5-B090-B2F263EF7D26}.[GameSDK] Performance|Win32.ActiveCfg = [GameSDK] Performance|Win32
+				{148A3C40-2756-4DC5-B090-B2F263EF7D26}.[GameSDK] Performance|x64.ActiveCfg = [GameSDK] Performance|x64
+				{148A3C40-2756-4DC5-B090-B2F263EF7D26}.[GameSDK] Release|Win32.ActiveCfg = [GameSDK] Release|Win32
+				{148A3C40-2756-4DC5-B090-B2F263EF7D26}.[GameSDK] Release|x64.ActiveCfg = [GameSDK] Release|x64
+				{148A3C40-2756-4DC5-B090-B2F263EF7D26}.[GameSDK and Editor] Debug|Win32.ActiveCfg = [GameSDK and Editor] Debug|Win32
+				{148A3C40-2756-4DC5-B090-B2F263EF7D26}.[GameSDK and Editor] Debug|x64.ActiveCfg = [GameSDK and Editor] Debug|x64
+				{148A3C40-2756-4DC5-B090-B2F263EF7D26}.[GameSDK and Editor] Profile|Win32.ActiveCfg = [GameSDK and Editor] Profile|Win32
+				{148A3C40-2756-4DC5-B090-B2F263EF7D26}.[GameSDK and Editor] Profile|x64.ActiveCfg = [GameSDK and Editor] Profile|x64
+				{13F335B6-8491-4242-9340-F0C43869F679}.[GameSDK] Debug|Win32.ActiveCfg = [GameSDK] Debug|Win32
+				{13F335B6-8491-4242-9340-F0C43869F679}.[GameSDK] Debug|x64.ActiveCfg = [GameSDK] Debug|x64
+				{13F335B6-8491-4242-9340-F0C43869F679}.[GameSDK] Profile|Win32.ActiveCfg = [GameSDK] Profile|Win32
+				{13F335B6-8491-4242-9340-F0C43869F679}.[GameSDK] Profile|x64.ActiveCfg = [GameSDK] Profile|x64
+				{13F335B6-8491-4242-9340-F0C43869F679}.[GameSDK] Performance|Win32.ActiveCfg = [GameSDK] Performance|Win32
+				{13F335B6-8491-4242-9340-F0C43869F679}.[GameSDK] Performance|x64.ActiveCfg = [GameSDK] Performance|x64
+				{13F335B6-8491-4242-9340-F0C43869F679}.[GameSDK] Release|Win32.ActiveCfg = [GameSDK] Release|Win32
+				{13F335B6-8491-4242-9340-F0C43869F679}.[GameSDK] Release|x64.ActiveCfg = [GameSDK] Release|x64
+				{13F335B6-8491-4242-9340-F0C43869F679}.[GameSDK and Editor] Debug|Win32.ActiveCfg = [GameSDK and Editor] Debug|Win32
+				{13F335B6-8491-4242-9340-F0C43869F679}.[GameSDK and Editor] Debug|x64.ActiveCfg = [GameSDK and Editor] Debug|x64
+				{13F335B6-8491-4242-9340-F0C43869F679}.[GameSDK and Editor] Profile|Win32.ActiveCfg = [GameSDK and Editor] Profile|Win32
+				{13F335B6-8491-4242-9340-F0C43869F679}.[GameSDK and Editor] Profile|x64.ActiveCfg = [GameSDK and Editor] Profile|x64
+				{7E5AB9E6-45C7-4B5D-82DD-DC2FE5134214}.[GameSDK] Debug|Win32.ActiveCfg = [GameSDK] Debug|Win32
+				{7E5AB9E6-45C7-4B5D-82DD-DC2FE5134214}.[GameSDK] Debug|x64.ActiveCfg = [GameSDK] Debug|x64
+				{7E5AB9E6-45C7-4B5D-82DD-DC2FE5134214}.[GameSDK] Profile|Win32.ActiveCfg = [GameSDK] Profile|Win32
+				{7E5AB9E6-45C7-4B5D-82DD-DC2FE5134214}.[GameSDK] Profile|x64.ActiveCfg = [GameSDK] Profile|x64
+				{7E5AB9E6-45C7-4B5D-82DD-DC2FE5134214}.[GameSDK] Performance|Win32.ActiveCfg = [GameSDK] Performance|Win32
+				{7E5AB9E6-45C7-4B5D-82DD-DC2FE5134214}.[GameSDK] Performance|x64.ActiveCfg = [GameSDK] Performance|x64
+				{7E5AB9E6-45C7-4B5D-82DD-DC2FE5134214}.[GameSDK] Release|Win32.ActiveCfg = [GameSDK] Release|Win32
+				{7E5AB9E6-45C7-4B5D-82DD-DC2FE5134214}.[GameSDK] Release|x64.ActiveCfg = [GameSDK] Release|x64
+				{7E5AB9E6-45C7-4B5D-82DD-DC2FE5134214}.[GameSDK and Editor] Debug|Win32.ActiveCfg = [GameSDK and Editor] Debug|Win32
+				{7E5AB9E6-45C7-4B5D-82DD-DC2FE5134214}.[GameSDK and Editor] Debug|x64.ActiveCfg = [GameSDK and Editor] Debug|x64
+				{7E5AB9E6-45C7-4B5D-82DD-DC2FE5134214}.[GameSDK and Editor] Profile|Win32.ActiveCfg = [GameSDK and Editor] Profile|Win32
+				{7E5AB9E6-45C7-4B5D-82DD-DC2FE5134214}.[GameSDK and Editor] Profile|x64.ActiveCfg = [GameSDK and Editor] Profile|x64
+				{4D1CFE0F-B3BE-4D3E-92B2-CA008CC4B0AF}.[GameSDK] Debug|Win32.ActiveCfg = [GameSDK] Debug|Win32
+				{4D1CFE0F-B3BE-4D3E-92B2-CA008CC4B0AF}.[GameSDK] Debug|x64.ActiveCfg = [GameSDK] Debug|x64
+				{4D1CFE0F-B3BE-4D3E-92B2-CA008CC4B0AF}.[GameSDK] Profile|Win32.ActiveCfg = [GameSDK] Profile|Win32
+				{4D1CFE0F-B3BE-4D3E-92B2-CA008CC4B0AF}.[GameSDK] Profile|x64.ActiveCfg = [GameSDK] Profile|x64
+				{4D1CFE0F-B3BE-4D3E-92B2-CA008CC4B0AF}.[GameSDK] Performance|Win32.ActiveCfg = [GameSDK] Performance|Win32
+				{4D1CFE0F-B3BE-4D3E-92B2-CA008CC4B0AF}.[GameSDK] Performance|x64.ActiveCfg = [GameSDK] Performance|x64
+				{4D1CFE0F-B3BE-4D3E-92B2-CA008CC4B0AF}.[GameSDK] Release|Win32.ActiveCfg = [GameSDK] Release|Win32
+				{4D1CFE0F-B3BE-4D3E-92B2-CA008CC4B0AF}.[GameSDK] Release|x64.ActiveCfg = [GameSDK] Release|x64
+				{4D1CFE0F-B3BE-4D3E-92B2-CA008CC4B0AF}.[GameSDK and Editor] Debug|Win32.ActiveCfg = [GameSDK and Editor] Debug|Win32
+				{4D1CFE0F-B3BE-4D3E-92B2-CA008CC4B0AF}.[GameSDK and Editor] Debug|x64.ActiveCfg = [GameSDK and Editor] Debug|x64
+				{4D1CFE0F-B3BE-4D3E-92B2-CA008CC4B0AF}.[GameSDK and Editor] Profile|Win32.ActiveCfg = [GameSDK and Editor] Profile|Win32
+				{4D1CFE0F-B3BE-4D3E-92B2-CA008CC4B0AF}.[GameSDK and Editor] Profile|x64.ActiveCfg = [GameSDK and Editor] Profile|x64
+				{2185A00E-58FF-464C-B8A9-E71C1A5714B5}.[GameSDK] Debug|Win32.ActiveCfg = [GameSDK] Debug|Win32
+				{2185A00E-58FF-464C-B8A9-E71C1A5714B5}.[GameSDK] Debug|x64.ActiveCfg = [GameSDK] Debug|x64
+				{2185A00E-58FF-464C-B8A9-E71C1A5714B5}.[GameSDK] Profile|Win32.ActiveCfg = [GameSDK] Profile|Win32
+				{2185A00E-58FF-464C-B8A9-E71C1A5714B5}.[GameSDK] Profile|x64.ActiveCfg = [GameSDK] Profile|x64
+				{2185A00E-58FF-464C-B8A9-E71C1A5714B5}.[GameSDK] Performance|Win32.ActiveCfg = [GameSDK] Performance|Win32
+				{2185A00E-58FF-464C-B8A9-E71C1A5714B5}.[GameSDK] Performance|x64.ActiveCfg = [GameSDK] Performance|x64
+				{2185A00E-58FF-464C-B8A9-E71C1A5714B5}.[GameSDK] Release|Win32.ActiveCfg = [GameSDK] Release|Win32
+				{2185A00E-58FF-464C-B8A9-E71C1A5714B5}.[GameSDK] Release|x64.ActiveCfg = [GameSDK] Release|x64
+				{2185A00E-58FF-464C-B8A9-E71C1A5714B5}.[GameSDK and Editor] Debug|Win32.ActiveCfg = [GameSDK and Editor] Debug|Win32
+				{2185A00E-58FF-464C-B8A9-E71C1A5714B5}.[GameSDK and Editor] Debug|x64.ActiveCfg = [GameSDK and Editor] Debug|x64
+				{2185A00E-58FF-464C-B8A9-E71C1A5714B5}.[GameSDK and Editor] Profile|Win32.ActiveCfg = [GameSDK and Editor] Profile|Win32
+				{2185A00E-58FF-464C-B8A9-E71C1A5714B5}.[GameSDK and Editor] Profile|x64.ActiveCfg = [GameSDK and Editor] Profile|x64
+				{D5313E03-C85B-4E21-930E-8999F2FEDF22}.[GameSDK] Debug|Win32.ActiveCfg = [GameSDK] Debug|Win32
+				{D5313E03-C85B-4E21-930E-8999F2FEDF22}.[GameSDK] Debug|x64.ActiveCfg = [GameSDK] Debug|x64
+				{D5313E03-C85B-4E21-930E-8999F2FEDF22}.[GameSDK] Profile|Win32.ActiveCfg = [GameSDK] Profile|Win32
+				{D5313E03-C85B-4E21-930E-8999F2FEDF22}.[GameSDK] Profile|x64.ActiveCfg = [GameSDK] Profile|x64
+				{D5313E03-C85B-4E21-930E-8999F2FEDF22}.[GameSDK] Performance|Win32.ActiveCfg = [GameSDK] Performance|Win32
+				{D5313E03-C85B-4E21-930E-8999F2FEDF22}.[GameSDK] Performance|x64.ActiveCfg = [GameSDK] Performance|x64
+				{D5313E03-C85B-4E21-930E-8999F2FEDF22}.[GameSDK] Release|Win32.ActiveCfg = [GameSDK] Release|Win32
+				{D5313E03-C85B-4E21-930E-8999F2FEDF22}.[GameSDK] Release|x64.ActiveCfg = [GameSDK] Release|x64
+				{D5313E03-C85B-4E21-930E-8999F2FEDF22}.[GameSDK and Editor] Debug|Win32.ActiveCfg = [GameSDK and Editor] Debug|Win32
+				{D5313E03-C85B-4E21-930E-8999F2FEDF22}.[GameSDK and Editor] Debug|x64.ActiveCfg = [GameSDK and Editor] Debug|x64
+				{D5313E03-C85B-4E21-930E-8999F2FEDF22}.[GameSDK and Editor] Profile|Win32.ActiveCfg = [GameSDK and Editor] Profile|Win32
+				{D5313E03-C85B-4E21-930E-8999F2FEDF22}.[GameSDK and Editor] Profile|x64.ActiveCfg = [GameSDK and Editor] Profile|x64
+				{82D682AC-2A65-40FF-B87D-A4C4A4061BAB}.[GameSDK] Debug|Win32.ActiveCfg = [GameSDK] Debug|Win32
+				{82D682AC-2A65-40FF-B87D-A4C4A4061BAB}.[GameSDK] Debug|x64.ActiveCfg = [GameSDK] Debug|x64
+				{82D682AC-2A65-40FF-B87D-A4C4A4061BAB}.[GameSDK] Profile|Win32.ActiveCfg = [GameSDK] Profile|Win32
+				{82D682AC-2A65-40FF-B87D-A4C4A4061BAB}.[GameSDK] Profile|x64.ActiveCfg = [GameSDK] Profile|x64
+				{82D682AC-2A65-40FF-B87D-A4C4A4061BAB}.[GameSDK] Performance|Win32.ActiveCfg = [GameSDK] Performance|Win32
+				{82D682AC-2A65-40FF-B87D-A4C4A4061BAB}.[GameSDK] Performance|x64.ActiveCfg = [GameSDK] Performance|x64
+				{82D682AC-2A65-40FF-B87D-A4C4A4061BAB}.[GameSDK] Release|Win32.ActiveCfg = [GameSDK] Release|Win32
+				{82D682AC-2A65-40FF-B87D-A4C4A4061BAB}.[GameSDK] Release|x64.ActiveCfg = [GameSDK] Release|x64
+				{82D682AC-2A65-40FF-B87D-A4C4A4061BAB}.[GameSDK and Editor] Debug|Win32.ActiveCfg = [GameSDK and Editor] Debug|Win32
+				{82D682AC-2A65-40FF-B87D-A4C4A4061BAB}.[GameSDK and Editor] Debug|x64.ActiveCfg = [GameSDK and Editor] Debug|x64
+				{82D682AC-2A65-40FF-B87D-A4C4A4061BAB}.[GameSDK and Editor] Profile|Win32.ActiveCfg = [GameSDK and Editor] Profile|Win32
+				{82D682AC-2A65-40FF-B87D-A4C4A4061BAB}.[GameSDK and Editor] Profile|x64.ActiveCfg = [GameSDK and Editor] Profile|x64
+				{332DBDD2-48F7-4C81-9A30-B953615CFBB8}.[GameSDK] Debug|Win32.ActiveCfg = [GameSDK] Debug|Win32
+				{332DBDD2-48F7-4C81-9A30-B953615CFBB8}.[GameSDK] Debug|x64.ActiveCfg = [GameSDK] Debug|x64
+				{332DBDD2-48F7-4C81-9A30-B953615CFBB8}.[GameSDK] Profile|Win32.ActiveCfg = [GameSDK] Profile|Win32
+				{332DBDD2-48F7-4C81-9A30-B953615CFBB8}.[GameSDK] Profile|x64.ActiveCfg = [GameSDK] Profile|x64
+				{332DBDD2-48F7-4C81-9A30-B953615CFBB8}.[GameSDK] Performance|Win32.ActiveCfg = [GameSDK] Performance|Win32
+				{332DBDD2-48F7-4C81-9A30-B953615CFBB8}.[GameSDK] Performance|x64.ActiveCfg = [GameSDK] Performance|x64
+				{332DBDD2-48F7-4C81-9A30-B953615CFBB8}.[GameSDK] Release|Win32.ActiveCfg = [GameSDK] Release|Win32
+				{332DBDD2-48F7-4C81-9A30-B953615CFBB8}.[GameSDK] Release|x64.ActiveCfg = [GameSDK] Release|x64
+				{332DBDD2-48F7-4C81-9A30-B953615CFBB8}.[GameSDK and Editor] Debug|Win32.ActiveCfg = [GameSDK and Editor] Debug|Win32
+				{332DBDD2-48F7-4C81-9A30-B953615CFBB8}.[GameSDK and Editor] Debug|x64.ActiveCfg = [GameSDK and Editor] Debug|x64
+				{332DBDD2-48F7-4C81-9A30-B953615CFBB8}.[GameSDK and Editor] Profile|Win32.ActiveCfg = [GameSDK and Editor] Profile|Win32
+				{332DBDD2-48F7-4C81-9A30-B953615CFBB8}.[GameSDK and Editor] Profile|x64.ActiveCfg = [GameSDK and Editor] Profile|x64
+				{FDB25A67-C991-4B77-9AE1-4F4E6BAE7DDD}.[GameSDK] Debug|Win32.ActiveCfg = [GameSDK] Debug|Win32
+				{FDB25A67-C991-4B77-9AE1-4F4E6BAE7DDD}.[GameSDK] Debug|x64.ActiveCfg = [GameSDK] Debug|x64
+				{FDB25A67-C991-4B77-9AE1-4F4E6BAE7DDD}.[GameSDK] Profile|Win32.ActiveCfg = [GameSDK] Profile|Win32
+				{FDB25A67-C991-4B77-9AE1-4F4E6BAE7DDD}.[GameSDK] Profile|x64.ActiveCfg = [GameSDK] Profile|x64
+				{FDB25A67-C991-4B77-9AE1-4F4E6BAE7DDD}.[GameSDK] Performance|Win32.ActiveCfg = [GameSDK] Performance|Win32
+				{FDB25A67-C991-4B77-9AE1-4F4E6BAE7DDD}.[GameSDK] Performance|x64.ActiveCfg = [GameSDK] Performance|x64
+				{FDB25A67-C991-4B77-9AE1-4F4E6BAE7DDD}.[GameSDK] Release|Win32.ActiveCfg = [GameSDK] Release|Win32
+				{FDB25A67-C991-4B77-9AE1-4F4E6BAE7DDD}.[GameSDK] Release|x64.ActiveCfg = [GameSDK] Release|x64
+				{FDB25A67-C991-4B77-9AE1-4F4E6BAE7DDD}.[GameSDK and Editor] Debug|Win32.ActiveCfg = [GameSDK and Editor] Debug|Win32
+				{FDB25A67-C991-4B77-9AE1-4F4E6BAE7DDD}.[GameSDK and Editor] Debug|x64.ActiveCfg = [GameSDK and Editor] Debug|x64
+				{FDB25A67-C991-4B77-9AE1-4F4E6BAE7DDD}.[GameSDK and Editor] Profile|Win32.ActiveCfg = [GameSDK and Editor] Profile|Win32
+				{FDB25A67-C991-4B77-9AE1-4F4E6BAE7DDD}.[GameSDK and Editor] Profile|x64.ActiveCfg = [GameSDK and Editor] Profile|x64
+				{4B0A8E14-2DA2-478A-AA4F-FD880A2F06C1}.[GameSDK] Debug|Win32.ActiveCfg = [GameSDK] Debug|Win32
+					{4B0A8E14-2DA2-478A-AA4F-FD880A2F06C1}.[GameSDK] Debug|Win32.Build.0 = [GameSDK] Debug|Win32
+				{4B0A8E14-2DA2-478A-AA4F-FD880A2F06C1}.[GameSDK] Debug|x64.ActiveCfg = [GameSDK] Debug|x64
+					{4B0A8E14-2DA2-478A-AA4F-FD880A2F06C1}.[GameSDK] Debug|x64.Build.0 = [GameSDK] Debug|x64
+				{4B0A8E14-2DA2-478A-AA4F-FD880A2F06C1}.[GameSDK] Profile|Win32.ActiveCfg = [GameSDK] Profile|Win32
+					{4B0A8E14-2DA2-478A-AA4F-FD880A2F06C1}.[GameSDK] Profile|Win32.Build.0 = [GameSDK] Profile|Win32
+				{4B0A8E14-2DA2-478A-AA4F-FD880A2F06C1}.[GameSDK] Profile|x64.ActiveCfg = [GameSDK] Profile|x64
+					{4B0A8E14-2DA2-478A-AA4F-FD880A2F06C1}.[GameSDK] Profile|x64.Build.0 = [GameSDK] Profile|x64
+				{4B0A8E14-2DA2-478A-AA4F-FD880A2F06C1}.[GameSDK] Performance|Win32.ActiveCfg = [GameSDK] Performance|Win32
+					{4B0A8E14-2DA2-478A-AA4F-FD880A2F06C1}.[GameSDK] Performance|Win32.Build.0 = [GameSDK] Performance|Win32
+				{4B0A8E14-2DA2-478A-AA4F-FD880A2F06C1}.[GameSDK] Performance|x64.ActiveCfg = [GameSDK] Performance|x64
+					{4B0A8E14-2DA2-478A-AA4F-FD880A2F06C1}.[GameSDK] Performance|x64.Build.0 = [GameSDK] Performance|x64
+				{4B0A8E14-2DA2-478A-AA4F-FD880A2F06C1}.[GameSDK] Release|Win32.ActiveCfg = [GameSDK] Release|Win32
+					{4B0A8E14-2DA2-478A-AA4F-FD880A2F06C1}.[GameSDK] Release|Win32.Build.0 = [GameSDK] Release|Win32
+				{4B0A8E14-2DA2-478A-AA4F-FD880A2F06C1}.[GameSDK] Release|x64.ActiveCfg = [GameSDK] Release|x64
+					{4B0A8E14-2DA2-478A-AA4F-FD880A2F06C1}.[GameSDK] Release|x64.Build.0 = [GameSDK] Release|x64
+				{4B0A8E14-2DA2-478A-AA4F-FD880A2F06C1}.[GameSDK and Editor] Debug|Win32.ActiveCfg = [GameSDK and Editor] Debug|Win32
+					{4B0A8E14-2DA2-478A-AA4F-FD880A2F06C1}.[GameSDK and Editor] Debug|Win32.Build.0 = [GameSDK and Editor] Debug|Win32
+				{4B0A8E14-2DA2-478A-AA4F-FD880A2F06C1}.[GameSDK and Editor] Debug|x64.ActiveCfg = [GameSDK and Editor] Debug|x64
+					{4B0A8E14-2DA2-478A-AA4F-FD880A2F06C1}.[GameSDK and Editor] Debug|x64.Build.0 = [GameSDK and Editor] Debug|x64
+				{4B0A8E14-2DA2-478A-AA4F-FD880A2F06C1}.[GameSDK and Editor] Profile|Win32.ActiveCfg = [GameSDK and Editor] Profile|Win32
+					{4B0A8E14-2DA2-478A-AA4F-FD880A2F06C1}.[GameSDK and Editor] Profile|Win32.Build.0 = [GameSDK and Editor] Profile|Win32
+				{4B0A8E14-2DA2-478A-AA4F-FD880A2F06C1}.[GameSDK and Editor] Profile|x64.ActiveCfg = [GameSDK and Editor] Profile|x64
+					{4B0A8E14-2DA2-478A-AA4F-FD880A2F06C1}.[GameSDK and Editor] Profile|x64.Build.0 = [GameSDK and Editor] Profile|x64
+				{32211451-9D2B-4919-859E-2B7B894CA840}.[GameSDK] Debug|Win32.ActiveCfg = [GameSDK] Debug|Win32
+				{32211451-9D2B-4919-859E-2B7B894CA840}.[GameSDK] Debug|x64.ActiveCfg = [GameSDK] Debug|x64
+				{32211451-9D2B-4919-859E-2B7B894CA840}.[GameSDK] Profile|Win32.ActiveCfg = [GameSDK] Profile|Win32
+				{32211451-9D2B-4919-859E-2B7B894CA840}.[GameSDK] Profile|x64.ActiveCfg = [GameSDK] Profile|x64
+				{32211451-9D2B-4919-859E-2B7B894CA840}.[GameSDK] Performance|Win32.ActiveCfg = [GameSDK] Performance|Win32
+				{32211451-9D2B-4919-859E-2B7B894CA840}.[GameSDK] Performance|x64.ActiveCfg = [GameSDK] Performance|x64
+				{32211451-9D2B-4919-859E-2B7B894CA840}.[GameSDK] Release|Win32.ActiveCfg = [GameSDK] Release|Win32
+				{32211451-9D2B-4919-859E-2B7B894CA840}.[GameSDK] Release|x64.ActiveCfg = [GameSDK] Release|x64
+				{32211451-9D2B-4919-859E-2B7B894CA840}.[GameSDK and Editor] Debug|Win32.ActiveCfg = [GameSDK and Editor] Debug|Win32
+				{32211451-9D2B-4919-859E-2B7B894CA840}.[GameSDK and Editor] Debug|x64.ActiveCfg = [GameSDK and Editor] Debug|x64
+				{32211451-9D2B-4919-859E-2B7B894CA840}.[GameSDK and Editor] Profile|Win32.ActiveCfg = [GameSDK and Editor] Profile|Win32
+				{32211451-9D2B-4919-859E-2B7B894CA840}.[GameSDK and Editor] Profile|x64.ActiveCfg = [GameSDK and Editor] Profile|x64
+				{DAAA946A-9F9E-4EFD-A688-BCEBA1BF2CB7}.[GameSDK] Debug|Win32.ActiveCfg = [GameSDK] Debug|Win32
+				{DAAA946A-9F9E-4EFD-A688-BCEBA1BF2CB7}.[GameSDK] Debug|x64.ActiveCfg = [GameSDK] Debug|x64
+				{DAAA946A-9F9E-4EFD-A688-BCEBA1BF2CB7}.[GameSDK] Profile|Win32.ActiveCfg = [GameSDK] Profile|Win32
+				{DAAA946A-9F9E-4EFD-A688-BCEBA1BF2CB7}.[GameSDK] Profile|x64.ActiveCfg = [GameSDK] Profile|x64
+				{DAAA946A-9F9E-4EFD-A688-BCEBA1BF2CB7}.[GameSDK] Performance|Win32.ActiveCfg = [GameSDK] Performance|Win32
+				{DAAA946A-9F9E-4EFD-A688-BCEBA1BF2CB7}.[GameSDK] Performance|x64.ActiveCfg = [GameSDK] Performance|x64
+				{DAAA946A-9F9E-4EFD-A688-BCEBA1BF2CB7}.[GameSDK] Release|Win32.ActiveCfg = [GameSDK] Release|Win32
+				{DAAA946A-9F9E-4EFD-A688-BCEBA1BF2CB7}.[GameSDK] Release|x64.ActiveCfg = [GameSDK] Release|x64
+				{DAAA946A-9F9E-4EFD-A688-BCEBA1BF2CB7}.[GameSDK and Editor] Debug|Win32.ActiveCfg = [GameSDK and Editor] Debug|Win32
+				{DAAA946A-9F9E-4EFD-A688-BCEBA1BF2CB7}.[GameSDK and Editor] Debug|x64.ActiveCfg = [GameSDK and Editor] Debug|x64
+				{DAAA946A-9F9E-4EFD-A688-BCEBA1BF2CB7}.[GameSDK and Editor] Profile|Win32.ActiveCfg = [GameSDK and Editor] Profile|Win32
+				{DAAA946A-9F9E-4EFD-A688-BCEBA1BF2CB7}.[GameSDK and Editor] Profile|x64.ActiveCfg = [GameSDK and Editor] Profile|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B22F0418-E8AC-415E-B66F-829D262D14A2} = {0D77BA34-6353-4EA8-86C8-8E0A8FEB30DD}
+		{55FDD6E7-A688-459F-BC6E-98FBC54B97FC} = {54E1D446-09E3-4BED-91F6-E1EB6AE54988}
+		{3C81CC62-CD8A-44B2-B1D0-C0DB34FEDA61} = {B22F0418-E8AC-415E-B66F-829D262D14A2}
+		{148A3C40-2756-4DC5-B090-B2F263EF7D26} = {54E1D446-09E3-4BED-91F6-E1EB6AE54988}
+		{13F335B6-8491-4242-9340-F0C43869F679} = {B22F0418-E8AC-415E-B66F-829D262D14A2}
+		{7E5AB9E6-45C7-4B5D-82DD-DC2FE5134214} = {3C81CC62-CD8A-44B2-B1D0-C0DB34FEDA61}
+		{4D1CFE0F-B3BE-4D3E-92B2-CA008CC4B0AF} = {3C81CC62-CD8A-44B2-B1D0-C0DB34FEDA61}
+		{2185A00E-58FF-464C-B8A9-E71C1A5714B5} = {D13BC5B6-8B2B-49E1-8F29-777DB17CC563}
+		{D5313E03-C85B-4E21-930E-8999F2FEDF22} = {0D77BA34-6353-4EA8-86C8-8E0A8FEB30DD}
+		{82D682AC-2A65-40FF-B87D-A4C4A4061BAB} = {55FDD6E7-A688-459F-BC6E-98FBC54B97FC}
+		{332DBDD2-48F7-4C81-9A30-B953615CFBB8} = {0D77BA34-6353-4EA8-86C8-8E0A8FEB30DD}
+		{FDB25A67-C991-4B77-9AE1-4F4E6BAE7DDD} = {0D77BA34-6353-4EA8-86C8-8E0A8FEB30DD}
+		{32211451-9D2B-4919-859E-2B7B894CA840} = {D12171A9-6008-4473-984B-35B1CA3E5D94}
+		{DAAA946A-9F9E-4EFD-A688-BCEBA1BF2CB7} = {D12171A9-6008-4473-984B-35B1CA3E5D94}
+	EndGlobalSection
+EndGlobal

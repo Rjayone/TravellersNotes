@@ -1,0 +1,35 @@
+<UIElements name="DialogMenus">
+  <UIElement name="DialogMenu" mouseevents="1" cursor="1" >
+    <GFx file="DialogMenu.swf" layer="1">
+      <Constraints>
+        <Align mode="dynamic" halign="center" valign="bottom" scale="0" max="0" />
+      </Constraints>
+    </GFx>
+    <functions>
+		<function name="CreateAnswerItem" funcname="createAnswerItem" >
+			<param name="Answer" desc="display message from Player and Create text of it"/>
+			<param name="NextId"/>
+		</function>
+		<function name="SetTargetName" funcname="setTargetName">
+			<param name="Name" desc="Name of Target"/>
+		</function>
+	
+		<function name="SetMessage" funcname="SetMessage" >
+			<param name="Message" desc="display message from npc and last answer of player"/>
+			<param name="NextId"/>
+		</function>
+		<function name="BeginShowAnswers" funcname="beginShowAnswers"/>
+		<function name="Clear" funcname="ClearList"/>
+    </functions>
+    <events>
+		<event name="OnSkip" fscommand="Skip" desc="Skip event on player click on message">
+			<param name="Arg"/>
+		</event>
+		<event name="OnSelectAnswer" fscommand="SelectAnswer">
+			<param name="Arg"/>
+		</event>
+    </events> 
+ </UIElement>
+</UIElements>
+
+

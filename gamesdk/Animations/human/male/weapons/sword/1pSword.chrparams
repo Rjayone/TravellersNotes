@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<Params>
+	<AnimationList>	
+		<Animation name="#filepath" path="animations\human\male\weapons\sword\1p\"/>
+		<Animation name="stand_deselect_1Hsword_add_1p_01"		  path="stand_deselect_1Hsword_add_1p_01.caf"/>
+		<Animation name="stand_hit_downVerticall_1Hsword_1p_01"	  path="stand_hit_downVerticall_1Hsword_1p_01.caf"/>
+		<Animation name="stand_hit_frontPricking_1Hsword_1p_01"	  path="stand_hit_frontPricking_1Hsword_1p_01.caf"/>
+		<Animation name="stand_hit_leftDiagonal_1Hsword_1p_01"	  path="stand_hit_leftDiagonal_1Hsword_1p_01.caf"/>
+		<Animation name="stand_hit_leftHorizontal_1Hsword_1p_01"  path="stand_hit_leftHorizontal_1Hsword_1p_01.caf"/>
+		<Animation name="stand_hit_rightDiagonal_1Hsword_1p_01"	  path="stand_hit_rightDiagonal_1Hsword_1p_01.caf"/>
+		<Animation name="stand_hit_rightHorizontal_1Hsword_1p_01" path="stand_hit_rightHorizontal_1Hsword_1p_01.caf"/>
+		<Animation name="stand_hit_upVerticall_1Hsword_1p_01"	  path="stand_hit_upVerticall_1Hsword_1p_01.caf"/>
+		<Animation name="stand_idleBreak_1Hsword_add_1p_01" 	  path="stand_idleBreak_1Hsword_add_1p_01.caf"/>
+		<Animation name="stand_idlePose_1Hsword_add_1p_01"		  path="stand_idlePose_1Hsword_add_1p_01.caf"/>
+		<Animation name="stand_look_dwn_1Hsword_add_1p_01"		  path="stand_look_dwn_1Hsword_add_1p_01.caf"/>
+		<Animation name="stand_look_lft_1Hsword_add_1p_01"		  path="stand_look_lft_1Hsword_add_1p_01.caf"/>
+		<Animation name="stand_look_rgt_1Hsword_add_1p_01"		  path="stand_look_rgt_1Hsword_add_1p_01.caf"/>
+		<Animation name="stand_look_up_1Hsword_add_1p_01"		  path="stand_look_up_1Hsword_add_1p_01.caf"/>
+		<Animation name="stand_melee_1Hsword_add_1p_01"			  path="stand_melee_1Hsword_add_1p_01.caf"/>
+	</AnimationList>
+</Params>

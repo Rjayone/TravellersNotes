@@ -1,0 +1,59 @@
+{
+	"build": {
+		"additive": false,
+		"skeletonAlias": "skeleton_player_generic",
+		"compression": {
+			"compressionValue": 10,
+			"positionEpsilon": 0.001,
+			"rotationEpsilon": 0.00001,
+			"perJointSettings": [
+				{ "key": "eye_left_bone", "value": { "multiply": 1., "delete": true } },
+				{
+					"key": "eye_right_bone",
+					"value": { "multiply": 1., "delete": true }
+				},
+				{ "key": "FCL_C_BASE", "value": { "multiply": 1., "delete": true } },
+				{ "key": "FCL_Brow_L", "value": { "multiply": 1., "delete": true } },
+				{ "key": "FCL_Brow_R", "value": { "multiply": 1., "delete": true } },
+				{ "key": "FCL_C_Jaw_M_", "value": { "multiply": 1., "delete": true } },
+				{
+					"key": "FCL_L_Cheek_M_",
+					"value": { "multiply": 1., "delete": true }
+				},
+				{ "key": "FCL_L_EyeLid", "value": { "multiply": 1., "delete": true } },
+				{
+					"key": "FCL_L_Lip_Cor_M_",
+					"value": { "multiply": 1., "delete": true }
+				},
+				{
+					"key": "FCL_L_Lip_Hi_M_",
+					"value": { "multiply": 1., "delete": true }
+				},
+				{
+					"key": "FCL_L_Lip_Low_M_",
+					"value": { "multiply": 1., "delete": true }
+				},
+				{ "key": "FCL_L_Nose", "value": { "multiply": 1., "delete": true } },
+				{
+					"key": "FCL_R_Cheek_M_",
+					"value": { "multiply": 1., "delete": true }
+				},
+				{ "key": "FCL_R_EyeLid", "value": { "multiply": 1., "delete": true } },
+				{
+					"key": "FCL_R_Lip_Cor_M_",
+					"value": { "multiply": 1., "delete": true }
+				},
+				{
+					"key": "FCL_R_Lip_Hi_M_",
+					"value": { "multiply": 1., "delete": true }
+				},
+				{
+					"key": "FCL_R_Lip_Low_M_",
+					"value": { "multiply": 1., "delete": true }
+				},
+				{ "key": "FCL_R_Nose", "value": { "multiply": 1., "delete": true } }
+			]
+		},
+		"tags": [ ]
+	}
+}

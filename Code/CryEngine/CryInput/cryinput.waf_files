@@ -1,0 +1,74 @@
+{
+    "NoUberFile": {
+        "Root": [
+            "StdAfx.cpp"
+        ]
+    },
+    "CryInput_Uber_0.cpp": {
+        "Kinect/Filters": [
+            "Filters/JointFilter.cpp",
+            "Filters/JointFilter.h"
+        ],
+        "Root": [
+            "CryInput.cpp",
+            "CryInput.h",
+            "InputCVars.cpp",
+            "InputCVars.h",
+            "resource.h",
+            "StdAfx.h"
+        ],
+        "Synergy": [
+            "Synergy/SynergyContext.cpp",
+            "Synergy/SynergyKeyboard.cpp",
+            "Synergy/SynergyMouse.cpp",
+            "Synergy/SynergyContext.h",
+            "Synergy/SynergyKeyboard.h",
+            "Synergy/SynergyMouse.h"
+        ],
+        "Linux": [
+            "LinuxInput.cpp",
+            "LinuxInput.h"
+        ],
+        "Kinect": [
+            "KinectInput.cpp",
+            "KinectXboxSyncThread.cpp",
+            "KinectInput.h",
+            "KinectInputNULL.h",
+            "KinectXboxSyncThread.h"
+        ],
+        "DX": [
+            "DXInput.cpp",
+            "DXInputDevice.cpp",
+            "Keyboard.cpp",
+            "Mouse.cpp",
+            "DXInput.h",
+            "DXInputDevice.h",
+            "Keyboard.h",
+            "Mouse.h"
+        ],
+        "Orbis": [
+            "OrbisPadWin.h"
+        ],
+        "TrackIR": [
+            "NaturalPointInputNULL.h"
+        ],
+        "Shared": [
+            "BaseInput.cpp",
+            "InputDevice.cpp",
+            "XInputDevice.cpp",
+            "BaseInput.h",
+            "InputDevice.h",
+            "XInputDevice.h"
+        ],
+        "Durango": [],
+        "Durango/Kinect": [],
+        "SDL": [
+            "SDLPad.cpp",
+            "SDLPad.h",
+            "SDLMouse.cpp",
+            "SDLMouse.h",
+            "SDLKeyboard.cpp",
+            "SDLKeyboard.h"
+        ]
+    }
+}

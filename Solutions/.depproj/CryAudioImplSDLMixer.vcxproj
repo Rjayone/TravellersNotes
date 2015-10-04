@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="[GameSDK] Debug|Win32">
+			<Configuration>[GameSDK] Debug</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameSDK] Debug|x64">
+			<Configuration>[GameSDK] Debug</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameSDK] Profile|Win32">
+			<Configuration>[GameSDK] Profile</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameSDK] Profile|x64">
+			<Configuration>[GameSDK] Profile</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameSDK] Performance|Win32">
+			<Configuration>[GameSDK] Performance</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameSDK] Performance|x64">
+			<Configuration>[GameSDK] Performance</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameSDK] Release|Win32">
+			<Configuration>[GameSDK] Release</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameSDK] Release|x64">
+			<Configuration>[GameSDK] Release</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameSDK and Editor] Debug|Win32">
+			<Configuration>[GameSDK and Editor] Debug</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameSDK and Editor] Debug|x64">
+			<Configuration>[GameSDK and Editor] Debug</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameSDK and Editor] Profile|Win32">
+			<Configuration>[GameSDK and Editor] Profile</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameSDK and Editor] Profile|x64">
+			<Configuration>[GameSDK and Editor] Profile</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{7E5AB9E6-45C7-4B5D-82DD-DC2FE5134214}</ProjectGuid>
+		<Keyword>MakeFileProj</Keyword>
+		<ProjectName>CryAudioImplSDLMixer</ProjectName>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+	<ImportGroup Label="ExtensionSettings">
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|Win32'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|x64'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|Win32'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|x64'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|Win32'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|x64'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|Win32'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|x64'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|Win32'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|x64'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|Win32'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|x64'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|Win32'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common;c:\CRYENGINE\Code\SDKs\Steamworks\public;c:\CRYENGINE\Code\SDKs\SDL2\include\win;c:\CRYENGINE\Code\SDKs\Audio\SDL_mixer\include</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_DEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common;c:\CRYENGINE\Code\SDKs\Steamworks\public;c:\CRYENGINE\Code\SDKs\SDL2\include\win;c:\CRYENGINE\Code\SDKs\Audio\SDL_mixer\include</IncludePath>
+		<NMakeOutput>c:\CRYENGINE\bin\win_x86\CryAudioImplSDLMixer.dll</NMakeOutput>
+		<ExecutablePath>c:\CRYENGINE\bin\win_x86\CryAudioImplSDLMixer.dll</ExecutablePath>
+		<OutDir>c:\CRYENGINE\bin\win_x86</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|x64'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common;c:\CRYENGINE\Code\SDKs\Steamworks\public;c:\CRYENGINE\Code\SDKs\SDL2\include\win;c:\CRYENGINE\Code\SDKs\Audio\SDL_mixer\include</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_DEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common;c:\CRYENGINE\Code\SDKs\Steamworks\public;c:\CRYENGINE\Code\SDKs\SDL2\include\win;c:\CRYENGINE\Code\SDKs\Audio\SDL_mixer\include</IncludePath>
+		<NMakeOutput>c:\CRYENGINE\bin\win_x64\CryAudioImplSDLMixer.dll</NMakeOutput>
+		<ExecutablePath>c:\CRYENGINE\bin\win_x64\CryAudioImplSDLMixer.dll</ExecutablePath>
+		<OutDir>c:\CRYENGINE\bin\win_x64</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|Win32'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common;c:\CRYENGINE\Code\SDKs\Steamworks\public;c:\CRYENGINE\Code\SDKs\SDL2\include\win;c:\CRYENGINE\Code\SDKs\Audio\SDL_mixer\include</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_PROFILE;PROFILE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common;c:\CRYENGINE\Code\SDKs\Steamworks\public;c:\CRYENGINE\Code\SDKs\SDL2\include\win;c:\CRYENGINE\Code\SDKs\Audio\SDL_mixer\include</IncludePath>
+		<NMakeOutput>c:\CRYENGINE\bin\win_x86\CryAudioImplSDLMixer.dll</NMakeOutput>
+		<ExecutablePath>c:\CRYENGINE\bin\win_x86\CryAudioImplSDLMixer.dll</ExecutablePath>
+		<OutDir>c:\CRYENGINE\bin\win_x86</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|x64'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common;c:\CRYENGINE\Code\SDKs\Steamworks\public;c:\CRYENGINE\Code\SDKs\SDL2\include\win;c:\CRYENGINE\Code\SDKs\Audio\SDL_mixer\include</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_PROFILE;PROFILE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common;c:\CRYENGINE\Code\SDKs\Steamworks\public;c:\CRYENGINE\Code\SDKs\SDL2\include\win;c:\CRYENGINE\Code\SDKs\Audio\SDL_mixer\include</IncludePath>
+		<NMakeOutput>c:\CRYENGINE\bin\win_x64\CryAudioImplSDLMixer.dll</NMakeOutput>
+		<ExecutablePath>c:\CRYENGINE\bin\win_x64\CryAudioImplSDLMixer.dll</ExecutablePath>
+		<OutDir>c:\CRYENGINE\bin\win_x64</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|Win32'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_performance build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common;c:\CRYENGINE\Code\SDKs\Steamworks\public;c:\CRYENGINE\Code\SDKs\SDL2\include\win;c:\CRYENGINE\Code\SDKs\Audio\SDL_mixer\include</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_RELEASE;PERFORMANCE_BUILD;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now);USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common;c:\CRYENGINE\Code\SDKs\Steamworks\public;c:\CRYENGINE\Code\SDKs\SDL2\include\win;c:\CRYENGINE\Code\SDKs\Audio\SDL_mixer\include</IncludePath>
+		<NMakeOutput>c:\CRYENGINE\bin\win_x86_performance\CryAudioImplSDLMixer.dll</NMakeOutput>
+		<ExecutablePath>c:\CRYENGINE\bin\win_x86_performance\CryAudioImplSDLMixer.dll</ExecutablePath>
+		<OutDir>c:\CRYENGINE\bin\win_x86_performance</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|x64'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_performance build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common;c:\CRYENGINE\Code\SDKs\Steamworks\public;c:\CRYENGINE\Code\SDKs\SDL2\include\win;c:\CRYENGINE\Code\SDKs\Audio\SDL_mixer\include</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_RELEASE;PERFORMANCE_BUILD;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now);USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common;c:\CRYENGINE\Code\SDKs\Steamworks\public;c:\CRYENGINE\Code\SDKs\SDL2\include\win;c:\CRYENGINE\Code\SDKs\Audio\SDL_mixer\include</IncludePath>
+		<NMakeOutput>c:\CRYENGINE\bin\win_x64_performance\CryAudioImplSDLMixer.dll</NMakeOutput>
+		<ExecutablePath>c:\CRYENGINE\bin\win_x64_performance\CryAudioImplSDLMixer.dll</ExecutablePath>
+		<OutDir>c:\CRYENGINE\bin\win_x64_performance</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|Win32'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_release build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common;c:\CRYENGINE\Code\SDKs\Steamworks\public;c:\CRYENGINE\Code\SDKs\SDL2\include\win;c:\CRYENGINE\Code\SDKs\Audio\SDL_mixer\include</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_RELEASE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now);USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common;c:\CRYENGINE\Code\SDKs\Steamworks\public;c:\CRYENGINE\Code\SDKs\SDL2\include\win;c:\CRYENGINE\Code\SDKs\Audio\SDL_mixer\include</IncludePath>
+		<NMakeOutput>c:\CRYENGINE\bin\win_x86_release\CryAudioImplSDLMixer.dll</NMakeOutput>
+		<ExecutablePath>c:\CRYENGINE\bin\win_x86_release\CryAudioImplSDLMixer.dll</ExecutablePath>
+		<OutDir>c:\CRYENGINE\bin\win_x86_release</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|x64'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_release build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common;c:\CRYENGINE\Code\SDKs\Steamworks\public;c:\CRYENGINE\Code\SDKs\SDL2\include\win;c:\CRYENGINE\Code\SDKs\Audio\SDL_mixer\include</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_RELEASE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now);USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common;c:\CRYENGINE\Code\SDKs\Steamworks\public;c:\CRYENGINE\Code\SDKs\SDL2\include\win;c:\CRYENGINE\Code\SDKs\Audio\SDL_mixer\include</IncludePath>
+		<NMakeOutput>c:\CRYENGINE\bin\win_x64_release\CryAudioImplSDLMixer.dll</NMakeOutput>
+		<ExecutablePath>c:\CRYENGINE\bin\win_x64_release\CryAudioImplSDLMixer.dll</ExecutablePath>
+		<OutDir>c:\CRYENGINE\bin\win_x64_release</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|Win32'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath></NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath></IncludePath>
+		<NMakeOutput>Error__Invalid_startup_project__CryAudioImplSDLMixer__Selected_project_not_supported_for_configuration___GameSDK_and_Editor__Debug__</NMakeOutput>
+		<ExecutablePath>Error__Invalid_startup_project__CryAudioImplSDLMixer__Selected_project_not_supported_for_configuration___GameSDK_and_Editor__Debug__</ExecutablePath>
+		<OutDir>c:\CRYENGINE\bin\win_x86</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|x64'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common;c:\CRYENGINE\Code\SDKs\Steamworks\public;c:\CRYENGINE\Code\SDKs\SDL2\include\win;c:\CRYENGINE\Code\SDKs\Audio\SDL_mixer\include</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_DEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common;c:\CRYENGINE\Code\SDKs\Steamworks\public;c:\CRYENGINE\Code\SDKs\SDL2\include\win;c:\CRYENGINE\Code\SDKs\Audio\SDL_mixer\include</IncludePath>
+		<NMakeOutput>c:\CRYENGINE\bin\win_x64\CryAudioImplSDLMixer.dll</NMakeOutput>
+		<ExecutablePath>c:\CRYENGINE\bin\win_x64\CryAudioImplSDLMixer.dll</ExecutablePath>
+		<OutDir>c:\CRYENGINE\bin\win_x64</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|Win32'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath></NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath></IncludePath>
+		<NMakeOutput>Error__Invalid_startup_project__CryAudioImplSDLMixer__Selected_project_not_supported_for_configuration___GameSDK_and_Editor__Profile__</NMakeOutput>
+		<ExecutablePath>Error__Invalid_startup_project__CryAudioImplSDLMixer__Selected_project_not_supported_for_configuration___GameSDK_and_Editor__Profile__</ExecutablePath>
+		<OutDir>c:\CRYENGINE\bin\win_x86</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|x64'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioImplSDLMixer</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common;c:\CRYENGINE\Code\SDKs\Steamworks\public;c:\CRYENGINE\Code\SDKs\SDL2\include\win;c:\CRYENGINE\Code\SDKs\Audio\SDL_mixer\include</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_PROFILE;PROFILE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common;c:\CRYENGINE\Code\SDKs\Steamworks\public;c:\CRYENGINE\Code\SDKs\SDL2\include\win;c:\CRYENGINE\Code\SDKs\Audio\SDL_mixer\include</IncludePath>
+		<NMakeOutput>c:\CRYENGINE\bin\win_x64\CryAudioImplSDLMixer.dll</NMakeOutput>
+		<ExecutablePath>c:\CRYENGINE\bin\win_x64\CryAudioImplSDLMixer.dll</ExecutablePath>
+		<OutDir>c:\CRYENGINE\bin\win_x64</OutDir>
+	</PropertyGroup>
+	<ItemGroup>
+		<ClCompile Include='c:\CRYENGINE\BinTemp\uber_files\CryAudioImplSDLMixer\CryAudioImplSDLMixer_uber_0.cpp' />
+		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\ATLEntities_sdlmixer.h' />
+		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\AudioSystemImplCVars_sdlmixer.cpp' />
+		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\AudioSystemImplCVars_sdlmixer.h' />
+		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\AudioSystemImpl_sdlmixer.cpp' />
+		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\AudioSystemImpl_sdlmixer.h' />
+		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\Common_sdlmixer.cpp' />
+		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\Common_sdlmixer.h' />
+		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\CryAudioImpl_sdlmixer.cpp' />
+		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\SDLMixerSoundEngine.cpp' />
+		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\SDLMixerSoundEngine.h' />
+		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\SDLMixerSoundEngineTypes.h' />
+		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\SDLMixerSoundEngineUtil.h' />
+		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\audioimplsdlmixer.waf_files' />
+		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\resource.h' />
+		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\stdafx.cpp' />
+		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\stdafx.h' />
+		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\wscript' />
+	</ItemGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+	<Import Project="$(MSBuildProjectDirectory)\..\..\_WAF_\msbuild\waf_build.targets" />
+	<ImportGroup Label="ExtensionTargets">
+	</ImportGroup>
+</Project>

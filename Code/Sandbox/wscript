@@ -1,0 +1,8 @@
+# Copyright (C) 2015, Crytek GmbH
+
+SUBFOLDERS = [
+	'Plugins',
+	]
+
+def build(bld):
+	bld.recurse(SUBFOLDERS, name='build')
