@@ -42,7 +42,7 @@ CCraftSystem::CCraftSystem()
 
 bool CCraftSystem::ReciveInventoryItems()
 {
-	CRPGInventory *pUIInventory = NULL;// g_pGame->GetRPGInventory();
+	CRPGInventory *pUIInventory = g_pGame->GetRPGInventory();
 	if (!pUIInventory)
 		return false;
 
@@ -101,14 +101,13 @@ SCraftList* CCraftSystem::GetRecipeDescription(const char *name, int index)
 			}
 		}
 	}
-	return NULL;
 }
 
 void CCraftSystem::CraftItem(SCraftList *pRecipe, const int index)
 {
 	//pRecipe - текущий рецепт, который выбран
 	bool bOk = true;
-	CRPGInventory *pInventory = NULL; //g_pGame->GetRPGInventory();
+	CRPGInventory *pInventory = g_pGame->GetRPGInventory();
 	if (!pInventory || pInventory->m_pItemsArray.size() == 0)
 		bOk = false;
 
@@ -156,8 +155,8 @@ void CCraftSystem::CraftItem(SCraftList *pRecipe, const int index)
 		}
 	}
 
-	//SInventoryItem *pItem = pInventory->GetItemParamsXML(pRecipe->name);
-	//pInventory->AddItem(pItem);
+	SInventoryItem *pItem = pInventory->GetItemParamsXML(pRecipe->name);
+	pInventory->AddItem(pItem);
 
 }
 
@@ -281,12 +280,12 @@ void CCraftEventListener::OnUIEvent(IUIElement* pSender, const SUIEventDesc& eve
 		SCraftList *item;
 		item = pCraft->GetCraftList();
 
-		CRPGInventory *pInv = NULL;// g_pGame->GetRPGInventory();
+		CRPGInventory *pInv = g_pGame->GetRPGInventory();
 		if (pInv == NULL) return;
 
-		SInventoryItem *pInvItem = NULL;// pInv->GetInventoryItemByName(item[index].name);
-		//if (pInvItem)
-		//	pInv->OnUse(pInvItem->itemId);
+		SInventoryItem *pInvItem = pInv->GetInventoryItemByName(item[index].name);
+		if (pInvItem)
+			pInv->OnUse(pInvItem->itemId);
 	}
 
 	if (!strcmp(event.sDisplayName, "DeleteItem"))
@@ -297,12 +296,12 @@ void CCraftEventListener::OnUIEvent(IUIElement* pSender, const SUIEventDesc& eve
 		pCraft->DeleteItem(index);
 	
 
-		CRPGInventory *pInv = NULL;// g_pGame->GetRPGInventory();
+		CRPGInventory *pInv = g_pGame->GetRPGInventory();
 		if (pInv == NULL) return;
 
-		SInventoryItem *Item = NULL;// pInv->GetInventoryItemByName(name);
-		//if (Item)
-			//pInv->OnDropItem(Item->itemId, 4);
+		SInventoryItem *Item = pInv->GetInventoryItemByName(name);
+		if (Item)
+			pInv->OnDropItem(Item->itemId, 4);
 	}
 	if (!strcmp(event.sDisplayName, "Close"))
 	{
@@ -316,7 +315,7 @@ void CCraftEventListener::OnUIEvent(IUIElement* pSender, const SUIEventDesc& eve
 void CCraftEventListener::OnAction(const ActionId& action, int activationMode, float value)
 {
 	const CGameActions &actions = g_pGame->Actions();
-	if (actions.jump == action && gEnv->pFlashUI) //craft
+	if (actions.craft == action && gEnv->pFlashUI)
 	{
 		if (IUIElement* pUICraft = gEnv->pFlashUI->GetUIElement("CraftMenu"))
 		{
@@ -460,11 +459,11 @@ char* CCraftSystem::GetRegName(char* name)
 
 bool CCraftSystem::DeleteUsedItems(char* name)
 {
-	CRPGInventory *pInventory = NULL; //g_pGame->GetRPGInventory();
+	CRPGInventory *pInventory = g_pGame->GetRPGInventory();
 	if (!pInventory)
 		return false;
 
-	bool deleted = true;// pInventory->DeleteItem(name);
+	bool deleted = pInventory->DeleteItem(name);
 	return deleted;
 }
 

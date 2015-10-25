@@ -4,7 +4,7 @@
 		<PlayerAnswer parentId="2" answer="@collee_quest_andsoalotoffish" next="3" duration="190" audio="Play_w_hmg_fire_fire_loop_3p"/>
 		<PlayerAnswer parentId="2" answer="@collee_quest_interestingtotell" next="9" duration="250" audio="Play_w_hmg_fire_fire_loop_3p"/>
 		<PlayerAnswer parentId="2" answer="@collee_quest_howistheweather" next="10" duration="150" audio="Play_w_hmg_fire_fire_loop_3p"/>
-		<PlayerAnswer parentId="2" answer="@dialog_bye" next="" audio="-1"/>	
+		<PlayerAnswer parentId="2" answer="@dialog_bye" next="-1" audio="-1"/>	
 	</Phrase>
 
 	<Phrase id="3" message="@collee_quest_notreallyit'stheweatherandcolle" duration="359" audio="Play_scar_fire_loop_fp">
