@@ -51,69 +51,69 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
-		<ProjectGuid>{13F335B6-8491-4242-9340-F0C43869F679}</ProjectGuid>
+		<ProjectGuid>{B024956D-CFAA-4F62-B176-BD2C04B515D1}</ProjectGuid>
 		<Keyword>MakeFileProj</Keyword>
 		<ProjectName>CryAudioCommon</ProjectName>
 	</PropertyGroup>
 	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
@@ -168,145 +168,145 @@
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
 	</ImportGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|Win32'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeCleanCommandLine>
 		<NMakeIncludeSearchPath></NMakeIncludeSearchPath>
 		<NMakePreprocessorDefinitions>;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
 		<IncludePath></IncludePath>
 		<NMakeOutput>not_supported</NMakeOutput>
 		<ExecutablePath>not_supported</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x86</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x86</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|x64'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeCleanCommandLine>
 		<NMakeIncludeSearchPath></NMakeIncludeSearchPath>
 		<NMakePreprocessorDefinitions>;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
 		<IncludePath></IncludePath>
 		<NMakeOutput>not_supported</NMakeOutput>
 		<ExecutablePath>not_supported</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x64</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x64</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|Win32'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeCleanCommandLine>
 		<NMakeIncludeSearchPath></NMakeIncludeSearchPath>
 		<NMakePreprocessorDefinitions>;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
 		<IncludePath></IncludePath>
 		<NMakeOutput>not_supported</NMakeOutput>
 		<ExecutablePath>not_supported</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x86</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x86</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|x64'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeCleanCommandLine>
 		<NMakeIncludeSearchPath></NMakeIncludeSearchPath>
 		<NMakePreprocessorDefinitions>;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
 		<IncludePath></IncludePath>
 		<NMakeOutput>not_supported</NMakeOutput>
 		<ExecutablePath>not_supported</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x64</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x64</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|Win32'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_performance build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_performance build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeCleanCommandLine>
 		<NMakeIncludeSearchPath></NMakeIncludeSearchPath>
 		<NMakePreprocessorDefinitions>;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
 		<IncludePath></IncludePath>
 		<NMakeOutput>not_supported</NMakeOutput>
 		<ExecutablePath>not_supported</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x86_performance</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x86_performance</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|x64'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_performance build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_performance build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeCleanCommandLine>
 		<NMakeIncludeSearchPath></NMakeIncludeSearchPath>
 		<NMakePreprocessorDefinitions>;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
 		<IncludePath></IncludePath>
 		<NMakeOutput>not_supported</NMakeOutput>
 		<ExecutablePath>not_supported</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x64_performance</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x64_performance</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|Win32'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_release build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_release build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeCleanCommandLine>
 		<NMakeIncludeSearchPath></NMakeIncludeSearchPath>
 		<NMakePreprocessorDefinitions>;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
 		<IncludePath></IncludePath>
 		<NMakeOutput>not_supported</NMakeOutput>
 		<ExecutablePath>not_supported</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x86_release</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x86_release</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|x64'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_release build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_release build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeCleanCommandLine>
 		<NMakeIncludeSearchPath></NMakeIncludeSearchPath>
 		<NMakePreprocessorDefinitions>;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
 		<IncludePath></IncludePath>
 		<NMakeOutput>not_supported</NMakeOutput>
 		<ExecutablePath>not_supported</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x64_release</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x64_release</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|Win32'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeCleanCommandLine>
 		<NMakeIncludeSearchPath></NMakeIncludeSearchPath>
 		<NMakePreprocessorDefinitions>;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
 		<IncludePath></IncludePath>
 		<NMakeOutput>not_supported</NMakeOutput>
 		<ExecutablePath>not_supported</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x86</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x86</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|x64'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeCleanCommandLine>
 		<NMakeIncludeSearchPath></NMakeIncludeSearchPath>
 		<NMakePreprocessorDefinitions>;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
 		<IncludePath></IncludePath>
 		<NMakeOutput>not_supported</NMakeOutput>
 		<ExecutablePath>not_supported</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x64</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x64</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|Win32'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeCleanCommandLine>
 		<NMakeIncludeSearchPath></NMakeIncludeSearchPath>
 		<NMakePreprocessorDefinitions>;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
 		<IncludePath></IncludePath>
 		<NMakeOutput>not_supported</NMakeOutput>
 		<ExecutablePath>not_supported</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x86</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x86</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|x64'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryAudioCommon</NMakeCleanCommandLine>
 		<NMakeIncludeSearchPath></NMakeIncludeSearchPath>
 		<NMakePreprocessorDefinitions>;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
 		<IncludePath></IncludePath>
 		<NMakeOutput>not_supported</NMakeOutput>
 		<ExecutablePath>not_supported</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x64</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x64</OutDir>
 	</PropertyGroup>
 	<ItemGroup>
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common\ATLEntityData.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common\AudioLogger.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common\IAudioSystemImplementation.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common\STLSoundAllocator.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common\SoundAllocator.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common\audiocommon.waf_files' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common\wscript' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\Common\ATLEntityData.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\Common\AudioLogger.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\Common\IAudioSystemImplementation.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\Common\STLSoundAllocator.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\Common\SoundAllocator.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\Common\audiocommon.waf_files' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\Common\wscript' />
 	</ItemGroup>
 	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
 	<Import Project="$(MSBuildProjectDirectory)\..\..\_WAF_\msbuild\waf_build.targets" />

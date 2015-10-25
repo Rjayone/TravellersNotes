@@ -1,138 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
-			<ClCompile Include="c:\CRYENGINE\BinTemp\uber_files\CryInput\CryInput_Uber_0.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\BinTemp\uber_files\CryInput\CryInput_Uber_0.cpp">
 				<Filter>Uber Files</Filter>
 			</ClCompile>
-			<ClCompile Include="c:\CRYENGINE\Code\CryEngine\CryInput\BaseInput.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\BaseInput.cpp">
 				<Filter>Shared</Filter>
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CryInput\BaseInput.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\BaseInput.h">
 				<Filter>Shared</Filter>
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\CryEngine\CryInput\CryInput.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\CryInput.cpp">
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CryInput\CryInput.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\CryInput.h">
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\CryEngine\CryInput\DXInput.cpp">
-				<Filter>DX</Filter>
-			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CryInput\DXInput.h">
-				<Filter>DX</Filter>
-			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\CryEngine\CryInput\DXInputDevice.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\DXInput.cpp">
 				<Filter>DX</Filter>
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CryInput\DXInputDevice.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\DXInput.h">
 				<Filter>DX</Filter>
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\CryEngine\CryInput\Filters\JointFilter.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\DXInputDevice.cpp">
+				<Filter>DX</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\DXInputDevice.h">
+				<Filter>DX</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\Filters\JointFilter.cpp">
 				<Filter>Kinect\Filters</Filter>
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CryInput\Filters\JointFilter.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\Filters\JointFilter.h">
 				<Filter>Kinect\Filters</Filter>
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\CryEngine\CryInput\InputCVars.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\InputCVars.cpp">
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CryInput\InputCVars.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\InputCVars.h">
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\CryEngine\CryInput\InputDevice.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\InputDevice.cpp">
 				<Filter>Shared</Filter>
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CryInput\InputDevice.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\InputDevice.h">
 				<Filter>Shared</Filter>
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\CryEngine\CryInput\Keyboard.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\Keyboard.cpp">
 				<Filter>DX</Filter>
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CryInput\Keyboard.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\Keyboard.h">
 				<Filter>DX</Filter>
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\CryEngine\CryInput\KinectInput.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\KinectInput.cpp">
 				<Filter>Kinect</Filter>
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CryInput\KinectInput.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\KinectInput.h">
 				<Filter>Kinect</Filter>
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CryInput\KinectInputNULL.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\KinectInputNULL.h">
 				<Filter>Kinect</Filter>
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\CryEngine\CryInput\KinectXboxSyncThread.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\KinectXboxSyncThread.cpp">
 				<Filter>Kinect</Filter>
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CryInput\KinectXboxSyncThread.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\KinectXboxSyncThread.h">
 				<Filter>Kinect</Filter>
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\CryEngine\CryInput\LinuxInput.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\LinuxInput.cpp">
 				<Filter>Linux</Filter>
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CryInput\LinuxInput.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\LinuxInput.h">
 				<Filter>Linux</Filter>
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\CryEngine\CryInput\Mouse.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\Mouse.cpp">
 				<Filter>DX</Filter>
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CryInput\Mouse.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\Mouse.h">
 				<Filter>DX</Filter>
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CryInput\NaturalPointInputNULL.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\NaturalPointInputNULL.h">
 				<Filter>TrackIR</Filter>
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CryInput\OrbisPadWin.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\OrbisPadWin.h">
 				<Filter>Orbis</Filter>
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\CryEngine\CryInput\SDLKeyboard.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\SDLKeyboard.cpp">
 				<Filter>SDL</Filter>
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CryInput\SDLKeyboard.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\SDLKeyboard.h">
 				<Filter>SDL</Filter>
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\CryEngine\CryInput\SDLMouse.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\SDLMouse.cpp">
 				<Filter>SDL</Filter>
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CryInput\SDLMouse.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\SDLMouse.h">
 				<Filter>SDL</Filter>
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\CryEngine\CryInput\SDLPad.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\SDLPad.cpp">
 				<Filter>SDL</Filter>
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CryInput\SDLPad.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\SDLPad.h">
 				<Filter>SDL</Filter>
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\CryEngine\CryInput\StdAfx.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\StdAfx.cpp">
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CryInput\StdAfx.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\StdAfx.h">
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\CryEngine\CryInput\Synergy\SynergyContext.cpp">
-				<Filter>Synergy</Filter>
-			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CryInput\Synergy\SynergyContext.h">
-				<Filter>Synergy</Filter>
-			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\CryEngine\CryInput\Synergy\SynergyKeyboard.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\Synergy\SynergyContext.cpp">
 				<Filter>Synergy</Filter>
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CryInput\Synergy\SynergyKeyboard.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\Synergy\SynergyContext.h">
 				<Filter>Synergy</Filter>
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\CryEngine\CryInput\Synergy\SynergyMouse.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\Synergy\SynergyKeyboard.cpp">
 				<Filter>Synergy</Filter>
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CryInput\Synergy\SynergyMouse.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\Synergy\SynergyKeyboard.h">
 				<Filter>Synergy</Filter>
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\CryEngine\CryInput\XInputDevice.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\Synergy\SynergyMouse.cpp">
+				<Filter>Synergy</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\Synergy\SynergyMouse.h">
+				<Filter>Synergy</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\XInputDevice.cpp">
 				<Filter>Shared</Filter>
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CryInput\XInputDevice.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\XInputDevice.h">
 				<Filter>Shared</Filter>
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CryInput\cryinput.waf_files">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\cryinput.waf_files">
 				<Filter>_WAF_</Filter>
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CryInput\resource.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\resource.h">
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CryInput\wscript">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CryInput\wscript">
 				<Filter>_WAF_</Filter>
 			</ClInclude>
 	</ItemGroup>

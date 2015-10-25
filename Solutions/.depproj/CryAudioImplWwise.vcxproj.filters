@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
-			<ClCompile Include="c:\CRYENGINE\BinTemp\uber_files\CryAudioImplWwise\CryAudioImplWwise_uber_0.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\BinTemp\uber_files\CryAudioImplWwise\CryAudioImplWwise_uber_0.cpp">
 				<Filter>Uber Files</Filter>
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplWwise\ATLEntities_wwise.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplWwise\ATLEntities_wwise.h">
 				<Filter>Header Files</Filter>
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplWwise\AudioSystemImplCVars.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplWwise\AudioSystemImplCVars.cpp">
 				<Filter>Source Files</Filter>
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplWwise\AudioSystemImplCVars.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplWwise\AudioSystemImplCVars.h">
 				<Filter>Header Files</Filter>
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplWwise\AudioSystemImpl_wwise.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplWwise\AudioSystemImpl_wwise.cpp">
 				<Filter>Source Files</Filter>
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplWwise\AudioSystemImpl_wwise.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplWwise\AudioSystemImpl_wwise.h">
 				<Filter>Header Files</Filter>
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplWwise\Common_wwise.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplWwise\Common_wwise.cpp">
 				<Filter>Source Files</Filter>
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplWwise\Common_wwise.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplWwise\Common_wwise.h">
 				<Filter>Header Files</Filter>
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplWwise\CryAudioImplWwise.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplWwise\CryAudioImplWwise.cpp">
 				<Filter>Source Files</Filter>
 			</ClCompile>
-			<ClCompile Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplWwise\FileIOHandler_wwise.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplWwise\FileIOHandler_wwise.cpp">
 				<Filter>Source Files</Filter>
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplWwise\FileIOHandler_wwise.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplWwise\FileIOHandler_wwise.h">
 				<Filter>Header Files</Filter>
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplWwise\audioimplwwise.waf_files">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplWwise\audioimplwwise.waf_files">
 				<Filter>_WAF_</Filter>
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplWwise\resource.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplWwise\resource.h">
 				<Filter>Header Files</Filter>
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplWwise\stdafx.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplWwise\stdafx.cpp">
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplWwise\stdafx.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplWwise\stdafx.h">
 				<Filter>Header Files</Filter>
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplWwise\wscript">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplWwise\wscript">
 				<Filter>_WAF_</Filter>
 			</ClInclude>
 	</ItemGroup>

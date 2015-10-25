@@ -1,83 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
-			<ClInclude Include="c:\CRYENGINE\Code\Libs\yasli\wscript">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\Libs\yasli\wscript">
 				<Filter>_WAF_</Filter>
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\Libs\yasli\yasli.waf_files">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\Libs\yasli\yasli.waf_files">
 				<Filter>_WAF_</Filter>
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\Libs\yasli\yasli\ConfigLocal.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\Libs\yasli\yasli\ConfigLocal.h">
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\Archive.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\Archive.cpp">
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\Archive.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\Archive.h">
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\Assert.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\Assert.h">
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\BinArchive.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\BinArchive.cpp">
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\BinArchive.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\BinArchive.h">
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\BitVector.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\BitVector.h">
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\BitVectorImpl.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\BitVectorImpl.h">
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\BlackBox.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\BlackBox.h">
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\Callback.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\Callback.h">
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\ClassFactory.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\ClassFactory.h">
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\ClassFactoryBase.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\ClassFactoryBase.h">
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\Config.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\Config.h">
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\Enum.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\Enum.h">
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\Helpers.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\Helpers.h">
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\JSONIArchive.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\JSONIArchive.cpp">
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\JSONIArchive.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\JSONIArchive.h">
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\JSONOArchive.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\JSONOArchive.cpp">
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\JSONOArchive.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\JSONOArchive.h">
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\KeyValue.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\KeyValue.h">
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\MemoryReader.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\MemoryReader.cpp">
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\MemoryReader.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\MemoryReader.h">
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\MemoryWriter.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\MemoryWriter.cpp">
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\MemoryWriter.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\MemoryWriter.h">
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\Object.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\Object.h">
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\Pointers.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\Pointers.h">
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\PointersImpl.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\PointersImpl.h">
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\STL.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\STL.h">
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\STLImpl.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\STLImpl.h">
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\Serializer.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\Serializer.h">
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\SerializerImpl.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\SerializerImpl.h">
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\StdAfx.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\StdAfx.cpp">
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\StdAfx.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\StdAfx.h">
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\StringList.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\StringList.h">
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\Token.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\Token.h">
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\SDKs\yasli\yasli\TypeID.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\SDKs\yasli\yasli\TypeID.h">
 			</ClInclude>
 	</ItemGroup>
 	<ItemGroup>

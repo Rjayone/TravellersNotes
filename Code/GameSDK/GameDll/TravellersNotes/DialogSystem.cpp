@@ -155,14 +155,6 @@ void CUIDialogMenu::OnTimerFinished(int id)
 //-------------------------------------------------------------------
 void CUIDialogMenu::WillStartDialog(IEntity *pAIEntity)
 {
-	//Прячем прочие элементы худа
-	std::vector<string> elements;
-	elements.push_back(_DOT_ELEMENT_NAME);
-	elements.push_back(_HEALTH_BAR_ELEMENT_NAME);
-	elements.push_back(_LOCATION_ELEMENT_NAME);
-	elements.push_back(_SCREEN_SLOTS_ELEMENT_NAME);
-	m_pVisibleManager->HideList(elements);
-
 	GetUIElement();
 	SmartScriptTable propertiesTable, dialogPropertiesTable;
 	IScriptTable *pAIStript = pAIEntity->GetScriptTable();
@@ -170,7 +162,7 @@ void CUIDialogMenu::WillStartDialog(IEntity *pAIEntity)
 	if (hasProperties == true)
 	{
 		const bool hasPropertiesTable = propertiesTable->GetValue("DialogProperties", dialogPropertiesTable);
-		if (hasPropertiesTable)
+		if (hasPropertiesTable && m_pTarget)
 		{
 			bool bDialogEnable;
 
@@ -239,6 +231,14 @@ void CUIDialogMenu::StartDialog()
 	//если такой фразы нет - выход
 	if (m_pNPCAnswer.size() <= 0)
 		return;
+
+	//Прячем прочие элементы худа
+	std::vector<string> elements;
+	elements.push_back(_DOT_ELEMENT_NAME);
+	elements.push_back(_HEALTH_BAR_ELEMENT_NAME);
+	elements.push_back(_LOCATION_ELEMENT_NAME);
+	elements.push_back(_SCREEN_SLOTS_ELEMENT_NAME);
+	m_pVisibleManager->HideList(elements);
 
 	//Устанавливаем ид родительского элемента(фразы)
 	//С помощью этого мы можем в дальнейшем устанавливать фразы игрока

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common\ATLEntityData.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\Common\ATLEntityData.h">
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common\AudioLogger.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\Common\AudioLogger.h">
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common\IAudioSystemImplementation.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\Common\IAudioSystemImplementation.h">
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common\STLSoundAllocator.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\Common\STLSoundAllocator.h">
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common\SoundAllocator.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\Common\SoundAllocator.h">
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common\audiocommon.waf_files">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\Common\audiocommon.waf_files">
 				<Filter>_WAF_</Filter>
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\Common\wscript">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\Common\wscript">
 				<Filter>_WAF_</Filter>
 			</ClInclude>
 	</ItemGroup>

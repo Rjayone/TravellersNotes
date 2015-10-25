@@ -13,7 +13,7 @@ CDialogDispatcher::CDialogDispatcher()
 		pAmMgr->AddExtraActionListener(this);
 
 	m_bCanStartDialog = false;
-	m_pDialogSystem = g_pGame->GetDialogSystem();
+	m_pDialogSystem = nullptr;
 }
 
 //-------------------------------------------------------------------
@@ -59,7 +59,11 @@ void CDialogDispatcher::Update()
 {
 	if(!IsAI())
 		return;
-	if (m_bCanStartDialog == true && !GetTarget()->GetAI()->IsHostile(gEnv->pEntitySystem->GetEntity(LOCAL_PLAYER_ENTITY_ID)->GetAI(), false))
+	IActor* pTargetActor = g_pGame->GetIGameFramework()->GetIActorSystem()->GetActor(GetTarget()->GetId());
+	if (m_bCanStartDialog == true 
+		&& !GetTarget()->GetAI()->IsHostile(gEnv->pEntitySystem->GetEntity(LOCAL_PLAYER_ENTITY_ID)->GetAI(), false)
+		&& pTargetActor
+		&& pTargetActor->GetHealth() > 0)
 		g_pGame->GetDialogSystem()->CanDialog(GetTarget());
 }
 

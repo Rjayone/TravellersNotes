@@ -2,84 +2,84 @@
 <Project DefaultTargets="Build" ToolsVersion="4.0"
 	xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|Win32'">
-		<WAF_TargetFile>c:\CRYENGINE\bin\win_x86\lua.lib</WAF_TargetFile>
+		<WAF_TargetFile>c:\TheTravellersNotes_384\bin\win_x86\lua.lib</WAF_TargetFile>
     <TargetPath Condition="'$(WAF_TargetFile)' != ''">$(WAF_TargetFile)</TargetPath>
     <LocalDebuggerCommand Condition="'$(LocalDebuggerCommand)'==''">$(TargetPath)</LocalDebuggerCommand>
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|x64'">
-		<WAF_TargetFile>c:\CRYENGINE\bin\win_x64\lua.lib</WAF_TargetFile>
+		<WAF_TargetFile>c:\TheTravellersNotes_384\bin\win_x64\lua.lib</WAF_TargetFile>
     <TargetPath Condition="'$(WAF_TargetFile)' != ''">$(WAF_TargetFile)</TargetPath>
     <LocalDebuggerCommand Condition="'$(LocalDebuggerCommand)'==''">$(TargetPath)</LocalDebuggerCommand>
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|Win32'">
-		<WAF_TargetFile>c:\CRYENGINE\bin\win_x86\lua.lib</WAF_TargetFile>
+		<WAF_TargetFile>c:\TheTravellersNotes_384\bin\win_x86\lua.lib</WAF_TargetFile>
     <TargetPath Condition="'$(WAF_TargetFile)' != ''">$(WAF_TargetFile)</TargetPath>
     <LocalDebuggerCommand Condition="'$(LocalDebuggerCommand)'==''">$(TargetPath)</LocalDebuggerCommand>
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|x64'">
-		<WAF_TargetFile>c:\CRYENGINE\bin\win_x64\lua.lib</WAF_TargetFile>
+		<WAF_TargetFile>c:\TheTravellersNotes_384\bin\win_x64\lua.lib</WAF_TargetFile>
     <TargetPath Condition="'$(WAF_TargetFile)' != ''">$(WAF_TargetFile)</TargetPath>
     <LocalDebuggerCommand Condition="'$(LocalDebuggerCommand)'==''">$(TargetPath)</LocalDebuggerCommand>
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|Win32'">
-		<WAF_TargetFile>c:\CRYENGINE\bin\win_x86_performance\lua.lib</WAF_TargetFile>
+		<WAF_TargetFile>c:\TheTravellersNotes_384\bin\win_x86_performance\lua.lib</WAF_TargetFile>
     <TargetPath Condition="'$(WAF_TargetFile)' != ''">$(WAF_TargetFile)</TargetPath>
     <LocalDebuggerCommand Condition="'$(LocalDebuggerCommand)'==''">$(TargetPath)</LocalDebuggerCommand>
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|x64'">
-		<WAF_TargetFile>c:\CRYENGINE\bin\win_x64_performance\lua.lib</WAF_TargetFile>
+		<WAF_TargetFile>c:\TheTravellersNotes_384\bin\win_x64_performance\lua.lib</WAF_TargetFile>
     <TargetPath Condition="'$(WAF_TargetFile)' != ''">$(WAF_TargetFile)</TargetPath>
     <LocalDebuggerCommand Condition="'$(LocalDebuggerCommand)'==''">$(TargetPath)</LocalDebuggerCommand>
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|Win32'">
-		<WAF_TargetFile>c:\CRYENGINE\bin\win_x86_release\lua.lib</WAF_TargetFile>
+		<WAF_TargetFile>c:\TheTravellersNotes_384\bin\win_x86_release\lua.lib</WAF_TargetFile>
     <TargetPath Condition="'$(WAF_TargetFile)' != ''">$(WAF_TargetFile)</TargetPath>
     <LocalDebuggerCommand Condition="'$(LocalDebuggerCommand)'==''">$(TargetPath)</LocalDebuggerCommand>
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|x64'">
-		<WAF_TargetFile>c:\CRYENGINE\bin\win_x64_release\lua.lib</WAF_TargetFile>
+		<WAF_TargetFile>c:\TheTravellersNotes_384\bin\win_x64_release\lua.lib</WAF_TargetFile>
     <TargetPath Condition="'$(WAF_TargetFile)' != ''">$(WAF_TargetFile)</TargetPath>
     <LocalDebuggerCommand Condition="'$(LocalDebuggerCommand)'==''">$(TargetPath)</LocalDebuggerCommand>
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|Win32'">
-		<WAF_TargetFile>c:\CRYENGINE\bin\win_x86\lua.lib</WAF_TargetFile>
+		<WAF_TargetFile>c:\TheTravellersNotes_384\bin\win_x86\lua.lib</WAF_TargetFile>
     <TargetPath Condition="'$(WAF_TargetFile)' != ''">$(WAF_TargetFile)</TargetPath>
     <LocalDebuggerCommand Condition="'$(LocalDebuggerCommand)'==''">$(TargetPath)</LocalDebuggerCommand>
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|x64'">
-		<WAF_TargetFile>c:\CRYENGINE\bin\win_x64\lua.lib</WAF_TargetFile>
+		<WAF_TargetFile>c:\TheTravellersNotes_384\bin\win_x64\lua.lib</WAF_TargetFile>
     <TargetPath Condition="'$(WAF_TargetFile)' != ''">$(WAF_TargetFile)</TargetPath>
     <LocalDebuggerCommand Condition="'$(LocalDebuggerCommand)'==''">$(TargetPath)</LocalDebuggerCommand>
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|Win32'">
-		<WAF_TargetFile>c:\CRYENGINE\bin\win_x86\lua.lib</WAF_TargetFile>
+		<WAF_TargetFile>c:\TheTravellersNotes_384\bin\win_x86\lua.lib</WAF_TargetFile>
     <TargetPath Condition="'$(WAF_TargetFile)' != ''">$(WAF_TargetFile)</TargetPath>
     <LocalDebuggerCommand Condition="'$(LocalDebuggerCommand)'==''">$(TargetPath)</LocalDebuggerCommand>
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|x64'">
-		<WAF_TargetFile>c:\CRYENGINE\bin\win_x64\lua.lib</WAF_TargetFile>
+		<WAF_TargetFile>c:\TheTravellersNotes_384\bin\win_x64\lua.lib</WAF_TargetFile>
     <TargetPath Condition="'$(WAF_TargetFile)' != ''">$(WAF_TargetFile)</TargetPath>
     <LocalDebuggerCommand Condition="'$(LocalDebuggerCommand)'==''">$(TargetPath)</LocalDebuggerCommand>
   </PropertyGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|Win32'">
 		<ClCompile>
 			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
-			<WAF_ExecPath>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe</WAF_ExecPath>
-			<WAF_TargetSolution>c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
+			<WAF_ExecPath>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
 			<WAF_TargetSpec>gamesdk</WAF_TargetSpec>
 			<WAF_TargetConfig>win_x86_debug</WAF_TargetConfig>
 			<WAF_TargetName>lua</WAF_TargetName>
-			<WAF_TargetFile>c:\CRYENGINE\bin\win_x86\lua.lib </WAF_TargetFile>
-			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\Libs\lua;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\Steamworks\public</WAF_IncludeDirectories>
-			<WAF_PreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_DEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;USE_STEAM=1;IS_EAAS</WAF_PreprocessorDefinitions>
+			<WAF_TargetFile>c:\TheTravellersNotes_384\bin\win_x86\lua.lib </WAF_TargetFile>
+			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\Libs\lua;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</WAF_IncludeDirectories>
+			<WAF_PreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/TheTravellersNotes_384/Code/&quot;;_DEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;USE_STEAM=1;IS_EAAS</WAF_PreprocessorDefinitions>
 			<WAF_CompilerOptions_C>/nologo /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Od /Ob0 /Oy- /RTC1 /GS /bigobj </WAF_CompilerOptions_C>
 			<WAF_CompilerOptions_CXX>/nologo /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Od /Ob0 /Oy- /RTC1 /GS /bigobj </WAF_CompilerOptions_CXX>
 			<WAF_LinkerOptions>/MACHINE:X86 /NOLOGO /MANIFEST /LARGEADDRESSAWARE /INCREMENTAL:NO</WAF_LinkerOptions>
 			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
 			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
-			<WAF_BuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_BuildCommandLine>
-			<WAF_RebuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_RebuildCommandLine>
-			<WAF_CleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_CleanCommandLine>
+			<WAF_BuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_CleanCommandLine>
 		</ClCompile>
 	</ItemDefinitionGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|Win32'">
@@ -90,22 +90,22 @@
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|x64'">
 		<ClCompile>
 			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
-			<WAF_ExecPath>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe</WAF_ExecPath>
-			<WAF_TargetSolution>c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
+			<WAF_ExecPath>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
 			<WAF_TargetSpec>gamesdk</WAF_TargetSpec>
 			<WAF_TargetConfig>win_x64_debug</WAF_TargetConfig>
 			<WAF_TargetName>lua</WAF_TargetName>
-			<WAF_TargetFile>c:\CRYENGINE\bin\win_x64\lua.lib </WAF_TargetFile>
-			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\Libs\lua;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\Steamworks\public</WAF_IncludeDirectories>
-			<WAF_PreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_DEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;USE_STEAM=1;IS_EAAS</WAF_PreprocessorDefinitions>
+			<WAF_TargetFile>c:\TheTravellersNotes_384\bin\win_x64\lua.lib </WAF_TargetFile>
+			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\Libs\lua;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</WAF_IncludeDirectories>
+			<WAF_PreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/TheTravellersNotes_384/Code/&quot;;_DEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;USE_STEAM=1;IS_EAAS</WAF_PreprocessorDefinitions>
 			<WAF_CompilerOptions_C>/nologo /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Od /Ob0 /Oy- /RTC1 /GS /bigobj </WAF_CompilerOptions_C>
 			<WAF_CompilerOptions_CXX>/nologo /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Od /Ob0 /Oy- /RTC1 /GS /bigobj </WAF_CompilerOptions_CXX>
 			<WAF_LinkerOptions>/MACHINE:X64 /NOLOGO /MANIFEST /LARGEADDRESSAWARE /INCREMENTAL:NO</WAF_LinkerOptions>
 			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
 			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
-			<WAF_BuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_BuildCommandLine>
-			<WAF_RebuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_RebuildCommandLine>
-			<WAF_CleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_CleanCommandLine>
+			<WAF_BuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_CleanCommandLine>
 		</ClCompile>
 	</ItemDefinitionGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|x64'">
@@ -116,22 +116,22 @@
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|Win32'">
 		<ClCompile>
 			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
-			<WAF_ExecPath>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe</WAF_ExecPath>
-			<WAF_TargetSolution>c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
+			<WAF_ExecPath>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
 			<WAF_TargetSpec>gamesdk</WAF_TargetSpec>
 			<WAF_TargetConfig>win_x86_profile</WAF_TargetConfig>
 			<WAF_TargetName>lua</WAF_TargetName>
-			<WAF_TargetFile>c:\CRYENGINE\bin\win_x86\lua.lib </WAF_TargetFile>
-			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\Libs\lua;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\Steamworks\public</WAF_IncludeDirectories>
-			<WAF_PreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_PROFILE;PROFILE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;USE_STEAM=1;IS_EAAS</WAF_PreprocessorDefinitions>
+			<WAF_TargetFile>c:\TheTravellersNotes_384\bin\win_x86\lua.lib </WAF_TargetFile>
+			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\Libs\lua;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</WAF_IncludeDirectories>
+			<WAF_PreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/TheTravellersNotes_384/Code/&quot;;_PROFILE;PROFILE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;USE_STEAM=1;IS_EAAS</WAF_PreprocessorDefinitions>
 			<WAF_CompilerOptions_C>/nologo /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy- /GS- </WAF_CompilerOptions_C>
 			<WAF_CompilerOptions_CXX>/nologo /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy- /GS- </WAF_CompilerOptions_CXX>
 			<WAF_LinkerOptions>/MACHINE:X86 /NOLOGO /MANIFEST /LARGEADDRESSAWARE /INCREMENTAL:NO /OPT:REF /OPT:ICF</WAF_LinkerOptions>
 			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
 			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
-			<WAF_BuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_BuildCommandLine>
-			<WAF_RebuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_RebuildCommandLine>
-			<WAF_CleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_CleanCommandLine>
+			<WAF_BuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_CleanCommandLine>
 		</ClCompile>
 	</ItemDefinitionGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|Win32'">
@@ -142,22 +142,22 @@
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|x64'">
 		<ClCompile>
 			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
-			<WAF_ExecPath>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe</WAF_ExecPath>
-			<WAF_TargetSolution>c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
+			<WAF_ExecPath>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
 			<WAF_TargetSpec>gamesdk</WAF_TargetSpec>
 			<WAF_TargetConfig>win_x64_profile</WAF_TargetConfig>
 			<WAF_TargetName>lua</WAF_TargetName>
-			<WAF_TargetFile>c:\CRYENGINE\bin\win_x64\lua.lib </WAF_TargetFile>
-			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\Libs\lua;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\Steamworks\public</WAF_IncludeDirectories>
-			<WAF_PreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_PROFILE;PROFILE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;USE_STEAM=1;IS_EAAS</WAF_PreprocessorDefinitions>
+			<WAF_TargetFile>c:\TheTravellersNotes_384\bin\win_x64\lua.lib </WAF_TargetFile>
+			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\Libs\lua;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</WAF_IncludeDirectories>
+			<WAF_PreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/TheTravellersNotes_384/Code/&quot;;_PROFILE;PROFILE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;USE_STEAM=1;IS_EAAS</WAF_PreprocessorDefinitions>
 			<WAF_CompilerOptions_C>/nologo /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy- /GS- </WAF_CompilerOptions_C>
 			<WAF_CompilerOptions_CXX>/nologo /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy- /GS- </WAF_CompilerOptions_CXX>
 			<WAF_LinkerOptions>/MACHINE:X64 /NOLOGO /MANIFEST /LARGEADDRESSAWARE /INCREMENTAL:NO /OPT:REF /OPT:ICF</WAF_LinkerOptions>
 			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
 			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
-			<WAF_BuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_BuildCommandLine>
-			<WAF_RebuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_RebuildCommandLine>
-			<WAF_CleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_CleanCommandLine>
+			<WAF_BuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_CleanCommandLine>
 		</ClCompile>
 	</ItemDefinitionGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|x64'">
@@ -168,22 +168,22 @@
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|Win32'">
 		<ClCompile>
 			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
-			<WAF_ExecPath>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe</WAF_ExecPath>
-			<WAF_TargetSolution>c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
+			<WAF_ExecPath>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
 			<WAF_TargetSpec>gamesdk</WAF_TargetSpec>
 			<WAF_TargetConfig>win_x86_performance</WAF_TargetConfig>
 			<WAF_TargetName>lua</WAF_TargetName>
-			<WAF_TargetFile>c:\CRYENGINE\bin\win_x86_performance\lua.lib </WAF_TargetFile>
-			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\Libs\lua;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\Steamworks\public</WAF_IncludeDirectories>
-			<WAF_PreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_RELEASE;PERFORMANCE_BUILD;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now);USE_STEAM=1;IS_EAAS</WAF_PreprocessorDefinitions>
+			<WAF_TargetFile>c:\TheTravellersNotes_384\bin\win_x86_performance\lua.lib </WAF_TargetFile>
+			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\Libs\lua;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</WAF_IncludeDirectories>
+			<WAF_PreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/TheTravellersNotes_384/Code/&quot;;_RELEASE;PERFORMANCE_BUILD;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now);USE_STEAM=1;IS_EAAS</WAF_PreprocessorDefinitions>
 			<WAF_CompilerOptions_C>/nologo /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy /GS- </WAF_CompilerOptions_C>
 			<WAF_CompilerOptions_CXX>/nologo /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy /GS- </WAF_CompilerOptions_CXX>
 			<WAF_LinkerOptions>/MACHINE:X86 /NOLOGO /MANIFEST /LARGEADDRESSAWARE /INCREMENTAL:NO /OPT:REF /OPT:ICF</WAF_LinkerOptions>
 			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
 			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
-			<WAF_BuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_BuildCommandLine>
-			<WAF_RebuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_performance build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_RebuildCommandLine>
-			<WAF_CleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_CleanCommandLine>
+			<WAF_BuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_performance build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_CleanCommandLine>
 		</ClCompile>
 	</ItemDefinitionGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|Win32'">
@@ -194,22 +194,22 @@
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|x64'">
 		<ClCompile>
 			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
-			<WAF_ExecPath>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe</WAF_ExecPath>
-			<WAF_TargetSolution>c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
+			<WAF_ExecPath>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
 			<WAF_TargetSpec>gamesdk</WAF_TargetSpec>
 			<WAF_TargetConfig>win_x64_performance</WAF_TargetConfig>
 			<WAF_TargetName>lua</WAF_TargetName>
-			<WAF_TargetFile>c:\CRYENGINE\bin\win_x64_performance\lua.lib </WAF_TargetFile>
-			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\Libs\lua;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\Steamworks\public</WAF_IncludeDirectories>
-			<WAF_PreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_RELEASE;PERFORMANCE_BUILD;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now);USE_STEAM=1;IS_EAAS</WAF_PreprocessorDefinitions>
+			<WAF_TargetFile>c:\TheTravellersNotes_384\bin\win_x64_performance\lua.lib </WAF_TargetFile>
+			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\Libs\lua;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</WAF_IncludeDirectories>
+			<WAF_PreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/TheTravellersNotes_384/Code/&quot;;_RELEASE;PERFORMANCE_BUILD;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now);USE_STEAM=1;IS_EAAS</WAF_PreprocessorDefinitions>
 			<WAF_CompilerOptions_C>/nologo /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy /GS- </WAF_CompilerOptions_C>
 			<WAF_CompilerOptions_CXX>/nologo /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy /GS- </WAF_CompilerOptions_CXX>
 			<WAF_LinkerOptions>/MACHINE:X64 /NOLOGO /MANIFEST /LARGEADDRESSAWARE /INCREMENTAL:NO /OPT:REF /OPT:ICF</WAF_LinkerOptions>
 			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
 			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
-			<WAF_BuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_BuildCommandLine>
-			<WAF_RebuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_performance build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_RebuildCommandLine>
-			<WAF_CleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_CleanCommandLine>
+			<WAF_BuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_performance build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_CleanCommandLine>
 		</ClCompile>
 	</ItemDefinitionGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|x64'">
@@ -220,22 +220,22 @@
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|Win32'">
 		<ClCompile>
 			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
-			<WAF_ExecPath>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe</WAF_ExecPath>
-			<WAF_TargetSolution>c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
+			<WAF_ExecPath>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
 			<WAF_TargetSpec>gamesdk</WAF_TargetSpec>
 			<WAF_TargetConfig>win_x86_release</WAF_TargetConfig>
 			<WAF_TargetName>lua</WAF_TargetName>
-			<WAF_TargetFile>c:\CRYENGINE\bin\win_x86_release\lua.lib </WAF_TargetFile>
-			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\Libs\lua;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\Steamworks\public</WAF_IncludeDirectories>
-			<WAF_PreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_RELEASE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now);USE_STEAM=1;IS_EAAS</WAF_PreprocessorDefinitions>
+			<WAF_TargetFile>c:\TheTravellersNotes_384\bin\win_x86_release\lua.lib </WAF_TargetFile>
+			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\Libs\lua;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</WAF_IncludeDirectories>
+			<WAF_PreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/TheTravellersNotes_384/Code/&quot;;_RELEASE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now);USE_STEAM=1;IS_EAAS</WAF_PreprocessorDefinitions>
 			<WAF_CompilerOptions_C>/nologo /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy /GS- </WAF_CompilerOptions_C>
 			<WAF_CompilerOptions_CXX>/nologo /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy /GS- </WAF_CompilerOptions_CXX>
 			<WAF_LinkerOptions>/MACHINE:X86 /NOLOGO /MANIFEST /LARGEADDRESSAWARE /INCREMENTAL:NO /OPT:REF /OPT:ICF</WAF_LinkerOptions>
 			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
 			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
-			<WAF_BuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_BuildCommandLine>
-			<WAF_RebuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_release build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_RebuildCommandLine>
-			<WAF_CleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_CleanCommandLine>
+			<WAF_BuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_release build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_CleanCommandLine>
 		</ClCompile>
 	</ItemDefinitionGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|Win32'">
@@ -246,22 +246,22 @@
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|x64'">
 		<ClCompile>
 			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
-			<WAF_ExecPath>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe</WAF_ExecPath>
-			<WAF_TargetSolution>c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
+			<WAF_ExecPath>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
 			<WAF_TargetSpec>gamesdk</WAF_TargetSpec>
 			<WAF_TargetConfig>win_x64_release</WAF_TargetConfig>
 			<WAF_TargetName>lua</WAF_TargetName>
-			<WAF_TargetFile>c:\CRYENGINE\bin\win_x64_release\lua.lib </WAF_TargetFile>
-			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\Libs\lua;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\Steamworks\public</WAF_IncludeDirectories>
-			<WAF_PreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_RELEASE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now);USE_STEAM=1;IS_EAAS</WAF_PreprocessorDefinitions>
+			<WAF_TargetFile>c:\TheTravellersNotes_384\bin\win_x64_release\lua.lib </WAF_TargetFile>
+			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\Libs\lua;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</WAF_IncludeDirectories>
+			<WAF_PreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/TheTravellersNotes_384/Code/&quot;;_RELEASE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now);USE_STEAM=1;IS_EAAS</WAF_PreprocessorDefinitions>
 			<WAF_CompilerOptions_C>/nologo /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy /GS- </WAF_CompilerOptions_C>
 			<WAF_CompilerOptions_CXX>/nologo /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy /GS- </WAF_CompilerOptions_CXX>
 			<WAF_LinkerOptions>/MACHINE:X64 /NOLOGO /MANIFEST /LARGEADDRESSAWARE /INCREMENTAL:NO /OPT:REF /OPT:ICF</WAF_LinkerOptions>
 			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
 			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
-			<WAF_BuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_BuildCommandLine>
-			<WAF_RebuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_release build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_RebuildCommandLine>
-			<WAF_CleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_CleanCommandLine>
+			<WAF_BuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_release build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_CleanCommandLine>
 		</ClCompile>
 	</ItemDefinitionGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|x64'">
@@ -272,22 +272,22 @@
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|Win32'">
 		<ClCompile>
 			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
-			<WAF_ExecPath>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe</WAF_ExecPath>
-			<WAF_TargetSolution>c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
+			<WAF_ExecPath>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
 			<WAF_TargetSpec>gamesdk_and_tools</WAF_TargetSpec>
 			<WAF_TargetConfig>win_x86_debug</WAF_TargetConfig>
 			<WAF_TargetName>lua</WAF_TargetName>
-			<WAF_TargetFile>c:\CRYENGINE\bin\win_x86\lua.lib </WAF_TargetFile>
-			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\Libs\lua;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\Steamworks\public</WAF_IncludeDirectories>
-			<WAF_PreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_DEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;USE_STEAM=1;IS_EAAS</WAF_PreprocessorDefinitions>
+			<WAF_TargetFile>c:\TheTravellersNotes_384\bin\win_x86\lua.lib </WAF_TargetFile>
+			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\Libs\lua;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</WAF_IncludeDirectories>
+			<WAF_PreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/TheTravellersNotes_384/Code/&quot;;_DEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;USE_STEAM=1;IS_EAAS</WAF_PreprocessorDefinitions>
 			<WAF_CompilerOptions_C>/nologo /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Od /Ob0 /Oy- /RTC1 /GS /bigobj </WAF_CompilerOptions_C>
 			<WAF_CompilerOptions_CXX>/nologo /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Od /Ob0 /Oy- /RTC1 /GS /bigobj </WAF_CompilerOptions_CXX>
 			<WAF_LinkerOptions>/MACHINE:X86 /NOLOGO /MANIFEST /LARGEADDRESSAWARE /INCREMENTAL:NO</WAF_LinkerOptions>
 			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
 			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
-			<WAF_BuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_BuildCommandLine>
-			<WAF_RebuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_RebuildCommandLine>
-			<WAF_CleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_CleanCommandLine>
+			<WAF_BuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_CleanCommandLine>
 		</ClCompile>
 	</ItemDefinitionGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|Win32'">
@@ -298,22 +298,22 @@
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|x64'">
 		<ClCompile>
 			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
-			<WAF_ExecPath>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe</WAF_ExecPath>
-			<WAF_TargetSolution>c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
+			<WAF_ExecPath>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
 			<WAF_TargetSpec>gamesdk_and_tools</WAF_TargetSpec>
 			<WAF_TargetConfig>win_x64_debug</WAF_TargetConfig>
 			<WAF_TargetName>lua</WAF_TargetName>
-			<WAF_TargetFile>c:\CRYENGINE\bin\win_x64\lua.lib </WAF_TargetFile>
-			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\Libs\lua;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\Steamworks\public</WAF_IncludeDirectories>
-			<WAF_PreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_DEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;USE_STEAM=1;IS_EAAS</WAF_PreprocessorDefinitions>
+			<WAF_TargetFile>c:\TheTravellersNotes_384\bin\win_x64\lua.lib </WAF_TargetFile>
+			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\Libs\lua;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</WAF_IncludeDirectories>
+			<WAF_PreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/TheTravellersNotes_384/Code/&quot;;_DEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;USE_STEAM=1;IS_EAAS</WAF_PreprocessorDefinitions>
 			<WAF_CompilerOptions_C>/nologo /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Od /Ob0 /Oy- /RTC1 /GS /bigobj </WAF_CompilerOptions_C>
 			<WAF_CompilerOptions_CXX>/nologo /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Od /Ob0 /Oy- /RTC1 /GS /bigobj </WAF_CompilerOptions_CXX>
 			<WAF_LinkerOptions>/MACHINE:X64 /NOLOGO /MANIFEST /LARGEADDRESSAWARE /INCREMENTAL:NO</WAF_LinkerOptions>
 			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
 			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
-			<WAF_BuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_BuildCommandLine>
-			<WAF_RebuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_RebuildCommandLine>
-			<WAF_CleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_CleanCommandLine>
+			<WAF_BuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_CleanCommandLine>
 		</ClCompile>
 	</ItemDefinitionGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|x64'">
@@ -324,22 +324,22 @@
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|Win32'">
 		<ClCompile>
 			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
-			<WAF_ExecPath>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe</WAF_ExecPath>
-			<WAF_TargetSolution>c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
+			<WAF_ExecPath>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
 			<WAF_TargetSpec>gamesdk_and_tools</WAF_TargetSpec>
 			<WAF_TargetConfig>win_x86_profile</WAF_TargetConfig>
 			<WAF_TargetName>lua</WAF_TargetName>
-			<WAF_TargetFile>c:\CRYENGINE\bin\win_x86\lua.lib </WAF_TargetFile>
-			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\Libs\lua;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\Steamworks\public</WAF_IncludeDirectories>
-			<WAF_PreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_PROFILE;PROFILE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;USE_STEAM=1;IS_EAAS</WAF_PreprocessorDefinitions>
+			<WAF_TargetFile>c:\TheTravellersNotes_384\bin\win_x86\lua.lib </WAF_TargetFile>
+			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\Libs\lua;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</WAF_IncludeDirectories>
+			<WAF_PreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/TheTravellersNotes_384/Code/&quot;;_PROFILE;PROFILE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;USE_STEAM=1;IS_EAAS</WAF_PreprocessorDefinitions>
 			<WAF_CompilerOptions_C>/nologo /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy- /GS- </WAF_CompilerOptions_C>
 			<WAF_CompilerOptions_CXX>/nologo /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy- /GS- </WAF_CompilerOptions_CXX>
 			<WAF_LinkerOptions>/MACHINE:X86 /NOLOGO /MANIFEST /LARGEADDRESSAWARE /INCREMENTAL:NO /OPT:REF /OPT:ICF</WAF_LinkerOptions>
 			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
 			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
-			<WAF_BuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_BuildCommandLine>
-			<WAF_RebuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_RebuildCommandLine>
-			<WAF_CleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_CleanCommandLine>
+			<WAF_BuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_CleanCommandLine>
 		</ClCompile>
 	</ItemDefinitionGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|Win32'">
@@ -350,22 +350,22 @@
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|x64'">
 		<ClCompile>
 			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
-			<WAF_ExecPath>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe</WAF_ExecPath>
-			<WAF_TargetSolution>c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
+			<WAF_ExecPath>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
 			<WAF_TargetSpec>gamesdk_and_tools</WAF_TargetSpec>
 			<WAF_TargetConfig>win_x64_profile</WAF_TargetConfig>
 			<WAF_TargetName>lua</WAF_TargetName>
-			<WAF_TargetFile>c:\CRYENGINE\bin\win_x64\lua.lib </WAF_TargetFile>
-			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\Libs\lua;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\Steamworks\public</WAF_IncludeDirectories>
-			<WAF_PreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_PROFILE;PROFILE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;USE_STEAM=1;IS_EAAS</WAF_PreprocessorDefinitions>
+			<WAF_TargetFile>c:\TheTravellersNotes_384\bin\win_x64\lua.lib </WAF_TargetFile>
+			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\Libs\lua;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</WAF_IncludeDirectories>
+			<WAF_PreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/TheTravellersNotes_384/Code/&quot;;_PROFILE;PROFILE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;USE_STEAM=1;IS_EAAS</WAF_PreprocessorDefinitions>
 			<WAF_CompilerOptions_C>/nologo /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy- /GS- </WAF_CompilerOptions_C>
 			<WAF_CompilerOptions_CXX>/nologo /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy- /GS- </WAF_CompilerOptions_CXX>
 			<WAF_LinkerOptions>/MACHINE:X64 /NOLOGO /MANIFEST /LARGEADDRESSAWARE /INCREMENTAL:NO /OPT:REF /OPT:ICF</WAF_LinkerOptions>
 			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
 			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
-			<WAF_BuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_BuildCommandLine>
-			<WAF_RebuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_RebuildCommandLine>
-			<WAF_CleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_CleanCommandLine>
+			<WAF_BuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=lua</WAF_CleanCommandLine>
 		</ClCompile>
 	</ItemDefinitionGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|x64'">

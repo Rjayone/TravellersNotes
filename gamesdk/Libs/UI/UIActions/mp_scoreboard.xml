@@ -3,7 +3,7 @@
   <Node Id="23" Class="Game:Start" pos="-400,-160,0" flags="0">
    <Inputs InGame="1" InEditor="1"/>
   </Node>
-  <Node Id="38" Class="Input:Action" pos="280,-160,0" flags="0">
+  <Node Id="38" Class="Input:ActionListener" pos="280,-160,0" flags="0">
    <Inputs entityId="0" Action="menu_scoreboard_open" ActionMap="menu" NonDevMode="1"/>
   </Node>
   <Node Id="40" Class="UI:Functions:HUD2D:OnHideScoreboard" pos="680,-100,0" flags="0">

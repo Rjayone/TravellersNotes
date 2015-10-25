@@ -16,6 +16,7 @@ CTorch::CTorch()
 	m_fFireDuration = 1000; //in miliseconds
 	m_pParticalEntity = NULL; 
 	m_pLight = NULL;
+	pAttachmentManager = NULL;
 }
 
 //-------------------------------------------------------------------
@@ -135,8 +136,11 @@ void CTorch::SpawnEntityHelper()
 
 void CTorch::RemoveEntityHelper()
 {
-	pAttachmentManager->RemoveAttachmentByName("myAttachment");
-	gEnv->pEntitySystem->RemoveEntity(m_pBasicEntity->GetId());
+	if (pAttachmentManager)
+	{
+		pAttachmentManager->RemoveAttachmentByName("myAttachment");
+		gEnv->pEntitySystem->RemoveEntity(m_pBasicEntity->GetId());
+	}
 }
 
 void CTorch::CreateLight()

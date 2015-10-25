@@ -51,69 +51,69 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
-		<ProjectGuid>{FDB25A67-C991-4B77-9AE1-4F4E6BAE7DDD}</ProjectGuid>
+		<ProjectGuid>{3009948B-4148-48F0-91B4-58FC9F587693}</ProjectGuid>
 		<Keyword>MakeFileProj</Keyword>
 		<ProjectName>CryScriptSystem</ProjectName>
 	</PropertyGroup>
 	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
@@ -168,201 +168,201 @@
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
 	</ImportGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|Win32'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeCleanCommandLine>
-		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CryScriptSystem;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\Lua\src;c:\CRYENGINE\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
-		<NMakePreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_DEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CryScriptSystem;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\Lua\src;c:\CRYENGINE\Code\SDKs\Steamworks\public</IncludePath>
-		<NMakeOutput>c:\CRYENGINE\bin\win_x86\CryScriptSystem.dll</NMakeOutput>
-		<ExecutablePath>c:\CRYENGINE\bin\win_x86\CryScriptSystem.dll</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x86</OutDir>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\Lua\src;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/TheTravellersNotes_384/Code/&quot;;_DEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\Lua\src;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</IncludePath>
+		<NMakeOutput>c:\TheTravellersNotes_384\bin\win_x86\CryScriptSystem.dll</NMakeOutput>
+		<ExecutablePath>c:\TheTravellersNotes_384\bin\win_x86\CryScriptSystem.dll</ExecutablePath>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x86</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|x64'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeCleanCommandLine>
-		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CryScriptSystem;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\Lua\src;c:\CRYENGINE\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
-		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_DEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CryScriptSystem;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\Lua\src;c:\CRYENGINE\Code\SDKs\Steamworks\public</IncludePath>
-		<NMakeOutput>c:\CRYENGINE\bin\win_x64\CryScriptSystem.dll</NMakeOutput>
-		<ExecutablePath>c:\CRYENGINE\bin\win_x64\CryScriptSystem.dll</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x64</OutDir>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\Lua\src;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/TheTravellersNotes_384/Code/&quot;;_DEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\Lua\src;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</IncludePath>
+		<NMakeOutput>c:\TheTravellersNotes_384\bin\win_x64\CryScriptSystem.dll</NMakeOutput>
+		<ExecutablePath>c:\TheTravellersNotes_384\bin\win_x64\CryScriptSystem.dll</ExecutablePath>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x64</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|Win32'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeCleanCommandLine>
-		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CryScriptSystem;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\Lua\src;c:\CRYENGINE\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
-		<NMakePreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_PROFILE;PROFILE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CryScriptSystem;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\Lua\src;c:\CRYENGINE\Code\SDKs\Steamworks\public</IncludePath>
-		<NMakeOutput>c:\CRYENGINE\bin\win_x86\CryScriptSystem.dll</NMakeOutput>
-		<ExecutablePath>c:\CRYENGINE\bin\win_x86\CryScriptSystem.dll</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x86</OutDir>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\Lua\src;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/TheTravellersNotes_384/Code/&quot;;_PROFILE;PROFILE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\Lua\src;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</IncludePath>
+		<NMakeOutput>c:\TheTravellersNotes_384\bin\win_x86\CryScriptSystem.dll</NMakeOutput>
+		<ExecutablePath>c:\TheTravellersNotes_384\bin\win_x86\CryScriptSystem.dll</ExecutablePath>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x86</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|x64'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeCleanCommandLine>
-		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CryScriptSystem;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\Lua\src;c:\CRYENGINE\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
-		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_PROFILE;PROFILE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CryScriptSystem;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\Lua\src;c:\CRYENGINE\Code\SDKs\Steamworks\public</IncludePath>
-		<NMakeOutput>c:\CRYENGINE\bin\win_x64\CryScriptSystem.dll</NMakeOutput>
-		<ExecutablePath>c:\CRYENGINE\bin\win_x64\CryScriptSystem.dll</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x64</OutDir>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\Lua\src;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/TheTravellersNotes_384/Code/&quot;;_PROFILE;PROFILE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\Lua\src;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</IncludePath>
+		<NMakeOutput>c:\TheTravellersNotes_384\bin\win_x64\CryScriptSystem.dll</NMakeOutput>
+		<ExecutablePath>c:\TheTravellersNotes_384\bin\win_x64\CryScriptSystem.dll</ExecutablePath>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x64</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|Win32'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_performance build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeCleanCommandLine>
-		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CryScriptSystem;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\Lua\src;c:\CRYENGINE\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
-		<NMakePreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_RELEASE;PERFORMANCE_BUILD;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now);USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CryScriptSystem;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\Lua\src;c:\CRYENGINE\Code\SDKs\Steamworks\public</IncludePath>
-		<NMakeOutput>c:\CRYENGINE\bin\win_x86_performance\CryScriptSystem.dll</NMakeOutput>
-		<ExecutablePath>c:\CRYENGINE\bin\win_x86_performance\CryScriptSystem.dll</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x86_performance</OutDir>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_performance build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\Lua\src;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/TheTravellersNotes_384/Code/&quot;;_RELEASE;PERFORMANCE_BUILD;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now);USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\Lua\src;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</IncludePath>
+		<NMakeOutput>c:\TheTravellersNotes_384\bin\win_x86_performance\CryScriptSystem.dll</NMakeOutput>
+		<ExecutablePath>c:\TheTravellersNotes_384\bin\win_x86_performance\CryScriptSystem.dll</ExecutablePath>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x86_performance</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|x64'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_performance build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeCleanCommandLine>
-		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CryScriptSystem;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\Lua\src;c:\CRYENGINE\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
-		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_RELEASE;PERFORMANCE_BUILD;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now);USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CryScriptSystem;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\Lua\src;c:\CRYENGINE\Code\SDKs\Steamworks\public</IncludePath>
-		<NMakeOutput>c:\CRYENGINE\bin\win_x64_performance\CryScriptSystem.dll</NMakeOutput>
-		<ExecutablePath>c:\CRYENGINE\bin\win_x64_performance\CryScriptSystem.dll</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x64_performance</OutDir>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_performance build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\Lua\src;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/TheTravellersNotes_384/Code/&quot;;_RELEASE;PERFORMANCE_BUILD;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now);USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\Lua\src;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</IncludePath>
+		<NMakeOutput>c:\TheTravellersNotes_384\bin\win_x64_performance\CryScriptSystem.dll</NMakeOutput>
+		<ExecutablePath>c:\TheTravellersNotes_384\bin\win_x64_performance\CryScriptSystem.dll</ExecutablePath>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x64_performance</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|Win32'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_release build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeCleanCommandLine>
-		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\CryEngine\CryScriptSystem;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\Lua\src;c:\CRYENGINE\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
-		<NMakePreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_RELEASE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now);USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\CryEngine\CryScriptSystem;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\Lua\src;c:\CRYENGINE\Code\SDKs\Steamworks\public</IncludePath>
-		<NMakeOutput>c:\CRYENGINE\bin\win_x86_release\CryScriptSystem.dll</NMakeOutput>
-		<ExecutablePath>c:\CRYENGINE\bin\win_x86_release\CryScriptSystem.dll</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x86_release</OutDir>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_release build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\Lua\src;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/TheTravellersNotes_384/Code/&quot;;_RELEASE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now);USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\Lua\src;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</IncludePath>
+		<NMakeOutput>c:\TheTravellersNotes_384\bin\win_x86_release\CryScriptSystem.dll</NMakeOutput>
+		<ExecutablePath>c:\TheTravellersNotes_384\bin\win_x86_release\CryScriptSystem.dll</ExecutablePath>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x86_release</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|x64'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_release build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeCleanCommandLine>
-		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\CryEngine\CryScriptSystem;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\Lua\src;c:\CRYENGINE\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
-		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_RELEASE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now);USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\CryEngine\CryScriptSystem;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\Lua\src;c:\CRYENGINE\Code\SDKs\Steamworks\public</IncludePath>
-		<NMakeOutput>c:\CRYENGINE\bin\win_x64_release\CryScriptSystem.dll</NMakeOutput>
-		<ExecutablePath>c:\CRYENGINE\bin\win_x64_release\CryScriptSystem.dll</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x64_release</OutDir>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_release build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\Lua\src;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/TheTravellersNotes_384/Code/&quot;;_RELEASE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now);USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\Lua\src;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</IncludePath>
+		<NMakeOutput>c:\TheTravellersNotes_384\bin\win_x64_release\CryScriptSystem.dll</NMakeOutput>
+		<ExecutablePath>c:\TheTravellersNotes_384\bin\win_x64_release\CryScriptSystem.dll</ExecutablePath>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x64_release</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|Win32'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeCleanCommandLine>
 		<NMakeIncludeSearchPath></NMakeIncludeSearchPath>
 		<NMakePreprocessorDefinitions>;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
 		<IncludePath></IncludePath>
 		<NMakeOutput>Error__Invalid_startup_project__CryScriptSystem__Selected_project_not_supported_for_configuration___GameSDK_and_Editor__Debug__</NMakeOutput>
 		<ExecutablePath>Error__Invalid_startup_project__CryScriptSystem__Selected_project_not_supported_for_configuration___GameSDK_and_Editor__Debug__</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x86</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x86</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|x64'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeCleanCommandLine>
-		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CryScriptSystem;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\Lua\src;c:\CRYENGINE\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
-		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_DEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CryScriptSystem;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\Lua\src;c:\CRYENGINE\Code\SDKs\Steamworks\public</IncludePath>
-		<NMakeOutput>c:\CRYENGINE\bin\win_x64\CryScriptSystem.dll</NMakeOutput>
-		<ExecutablePath>c:\CRYENGINE\bin\win_x64\CryScriptSystem.dll</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x64</OutDir>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\Lua\src;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/TheTravellersNotes_384/Code/&quot;;_DEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\Lua\src;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</IncludePath>
+		<NMakeOutput>c:\TheTravellersNotes_384\bin\win_x64\CryScriptSystem.dll</NMakeOutput>
+		<ExecutablePath>c:\TheTravellersNotes_384\bin\win_x64\CryScriptSystem.dll</ExecutablePath>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x64</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|Win32'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeCleanCommandLine>
 		<NMakeIncludeSearchPath></NMakeIncludeSearchPath>
 		<NMakePreprocessorDefinitions>;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
 		<IncludePath></IncludePath>
 		<NMakeOutput>Error__Invalid_startup_project__CryScriptSystem__Selected_project_not_supported_for_configuration___GameSDK_and_Editor__Profile__</NMakeOutput>
 		<ExecutablePath>Error__Invalid_startup_project__CryScriptSystem__Selected_project_not_supported_for_configuration___GameSDK_and_Editor__Profile__</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x86</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x86</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|x64'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeCleanCommandLine>
-		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CryScriptSystem;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\Lua\src;c:\CRYENGINE\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
-		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_PROFILE;PROFILE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CryScriptSystem;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\Lua\src;c:\CRYENGINE\Code\SDKs\Steamworks\public</IncludePath>
-		<NMakeOutput>c:\CRYENGINE\bin\win_x64\CryScriptSystem.dll</NMakeOutput>
-		<ExecutablePath>c:\CRYENGINE\bin\win_x64\CryScriptSystem.dll</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x64</OutDir>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryScriptSystem</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\Lua\src;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/TheTravellersNotes_384/Code/&quot;;_PROFILE;PROFILE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\Lua\src;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</IncludePath>
+		<NMakeOutput>c:\TheTravellersNotes_384\bin\win_x64\CryScriptSystem.dll</NMakeOutput>
+		<ExecutablePath>c:\TheTravellersNotes_384\bin\win_x64\CryScriptSystem.dll</ExecutablePath>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x64</OutDir>
 	</PropertyGroup>
 	<ItemGroup>
-		<ClCompile Include='c:\CRYENGINE\BinTemp\uber_files\CryScriptSystem\CryScriptSystem_uber_0.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\BucketAllocator.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\CryScriptSystem.cpp' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\FunctionHandler.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\FunctionHandler.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\LuaDebugger.rc' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\LuaDebuggerResource.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\LuaDebugger\AboutWnd.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\LuaDebugger\Coverage.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\LuaDebugger\Coverage.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\LuaDebugger\FileTree.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\LuaDebugger\FileTree.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\LuaDebugger\GoToFuncWnd.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\LuaDebugger\GoToWnd.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\LuaDebugger\LUADBG.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\LuaDebugger\LUADBG.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\LuaDebugger\LUADBG.ico' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\LuaDebugger\_TinyBrowseFolder.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\LuaDebugger\_TinyCaptionWindow.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\LuaDebugger\_TinyCoolEdit.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\LuaDebugger\_TinyFileEnum.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\LuaDebugger\_TinyImageList.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\LuaDebugger\_TinyMain.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\LuaDebugger\_TinyRegistry.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\LuaDebugger\_TinySplitter.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\LuaDebugger\_TinyStatusBar.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\LuaDebugger\_TinyTreeList.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\LuaDebugger\_TinyWindow.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\LuaDebugger\res\TreeView.bmp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\LuaDebugger\res\toolbar1.bmp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\LuaDebugger\small.ico' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\LuaRemoteDebug\LuaRemoteDebug.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\LuaRemoteDebug\LuaRemoteDebug.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\LuaRemoteDebug\SerializationHelper.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_Movie.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_Movie.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_Particle.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_Particle.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_Physics.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_Physics.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_Script.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_Script.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_Sound.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_Sound.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_System.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_System.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBinding.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBinding.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\ScriptBindings\SurfaceTypes.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\ScriptBindings\SurfaceTypes.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\ScriptSystem.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\ScriptSystem.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\ScriptTable.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\ScriptTable.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\ScriptTimerMgr.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\ScriptTimerMgr.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\StackGuard.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\StdAfx.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\StdAfx.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\cryscriptsystem.waf_files' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\resource.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\vectorlib.c' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryScriptSystem\wscript' />
+		<ClCompile Include='c:\TheTravellersNotes_384\BinTemp\uber_files\CryScriptSystem\CryScriptSystem_uber_0.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\BucketAllocator.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\CryScriptSystem.cpp' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\FunctionHandler.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\FunctionHandler.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\LuaDebugger.rc' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\LuaDebuggerResource.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\LuaDebugger\AboutWnd.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\LuaDebugger\Coverage.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\LuaDebugger\Coverage.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\LuaDebugger\FileTree.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\LuaDebugger\FileTree.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\LuaDebugger\GoToFuncWnd.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\LuaDebugger\GoToWnd.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\LuaDebugger\LUADBG.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\LuaDebugger\LUADBG.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\LuaDebugger\LUADBG.ico' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\LuaDebugger\_TinyBrowseFolder.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\LuaDebugger\_TinyCaptionWindow.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\LuaDebugger\_TinyCoolEdit.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\LuaDebugger\_TinyFileEnum.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\LuaDebugger\_TinyImageList.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\LuaDebugger\_TinyMain.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\LuaDebugger\_TinyRegistry.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\LuaDebugger\_TinySplitter.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\LuaDebugger\_TinyStatusBar.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\LuaDebugger\_TinyTreeList.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\LuaDebugger\_TinyWindow.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\LuaDebugger\res\TreeView.bmp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\LuaDebugger\res\toolbar1.bmp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\LuaDebugger\small.ico' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\LuaRemoteDebug\LuaRemoteDebug.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\LuaRemoteDebug\LuaRemoteDebug.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\LuaRemoteDebug\SerializationHelper.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_Movie.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_Movie.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_Particle.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_Particle.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_Physics.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_Physics.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_Script.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_Script.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_Sound.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_Sound.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_System.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_System.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBinding.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBinding.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\ScriptBindings\SurfaceTypes.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\ScriptBindings\SurfaceTypes.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\ScriptSystem.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\ScriptSystem.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\ScriptTable.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\ScriptTable.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\ScriptTimerMgr.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\ScriptTimerMgr.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\StackGuard.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\StdAfx.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\StdAfx.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\cryscriptsystem.waf_files' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\resource.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\vectorlib.c' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryScriptSystem\wscript' />
 	</ItemGroup>
 	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
 	<Import Project="$(MSBuildProjectDirectory)\..\..\_WAF_\msbuild\waf_build.targets" />

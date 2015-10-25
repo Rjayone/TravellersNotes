@@ -4,15 +4,15 @@
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|Win32'">
 		<ClCompile>
 			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
-			<WAF_ExecPath>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe</WAF_ExecPath>
-			<WAF_TargetSolution>c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
+			<WAF_ExecPath>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
 			<WAF_TargetSpec>gamesdk</WAF_TargetSpec>
 			<WAF_TargetConfig>win_x86_debug</WAF_TargetConfig>
 			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
 			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
-			<WAF_BuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_BuildCommandLine>
-			<WAF_RebuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_RebuildCommandLine>
-			<WAF_CleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_CleanCommandLine>
+			<WAF_BuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_CleanCommandLine>
 		</ClCompile>
 	</ItemDefinitionGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|Win32'">
@@ -23,15 +23,15 @@
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|x64'">
 		<ClCompile>
 			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
-			<WAF_ExecPath>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe</WAF_ExecPath>
-			<WAF_TargetSolution>c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
+			<WAF_ExecPath>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
 			<WAF_TargetSpec>gamesdk</WAF_TargetSpec>
 			<WAF_TargetConfig>win_x64_debug</WAF_TargetConfig>
 			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
 			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
-			<WAF_BuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_BuildCommandLine>
-			<WAF_RebuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_RebuildCommandLine>
-			<WAF_CleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_CleanCommandLine>
+			<WAF_BuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_CleanCommandLine>
 		</ClCompile>
 	</ItemDefinitionGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|x64'">
@@ -42,15 +42,15 @@
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|Win32'">
 		<ClCompile>
 			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
-			<WAF_ExecPath>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe</WAF_ExecPath>
-			<WAF_TargetSolution>c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
+			<WAF_ExecPath>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
 			<WAF_TargetSpec>gamesdk</WAF_TargetSpec>
 			<WAF_TargetConfig>win_x86_profile</WAF_TargetConfig>
 			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
 			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
-			<WAF_BuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_BuildCommandLine>
-			<WAF_RebuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_RebuildCommandLine>
-			<WAF_CleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_CleanCommandLine>
+			<WAF_BuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_CleanCommandLine>
 		</ClCompile>
 	</ItemDefinitionGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|Win32'">
@@ -61,15 +61,15 @@
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|x64'">
 		<ClCompile>
 			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
-			<WAF_ExecPath>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe</WAF_ExecPath>
-			<WAF_TargetSolution>c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
+			<WAF_ExecPath>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
 			<WAF_TargetSpec>gamesdk</WAF_TargetSpec>
 			<WAF_TargetConfig>win_x64_profile</WAF_TargetConfig>
 			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
 			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
-			<WAF_BuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_BuildCommandLine>
-			<WAF_RebuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_RebuildCommandLine>
-			<WAF_CleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_CleanCommandLine>
+			<WAF_BuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_CleanCommandLine>
 		</ClCompile>
 	</ItemDefinitionGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|x64'">
@@ -80,15 +80,15 @@
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|Win32'">
 		<ClCompile>
 			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
-			<WAF_ExecPath>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe</WAF_ExecPath>
-			<WAF_TargetSolution>c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
+			<WAF_ExecPath>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
 			<WAF_TargetSpec>gamesdk</WAF_TargetSpec>
 			<WAF_TargetConfig>win_x86_performance</WAF_TargetConfig>
 			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
 			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
-			<WAF_BuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_BuildCommandLine>
-			<WAF_RebuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_performance build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_RebuildCommandLine>
-			<WAF_CleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_CleanCommandLine>
+			<WAF_BuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_performance build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_CleanCommandLine>
 		</ClCompile>
 	</ItemDefinitionGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|Win32'">
@@ -99,15 +99,15 @@
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|x64'">
 		<ClCompile>
 			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
-			<WAF_ExecPath>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe</WAF_ExecPath>
-			<WAF_TargetSolution>c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
+			<WAF_ExecPath>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
 			<WAF_TargetSpec>gamesdk</WAF_TargetSpec>
 			<WAF_TargetConfig>win_x64_performance</WAF_TargetConfig>
 			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
 			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
-			<WAF_BuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_BuildCommandLine>
-			<WAF_RebuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_performance build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_RebuildCommandLine>
-			<WAF_CleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_CleanCommandLine>
+			<WAF_BuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_performance build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_CleanCommandLine>
 		</ClCompile>
 	</ItemDefinitionGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|x64'">
@@ -118,15 +118,15 @@
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|Win32'">
 		<ClCompile>
 			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
-			<WAF_ExecPath>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe</WAF_ExecPath>
-			<WAF_TargetSolution>c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
+			<WAF_ExecPath>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
 			<WAF_TargetSpec>gamesdk</WAF_TargetSpec>
 			<WAF_TargetConfig>win_x86_release</WAF_TargetConfig>
 			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
 			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
-			<WAF_BuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_BuildCommandLine>
-			<WAF_RebuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_release build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_RebuildCommandLine>
-			<WAF_CleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_CleanCommandLine>
+			<WAF_BuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_release build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_CleanCommandLine>
 		</ClCompile>
 	</ItemDefinitionGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|Win32'">
@@ -137,15 +137,15 @@
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|x64'">
 		<ClCompile>
 			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
-			<WAF_ExecPath>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe</WAF_ExecPath>
-			<WAF_TargetSolution>c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
+			<WAF_ExecPath>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
 			<WAF_TargetSpec>gamesdk</WAF_TargetSpec>
 			<WAF_TargetConfig>win_x64_release</WAF_TargetConfig>
 			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
 			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
-			<WAF_BuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_BuildCommandLine>
-			<WAF_RebuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_release build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_RebuildCommandLine>
-			<WAF_CleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_CleanCommandLine>
+			<WAF_BuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_release build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_CleanCommandLine>
 		</ClCompile>
 	</ItemDefinitionGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|x64'">
@@ -156,15 +156,15 @@
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|Win32'">
 		<ClCompile>
 			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
-			<WAF_ExecPath>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe</WAF_ExecPath>
-			<WAF_TargetSolution>c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
+			<WAF_ExecPath>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
 			<WAF_TargetSpec>gamesdk_and_tools</WAF_TargetSpec>
 			<WAF_TargetConfig>win_x86_debug</WAF_TargetConfig>
 			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
 			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
-			<WAF_BuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_BuildCommandLine>
-			<WAF_RebuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_RebuildCommandLine>
-			<WAF_CleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_CleanCommandLine>
+			<WAF_BuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_CleanCommandLine>
 		</ClCompile>
 	</ItemDefinitionGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|Win32'">
@@ -175,15 +175,15 @@
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|x64'">
 		<ClCompile>
 			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
-			<WAF_ExecPath>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe</WAF_ExecPath>
-			<WAF_TargetSolution>c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
+			<WAF_ExecPath>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
 			<WAF_TargetSpec>gamesdk_and_tools</WAF_TargetSpec>
 			<WAF_TargetConfig>win_x64_debug</WAF_TargetConfig>
 			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
 			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
-			<WAF_BuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_BuildCommandLine>
-			<WAF_RebuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_RebuildCommandLine>
-			<WAF_CleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_CleanCommandLine>
+			<WAF_BuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_CleanCommandLine>
 		</ClCompile>
 	</ItemDefinitionGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|x64'">
@@ -194,15 +194,15 @@
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|Win32'">
 		<ClCompile>
 			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
-			<WAF_ExecPath>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe</WAF_ExecPath>
-			<WAF_TargetSolution>c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
+			<WAF_ExecPath>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
 			<WAF_TargetSpec>gamesdk_and_tools</WAF_TargetSpec>
 			<WAF_TargetConfig>win_x86_profile</WAF_TargetConfig>
 			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
 			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
-			<WAF_BuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_BuildCommandLine>
-			<WAF_RebuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_RebuildCommandLine>
-			<WAF_CleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_CleanCommandLine>
+			<WAF_BuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_CleanCommandLine>
 		</ClCompile>
 	</ItemDefinitionGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|Win32'">
@@ -213,15 +213,15 @@
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|x64'">
 		<ClCompile>
 			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
-			<WAF_ExecPath>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe</WAF_ExecPath>
-			<WAF_TargetSolution>c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
+			<WAF_ExecPath>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln </WAF_TargetSolution>
 			<WAF_TargetSpec>gamesdk_and_tools</WAF_TargetSpec>
 			<WAF_TargetConfig>win_x64_profile</WAF_TargetConfig>
 			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
 			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
-			<WAF_BuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_BuildCommandLine>
-			<WAF_RebuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_RebuildCommandLine>
-			<WAF_CleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_CleanCommandLine>
+			<WAF_BuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot;</WAF_CleanCommandLine>
 		</ClCompile>
 	</ItemDefinitionGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|x64'">

@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
-			<ClCompile Include="c:\CRYENGINE\BinTemp\uber_files\CryAudioImplSDLMixer\CryAudioImplSDLMixer_uber_0.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\BinTemp\uber_files\CryAudioImplSDLMixer\CryAudioImplSDLMixer_uber_0.cpp">
 				<Filter>Uber Files</Filter>
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\ATLEntities_sdlmixer.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\ATLEntities_sdlmixer.h">
 				<Filter>Header Files</Filter>
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\AudioSystemImplCVars_sdlmixer.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\AudioSystemImplCVars_sdlmixer.cpp">
 				<Filter>Source Files</Filter>
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\AudioSystemImplCVars_sdlmixer.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\AudioSystemImplCVars_sdlmixer.h">
 				<Filter>Header Files</Filter>
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\AudioSystemImpl_sdlmixer.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\AudioSystemImpl_sdlmixer.cpp">
 				<Filter>Source Files</Filter>
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\AudioSystemImpl_sdlmixer.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\AudioSystemImpl_sdlmixer.h">
 				<Filter>Header Files</Filter>
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\Common_sdlmixer.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\Common_sdlmixer.cpp">
 				<Filter>Source Files</Filter>
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\Common_sdlmixer.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\Common_sdlmixer.h">
 				<Filter>Header Files</Filter>
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\CryAudioImpl_sdlmixer.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\CryAudioImpl_sdlmixer.cpp">
 				<Filter>Source Files</Filter>
 			</ClCompile>
-			<ClCompile Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\SDLMixerSoundEngine.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\SDLMixerSoundEngine.cpp">
 				<Filter>Source Files</Filter>
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\SDLMixerSoundEngine.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\SDLMixerSoundEngine.h">
 				<Filter>Header Files</Filter>
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\SDLMixerSoundEngineTypes.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\SDLMixerSoundEngineTypes.h">
 				<Filter>Header Files</Filter>
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\SDLMixerSoundEngineUtil.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\SDLMixerSoundEngineUtil.h">
 				<Filter>Header Files</Filter>
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\audioimplsdlmixer.waf_files">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\audioimplsdlmixer.waf_files">
 				<Filter>_WAF_</Filter>
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\resource.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\resource.h">
 				<Filter>Header Files</Filter>
 			</ClInclude>
-			<ClCompile Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\stdafx.cpp">
+			<ClCompile Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\stdafx.cpp">
 			</ClCompile>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\stdafx.h">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\stdafx.h">
 				<Filter>Header Files</Filter>
 			</ClInclude>
-			<ClInclude Include="c:\CRYENGINE\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\wscript">
+			<ClInclude Include="c:\TheTravellersNotes_384\Code\CryEngine\CrySoundSystem\implementations\CryAudioImplSDLMixer\wscript">
 				<Filter>_WAF_</Filter>
 			</ClInclude>
 	</ItemGroup>

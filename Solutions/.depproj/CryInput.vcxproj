@@ -51,69 +51,69 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
-		<ProjectGuid>{332DBDD2-48F7-4C81-9A30-B953615CFBB8}</ProjectGuid>
+		<ProjectGuid>{E95D1789-24E2-4D5E-9CE2-6A9BADC6642B}</ProjectGuid>
 		<Keyword>MakeFileProj</Keyword>
 		<ProjectName>CryInput</ProjectName>
 	</PropertyGroup>
 	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
@@ -168,185 +168,185 @@
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
 	</ImportGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|Win32'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeCleanCommandLine>
-		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CryInput;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\SDL2\include\mac;c:\CRYENGINE\Code\SDKs\SDL2\include\SDL;c:\CRYENGINE\Code\SDKs\SDL2\SDL@8112\include;c:\CRYENGINE\Code\SDKs\OrbisPad\include;c:\CRYENGINE\Code\SDKs\SDL2\include\linux;c:\CRYENGINE\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
-		<NMakePreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_DEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CryInput;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\SDL2\include\mac;c:\CRYENGINE\Code\SDKs\SDL2\include\SDL;c:\CRYENGINE\Code\SDKs\SDL2\SDL@8112\include;c:\CRYENGINE\Code\SDKs\OrbisPad\include;c:\CRYENGINE\Code\SDKs\SDL2\include\linux;c:\CRYENGINE\Code\SDKs\Steamworks\public</IncludePath>
-		<NMakeOutput>c:\CRYENGINE\bin\win_x86\CryInput.dll</NMakeOutput>
-		<ExecutablePath>c:\CRYENGINE\bin\win_x86\CryInput.dll</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x86</OutDir>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\CryEngine\CryInput;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\mac;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\SDL;c:\TheTravellersNotes_384\Code\SDKs\SDL2\SDL@8112\include;c:\TheTravellersNotes_384\Code\SDKs\OrbisPad\include;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\linux;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/TheTravellersNotes_384/Code/&quot;;_DEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\CryEngine\CryInput;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\mac;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\SDL;c:\TheTravellersNotes_384\Code\SDKs\SDL2\SDL@8112\include;c:\TheTravellersNotes_384\Code\SDKs\OrbisPad\include;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\linux;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</IncludePath>
+		<NMakeOutput>c:\TheTravellersNotes_384\bin\win_x86\CryInput.dll</NMakeOutput>
+		<ExecutablePath>c:\TheTravellersNotes_384\bin\win_x86\CryInput.dll</ExecutablePath>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x86</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|x64'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeCleanCommandLine>
-		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CryInput;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\SDL2\include\mac;c:\CRYENGINE\Code\SDKs\SDL2\include\SDL;c:\CRYENGINE\Code\SDKs\SDL2\SDL@8112\include;c:\CRYENGINE\Code\SDKs\OrbisPad\include;c:\CRYENGINE\Code\SDKs\SDL2\include\linux;c:\CRYENGINE\Code\SDKs\OrbisPad\include;c:\CRYENGINE\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
-		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_DEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CryInput;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\SDL2\include\mac;c:\CRYENGINE\Code\SDKs\SDL2\include\SDL;c:\CRYENGINE\Code\SDKs\SDL2\SDL@8112\include;c:\CRYENGINE\Code\SDKs\OrbisPad\include;c:\CRYENGINE\Code\SDKs\SDL2\include\linux;c:\CRYENGINE\Code\SDKs\OrbisPad\include;c:\CRYENGINE\Code\SDKs\Steamworks\public</IncludePath>
-		<NMakeOutput>c:\CRYENGINE\bin\win_x64\CryInput.dll</NMakeOutput>
-		<ExecutablePath>c:\CRYENGINE\bin\win_x64\CryInput.dll</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x64</OutDir>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\CryEngine\CryInput;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\mac;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\SDL;c:\TheTravellersNotes_384\Code\SDKs\SDL2\SDL@8112\include;c:\TheTravellersNotes_384\Code\SDKs\OrbisPad\include;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\linux;c:\TheTravellersNotes_384\Code\SDKs\OrbisPad\include;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/TheTravellersNotes_384/Code/&quot;;_DEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\CryEngine\CryInput;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\mac;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\SDL;c:\TheTravellersNotes_384\Code\SDKs\SDL2\SDL@8112\include;c:\TheTravellersNotes_384\Code\SDKs\OrbisPad\include;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\linux;c:\TheTravellersNotes_384\Code\SDKs\OrbisPad\include;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</IncludePath>
+		<NMakeOutput>c:\TheTravellersNotes_384\bin\win_x64\CryInput.dll</NMakeOutput>
+		<ExecutablePath>c:\TheTravellersNotes_384\bin\win_x64\CryInput.dll</ExecutablePath>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x64</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|Win32'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeCleanCommandLine>
-		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CryInput;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\SDL2\include\mac;c:\CRYENGINE\Code\SDKs\SDL2\include\SDL;c:\CRYENGINE\Code\SDKs\SDL2\SDL@8112\include;c:\CRYENGINE\Code\SDKs\OrbisPad\include;c:\CRYENGINE\Code\SDKs\SDL2\include\linux;c:\CRYENGINE\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
-		<NMakePreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_PROFILE;PROFILE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CryInput;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\SDL2\include\mac;c:\CRYENGINE\Code\SDKs\SDL2\include\SDL;c:\CRYENGINE\Code\SDKs\SDL2\SDL@8112\include;c:\CRYENGINE\Code\SDKs\OrbisPad\include;c:\CRYENGINE\Code\SDKs\SDL2\include\linux;c:\CRYENGINE\Code\SDKs\Steamworks\public</IncludePath>
-		<NMakeOutput>c:\CRYENGINE\bin\win_x86\CryInput.dll</NMakeOutput>
-		<ExecutablePath>c:\CRYENGINE\bin\win_x86\CryInput.dll</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x86</OutDir>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\CryEngine\CryInput;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\mac;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\SDL;c:\TheTravellersNotes_384\Code\SDKs\SDL2\SDL@8112\include;c:\TheTravellersNotes_384\Code\SDKs\OrbisPad\include;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\linux;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/TheTravellersNotes_384/Code/&quot;;_PROFILE;PROFILE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\CryEngine\CryInput;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\mac;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\SDL;c:\TheTravellersNotes_384\Code\SDKs\SDL2\SDL@8112\include;c:\TheTravellersNotes_384\Code\SDKs\OrbisPad\include;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\linux;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</IncludePath>
+		<NMakeOutput>c:\TheTravellersNotes_384\bin\win_x86\CryInput.dll</NMakeOutput>
+		<ExecutablePath>c:\TheTravellersNotes_384\bin\win_x86\CryInput.dll</ExecutablePath>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x86</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|x64'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeCleanCommandLine>
-		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CryInput;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\SDL2\include\mac;c:\CRYENGINE\Code\SDKs\SDL2\include\SDL;c:\CRYENGINE\Code\SDKs\SDL2\SDL@8112\include;c:\CRYENGINE\Code\SDKs\OrbisPad\include;c:\CRYENGINE\Code\SDKs\SDL2\include\linux;c:\CRYENGINE\Code\SDKs\OrbisPad\include;c:\CRYENGINE\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
-		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_PROFILE;PROFILE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CryInput;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\SDL2\include\mac;c:\CRYENGINE\Code\SDKs\SDL2\include\SDL;c:\CRYENGINE\Code\SDKs\SDL2\SDL@8112\include;c:\CRYENGINE\Code\SDKs\OrbisPad\include;c:\CRYENGINE\Code\SDKs\SDL2\include\linux;c:\CRYENGINE\Code\SDKs\OrbisPad\include;c:\CRYENGINE\Code\SDKs\Steamworks\public</IncludePath>
-		<NMakeOutput>c:\CRYENGINE\bin\win_x64\CryInput.dll</NMakeOutput>
-		<ExecutablePath>c:\CRYENGINE\bin\win_x64\CryInput.dll</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x64</OutDir>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\CryEngine\CryInput;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\mac;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\SDL;c:\TheTravellersNotes_384\Code\SDKs\SDL2\SDL@8112\include;c:\TheTravellersNotes_384\Code\SDKs\OrbisPad\include;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\linux;c:\TheTravellersNotes_384\Code\SDKs\OrbisPad\include;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/TheTravellersNotes_384/Code/&quot;;_PROFILE;PROFILE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\CryEngine\CryInput;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\mac;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\SDL;c:\TheTravellersNotes_384\Code\SDKs\SDL2\SDL@8112\include;c:\TheTravellersNotes_384\Code\SDKs\OrbisPad\include;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\linux;c:\TheTravellersNotes_384\Code\SDKs\OrbisPad\include;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</IncludePath>
+		<NMakeOutput>c:\TheTravellersNotes_384\bin\win_x64\CryInput.dll</NMakeOutput>
+		<ExecutablePath>c:\TheTravellersNotes_384\bin\win_x64\CryInput.dll</ExecutablePath>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x64</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|Win32'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_performance build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeCleanCommandLine>
-		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CryInput;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\SDL2\include\mac;c:\CRYENGINE\Code\SDKs\SDL2\include\SDL;c:\CRYENGINE\Code\SDKs\SDL2\SDL@8112\include;c:\CRYENGINE\Code\SDKs\OrbisPad\include;c:\CRYENGINE\Code\SDKs\SDL2\include\linux;c:\CRYENGINE\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
-		<NMakePreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_RELEASE;PERFORMANCE_BUILD;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now);USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CryInput;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\SDL2\include\mac;c:\CRYENGINE\Code\SDKs\SDL2\include\SDL;c:\CRYENGINE\Code\SDKs\SDL2\SDL@8112\include;c:\CRYENGINE\Code\SDKs\OrbisPad\include;c:\CRYENGINE\Code\SDKs\SDL2\include\linux;c:\CRYENGINE\Code\SDKs\Steamworks\public</IncludePath>
-		<NMakeOutput>c:\CRYENGINE\bin\win_x86_performance\CryInput.dll</NMakeOutput>
-		<ExecutablePath>c:\CRYENGINE\bin\win_x86_performance\CryInput.dll</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x86_performance</OutDir>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_performance build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\CryEngine\CryInput;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\mac;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\SDL;c:\TheTravellersNotes_384\Code\SDKs\SDL2\SDL@8112\include;c:\TheTravellersNotes_384\Code\SDKs\OrbisPad\include;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\linux;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/TheTravellersNotes_384/Code/&quot;;_RELEASE;PERFORMANCE_BUILD;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now);USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\CryEngine\CryInput;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\mac;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\SDL;c:\TheTravellersNotes_384\Code\SDKs\SDL2\SDL@8112\include;c:\TheTravellersNotes_384\Code\SDKs\OrbisPad\include;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\linux;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</IncludePath>
+		<NMakeOutput>c:\TheTravellersNotes_384\bin\win_x86_performance\CryInput.dll</NMakeOutput>
+		<ExecutablePath>c:\TheTravellersNotes_384\bin\win_x86_performance\CryInput.dll</ExecutablePath>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x86_performance</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|x64'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_performance build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeCleanCommandLine>
-		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CryInput;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\SDL2\include\mac;c:\CRYENGINE\Code\SDKs\SDL2\include\SDL;c:\CRYENGINE\Code\SDKs\SDL2\SDL@8112\include;c:\CRYENGINE\Code\SDKs\OrbisPad\include;c:\CRYENGINE\Code\SDKs\SDL2\include\linux;c:\CRYENGINE\Code\SDKs\OrbisPad\include;c:\CRYENGINE\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
-		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_RELEASE;PERFORMANCE_BUILD;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now);USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CryInput;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\SDL2\include\mac;c:\CRYENGINE\Code\SDKs\SDL2\include\SDL;c:\CRYENGINE\Code\SDKs\SDL2\SDL@8112\include;c:\CRYENGINE\Code\SDKs\OrbisPad\include;c:\CRYENGINE\Code\SDKs\SDL2\include\linux;c:\CRYENGINE\Code\SDKs\OrbisPad\include;c:\CRYENGINE\Code\SDKs\Steamworks\public</IncludePath>
-		<NMakeOutput>c:\CRYENGINE\bin\win_x64_performance\CryInput.dll</NMakeOutput>
-		<ExecutablePath>c:\CRYENGINE\bin\win_x64_performance\CryInput.dll</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x64_performance</OutDir>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_performance build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\CryEngine\CryInput;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\mac;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\SDL;c:\TheTravellersNotes_384\Code\SDKs\SDL2\SDL@8112\include;c:\TheTravellersNotes_384\Code\SDKs\OrbisPad\include;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\linux;c:\TheTravellersNotes_384\Code\SDKs\OrbisPad\include;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/TheTravellersNotes_384/Code/&quot;;_RELEASE;PERFORMANCE_BUILD;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now);USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\CryEngine\CryInput;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\mac;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\SDL;c:\TheTravellersNotes_384\Code\SDKs\SDL2\SDL@8112\include;c:\TheTravellersNotes_384\Code\SDKs\OrbisPad\include;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\linux;c:\TheTravellersNotes_384\Code\SDKs\OrbisPad\include;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</IncludePath>
+		<NMakeOutput>c:\TheTravellersNotes_384\bin\win_x64_performance\CryInput.dll</NMakeOutput>
+		<ExecutablePath>c:\TheTravellersNotes_384\bin\win_x64_performance\CryInput.dll</ExecutablePath>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x64_performance</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|Win32'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_release build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeCleanCommandLine>
-		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\CryEngine\CryInput;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\SDL2\include\mac;c:\CRYENGINE\Code\SDKs\SDL2\include\SDL;c:\CRYENGINE\Code\SDKs\SDL2\SDL@8112\include;c:\CRYENGINE\Code\SDKs\OrbisPad\include;c:\CRYENGINE\Code\SDKs\SDL2\include\linux;c:\CRYENGINE\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
-		<NMakePreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_RELEASE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now);USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\CryEngine\CryInput;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\SDL2\include\mac;c:\CRYENGINE\Code\SDKs\SDL2\include\SDL;c:\CRYENGINE\Code\SDKs\SDL2\SDL@8112\include;c:\CRYENGINE\Code\SDKs\OrbisPad\include;c:\CRYENGINE\Code\SDKs\SDL2\include\linux;c:\CRYENGINE\Code\SDKs\Steamworks\public</IncludePath>
-		<NMakeOutput>c:\CRYENGINE\bin\win_x86_release\CryInput.dll</NMakeOutput>
-		<ExecutablePath>c:\CRYENGINE\bin\win_x86_release\CryInput.dll</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x86_release</OutDir>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_release build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\CryEngine\CryInput;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\mac;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\SDL;c:\TheTravellersNotes_384\Code\SDKs\SDL2\SDL@8112\include;c:\TheTravellersNotes_384\Code\SDKs\OrbisPad\include;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\linux;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/TheTravellersNotes_384/Code/&quot;;_RELEASE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now);USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\CryEngine\CryInput;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\mac;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\SDL;c:\TheTravellersNotes_384\Code\SDKs\SDL2\SDL@8112\include;c:\TheTravellersNotes_384\Code\SDKs\OrbisPad\include;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\linux;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</IncludePath>
+		<NMakeOutput>c:\TheTravellersNotes_384\bin\win_x86_release\CryInput.dll</NMakeOutput>
+		<ExecutablePath>c:\TheTravellersNotes_384\bin\win_x86_release\CryInput.dll</ExecutablePath>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x86_release</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|x64'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_release build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeCleanCommandLine>
-		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\CryEngine\CryInput;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\SDL2\include\mac;c:\CRYENGINE\Code\SDKs\SDL2\include\SDL;c:\CRYENGINE\Code\SDKs\SDL2\SDL@8112\include;c:\CRYENGINE\Code\SDKs\OrbisPad\include;c:\CRYENGINE\Code\SDKs\SDL2\include\linux;c:\CRYENGINE\Code\SDKs\OrbisPad\include;c:\CRYENGINE\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
-		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_RELEASE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now);USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\CryEngine\CryInput;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\SDL2\include\mac;c:\CRYENGINE\Code\SDKs\SDL2\include\SDL;c:\CRYENGINE\Code\SDKs\SDL2\SDL@8112\include;c:\CRYENGINE\Code\SDKs\OrbisPad\include;c:\CRYENGINE\Code\SDKs\SDL2\include\linux;c:\CRYENGINE\Code\SDKs\OrbisPad\include;c:\CRYENGINE\Code\SDKs\Steamworks\public</IncludePath>
-		<NMakeOutput>c:\CRYENGINE\bin\win_x64_release\CryInput.dll</NMakeOutput>
-		<ExecutablePath>c:\CRYENGINE\bin\win_x64_release\CryInput.dll</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x64_release</OutDir>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_release build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\CryEngine\CryInput;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\mac;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\SDL;c:\TheTravellersNotes_384\Code\SDKs\SDL2\SDL@8112\include;c:\TheTravellersNotes_384\Code\SDKs\OrbisPad\include;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\linux;c:\TheTravellersNotes_384\Code\SDKs\OrbisPad\include;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/TheTravellersNotes_384/Code/&quot;;_RELEASE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;PURE_CLIENT(deprecated, those defines will be moved to another place and dont have any effect right now);USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\CryEngine\CryInput;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\mac;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\SDL;c:\TheTravellersNotes_384\Code\SDKs\SDL2\SDL@8112\include;c:\TheTravellersNotes_384\Code\SDKs\OrbisPad\include;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\linux;c:\TheTravellersNotes_384\Code\SDKs\OrbisPad\include;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</IncludePath>
+		<NMakeOutput>c:\TheTravellersNotes_384\bin\win_x64_release\CryInput.dll</NMakeOutput>
+		<ExecutablePath>c:\TheTravellersNotes_384\bin\win_x64_release\CryInput.dll</ExecutablePath>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x64_release</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|Win32'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeCleanCommandLine>
 		<NMakeIncludeSearchPath></NMakeIncludeSearchPath>
 		<NMakePreprocessorDefinitions>;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
 		<IncludePath></IncludePath>
 		<NMakeOutput>Error__Invalid_startup_project__CryInput__Selected_project_not_supported_for_configuration___GameSDK_and_Editor__Debug__</NMakeOutput>
 		<ExecutablePath>Error__Invalid_startup_project__CryInput__Selected_project_not_supported_for_configuration___GameSDK_and_Editor__Debug__</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x86</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x86</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|x64'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeCleanCommandLine>
-		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CryInput;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\SDL2\include\mac;c:\CRYENGINE\Code\SDKs\SDL2\include\SDL;c:\CRYENGINE\Code\SDKs\SDL2\SDL@8112\include;c:\CRYENGINE\Code\SDKs\OrbisPad\include;c:\CRYENGINE\Code\SDKs\SDL2\include\linux;c:\CRYENGINE\Code\SDKs\OrbisPad\include;c:\CRYENGINE\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
-		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_DEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CryInput;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\SDL2\include\mac;c:\CRYENGINE\Code\SDKs\SDL2\include\SDL;c:\CRYENGINE\Code\SDKs\SDL2\SDL@8112\include;c:\CRYENGINE\Code\SDKs\OrbisPad\include;c:\CRYENGINE\Code\SDKs\SDL2\include\linux;c:\CRYENGINE\Code\SDKs\OrbisPad\include;c:\CRYENGINE\Code\SDKs\Steamworks\public</IncludePath>
-		<NMakeOutput>c:\CRYENGINE\bin\win_x64\CryInput.dll</NMakeOutput>
-		<ExecutablePath>c:\CRYENGINE\bin\win_x64\CryInput.dll</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x64</OutDir>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\CryEngine\CryInput;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\mac;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\SDL;c:\TheTravellersNotes_384\Code\SDKs\SDL2\SDL@8112\include;c:\TheTravellersNotes_384\Code\SDKs\OrbisPad\include;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\linux;c:\TheTravellersNotes_384\Code\SDKs\OrbisPad\include;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/TheTravellersNotes_384/Code/&quot;;_DEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\CryEngine\CryInput;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\mac;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\SDL;c:\TheTravellersNotes_384\Code\SDKs\SDL2\SDL@8112\include;c:\TheTravellersNotes_384\Code\SDKs\OrbisPad\include;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\linux;c:\TheTravellersNotes_384\Code\SDKs\OrbisPad\include;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</IncludePath>
+		<NMakeOutput>c:\TheTravellersNotes_384\bin\win_x64\CryInput.dll</NMakeOutput>
+		<ExecutablePath>c:\TheTravellersNotes_384\bin\win_x64\CryInput.dll</ExecutablePath>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x64</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|Win32'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeCleanCommandLine>
 		<NMakeIncludeSearchPath></NMakeIncludeSearchPath>
 		<NMakePreprocessorDefinitions>;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
 		<IncludePath></IncludePath>
 		<NMakeOutput>Error__Invalid_startup_project__CryInput__Selected_project_not_supported_for_configuration___GameSDK_and_Editor__Profile__</NMakeOutput>
 		<ExecutablePath>Error__Invalid_startup_project__CryInput__Selected_project_not_supported_for_configuration___GameSDK_and_Editor__Profile__</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x86</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x86</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|x64'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeCleanCommandLine>
-		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CryInput;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\SDL2\include\mac;c:\CRYENGINE\Code\SDKs\SDL2\include\SDL;c:\CRYENGINE\Code\SDKs\SDL2\SDL@8112\include;c:\CRYENGINE\Code\SDKs\OrbisPad\include;c:\CRYENGINE\Code\SDKs\SDL2\include\linux;c:\CRYENGINE\Code\SDKs\OrbisPad\include;c:\CRYENGINE\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
-		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/CRYENGINE/Code/&quot;;_PROFILE;PROFILE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\CRYENGINE\Code\SDKs\GPA\include;c:\CRYENGINE\Code\CryEngine\CryInput;c:\CRYENGINE\Code\SDKs\boost;c:\CRYENGINE\Code\SDKs\yasli;c:\CRYENGINE\Code\Libs\yasli;c:\CRYENGINE\Code\CryEngine\CryCommon;c:\CRYENGINE\Code\SDKs\SDL2\include\mac;c:\CRYENGINE\Code\SDKs\SDL2\include\SDL;c:\CRYENGINE\Code\SDKs\SDL2\SDL@8112\include;c:\CRYENGINE\Code\SDKs\OrbisPad\include;c:\CRYENGINE\Code\SDKs\SDL2\include\linux;c:\CRYENGINE\Code\SDKs\OrbisPad\include;c:\CRYENGINE\Code\SDKs\Steamworks\public</IncludePath>
-		<NMakeOutput>c:\CRYENGINE\bin\win_x64\CryInput.dll</NMakeOutput>
-		<ExecutablePath>c:\CRYENGINE\bin\win_x64\CryInput.dll</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x64</OutDir>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryInput</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\CryEngine\CryInput;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\mac;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\SDL;c:\TheTravellersNotes_384\Code\SDKs\SDL2\SDL@8112\include;c:\TheTravellersNotes_384\Code\SDKs\OrbisPad\include;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\linux;c:\TheTravellersNotes_384\Code\SDKs\OrbisPad\include;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/TheTravellersNotes_384/Code/&quot;;_PROFILE;PROFILE;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;WINVER=0x0600;_MT;_DLL;USE_STEAM=1;IS_EAAS;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\include\um;C:\Program Files (x86)\Windows Kits\8.0\include\shared;C:\Program Files (x86)\Windows Kits\8.0\include\winrt;c:\TheTravellersNotes_384\Code\SDKs\GPA\include;c:\TheTravellersNotes_384\Code\CryEngine\CryInput;c:\TheTravellersNotes_384\Code\SDKs\boost;c:\TheTravellersNotes_384\Code\SDKs\yasli;c:\TheTravellersNotes_384\Code\Libs\yasli;c:\TheTravellersNotes_384\Code\CryEngine\CryCommon;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\mac;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\SDL;c:\TheTravellersNotes_384\Code\SDKs\SDL2\SDL@8112\include;c:\TheTravellersNotes_384\Code\SDKs\OrbisPad\include;c:\TheTravellersNotes_384\Code\SDKs\SDL2\include\linux;c:\TheTravellersNotes_384\Code\SDKs\OrbisPad\include;c:\TheTravellersNotes_384\Code\SDKs\Steamworks\public</IncludePath>
+		<NMakeOutput>c:\TheTravellersNotes_384\bin\win_x64\CryInput.dll</NMakeOutput>
+		<ExecutablePath>c:\TheTravellersNotes_384\bin\win_x64\CryInput.dll</ExecutablePath>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x64</OutDir>
 	</PropertyGroup>
 	<ItemGroup>
-		<ClCompile Include='c:\CRYENGINE\BinTemp\uber_files\CryInput\CryInput_Uber_0.cpp' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryInput\BaseInput.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryInput\BaseInput.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryInput\CryInput.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryInput\CryInput.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryInput\DXInput.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryInput\DXInput.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryInput\DXInputDevice.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryInput\DXInputDevice.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryInput\Filters\JointFilter.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryInput\Filters\JointFilter.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryInput\InputCVars.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryInput\InputCVars.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryInput\InputDevice.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryInput\InputDevice.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryInput\Keyboard.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryInput\Keyboard.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryInput\KinectInput.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryInput\KinectInput.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryInput\KinectInputNULL.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryInput\KinectXboxSyncThread.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryInput\KinectXboxSyncThread.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryInput\LinuxInput.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryInput\LinuxInput.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryInput\Mouse.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryInput\Mouse.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryInput\NaturalPointInputNULL.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryInput\OrbisPadWin.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryInput\SDLKeyboard.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryInput\SDLKeyboard.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryInput\SDLMouse.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryInput\SDLMouse.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryInput\SDLPad.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryInput\SDLPad.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryInput\StdAfx.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryInput\StdAfx.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryInput\Synergy\SynergyContext.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryInput\Synergy\SynergyContext.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryInput\Synergy\SynergyKeyboard.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryInput\Synergy\SynergyKeyboard.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryInput\Synergy\SynergyMouse.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryInput\Synergy\SynergyMouse.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryInput\XInputDevice.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryInput\XInputDevice.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryInput\cryinput.waf_files' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryInput\resource.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryInput\wscript' />
+		<ClCompile Include='c:\TheTravellersNotes_384\BinTemp\uber_files\CryInput\CryInput_Uber_0.cpp' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\BaseInput.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\BaseInput.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\CryInput.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\CryInput.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\DXInput.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\DXInput.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\DXInputDevice.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\DXInputDevice.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\Filters\JointFilter.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\Filters\JointFilter.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\InputCVars.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\InputCVars.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\InputDevice.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\InputDevice.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\Keyboard.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\Keyboard.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\KinectInput.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\KinectInput.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\KinectInputNULL.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\KinectXboxSyncThread.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\KinectXboxSyncThread.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\LinuxInput.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\LinuxInput.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\Mouse.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\Mouse.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\NaturalPointInputNULL.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\OrbisPadWin.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\SDLKeyboard.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\SDLKeyboard.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\SDLMouse.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\SDLMouse.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\SDLPad.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\SDLPad.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\StdAfx.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\StdAfx.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\Synergy\SynergyContext.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\Synergy\SynergyContext.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\Synergy\SynergyKeyboard.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\Synergy\SynergyKeyboard.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\Synergy\SynergyMouse.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\Synergy\SynergyMouse.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\XInputDevice.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\XInputDevice.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\cryinput.waf_files' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\resource.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryInput\wscript' />
 	</ItemGroup>
 	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
 	<Import Project="$(MSBuildProjectDirectory)\..\..\_WAF_\msbuild\waf_build.targets" />

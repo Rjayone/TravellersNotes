@@ -51,69 +51,69 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
-		<ProjectGuid>{2185A00E-58FF-464C-B8A9-E71C1A5714B5}</ProjectGuid>
+		<ProjectGuid>{51AAE0F1-AB81-4982-BBC7-8BB1C8E501F5}</ProjectGuid>
 		<Keyword>MakeFileProj</Keyword>
 		<ProjectName>CryCommon</ProjectName>
 	</PropertyGroup>
 	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<OutDir>c:\CRYENGINE\Solutions\.depproj</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\Solutions\.depproj</OutDir>
 		<PlatformToolset>v110</PlatformToolset>
 	</PropertyGroup>
 	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
@@ -168,692 +168,692 @@
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
 	</ImportGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|Win32'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeCleanCommandLine>
 		<NMakeIncludeSearchPath></NMakeIncludeSearchPath>
 		<NMakePreprocessorDefinitions>;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
 		<IncludePath></IncludePath>
 		<NMakeOutput>not_supported</NMakeOutput>
 		<ExecutablePath>not_supported</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x86</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x86</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|x64'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeCleanCommandLine>
 		<NMakeIncludeSearchPath></NMakeIncludeSearchPath>
 		<NMakePreprocessorDefinitions>;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
 		<IncludePath></IncludePath>
 		<NMakeOutput>not_supported</NMakeOutput>
 		<ExecutablePath>not_supported</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x64</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x64</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|Win32'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeCleanCommandLine>
 		<NMakeIncludeSearchPath></NMakeIncludeSearchPath>
 		<NMakePreprocessorDefinitions>;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
 		<IncludePath></IncludePath>
 		<NMakeOutput>not_supported</NMakeOutput>
 		<ExecutablePath>not_supported</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x86</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x86</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|x64'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeCleanCommandLine>
 		<NMakeIncludeSearchPath></NMakeIncludeSearchPath>
 		<NMakePreprocessorDefinitions>;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
 		<IncludePath></IncludePath>
 		<NMakeOutput>not_supported</NMakeOutput>
 		<ExecutablePath>not_supported</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x64</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x64</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|Win32'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_performance build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_performance build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeCleanCommandLine>
 		<NMakeIncludeSearchPath></NMakeIncludeSearchPath>
 		<NMakePreprocessorDefinitions>;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
 		<IncludePath></IncludePath>
 		<NMakeOutput>not_supported</NMakeOutput>
 		<ExecutablePath>not_supported</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x86_performance</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x86_performance</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|x64'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_performance build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_performance build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeCleanCommandLine>
 		<NMakeIncludeSearchPath></NMakeIncludeSearchPath>
 		<NMakePreprocessorDefinitions>;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
 		<IncludePath></IncludePath>
 		<NMakeOutput>not_supported</NMakeOutput>
 		<ExecutablePath>not_supported</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x64_performance</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x64_performance</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|Win32'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_release build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_release build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeCleanCommandLine>
 		<NMakeIncludeSearchPath></NMakeIncludeSearchPath>
 		<NMakePreprocessorDefinitions>;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
 		<IncludePath></IncludePath>
 		<NMakeOutput>not_supported</NMakeOutput>
 		<ExecutablePath>not_supported</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x86_release</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x86_release</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|x64'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_release build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_release build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeCleanCommandLine>
 		<NMakeIncludeSearchPath></NMakeIncludeSearchPath>
 		<NMakePreprocessorDefinitions>;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
 		<IncludePath></IncludePath>
 		<NMakeOutput>not_supported</NMakeOutput>
 		<ExecutablePath>not_supported</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x64_release</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x64_release</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|Win32'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeCleanCommandLine>
 		<NMakeIncludeSearchPath></NMakeIncludeSearchPath>
 		<NMakePreprocessorDefinitions>;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
 		<IncludePath></IncludePath>
 		<NMakeOutput>not_supported</NMakeOutput>
 		<ExecutablePath>not_supported</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x86</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x86</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Debug|x64'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeCleanCommandLine>
 		<NMakeIncludeSearchPath></NMakeIncludeSearchPath>
 		<NMakePreprocessorDefinitions>;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
 		<IncludePath></IncludePath>
 		<NMakeOutput>not_supported</NMakeOutput>
 		<ExecutablePath>not_supported</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x64</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x64</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|Win32'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeCleanCommandLine>
 		<NMakeIncludeSearchPath></NMakeIncludeSearchPath>
 		<NMakePreprocessorDefinitions>;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
 		<IncludePath></IncludePath>
 		<NMakeOutput>not_supported</NMakeOutput>
 		<ExecutablePath>not_supported</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x86</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x86</OutDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK and Editor] Profile|x64'">
-		<NMakeBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>cd /d &quot;c:\CRYENGINE&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\CRYENGINE\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\TheTravellersNotes_384&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamesdk_and_tools --execsolution=&quot;c:\TheTravellersNotes_384\Solutions\TravellersNotes_3.8.4.sln&quot; --targets=CryCommon</NMakeCleanCommandLine>
 		<NMakeIncludeSearchPath></NMakeIncludeSearchPath>
 		<NMakePreprocessorDefinitions>;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
 		<IncludePath></IncludePath>
 		<NMakeOutput>not_supported</NMakeOutput>
 		<ExecutablePath>not_supported</ExecutablePath>
-		<OutDir>c:\CRYENGINE\bin\win_x64</OutDir>
+		<OutDir>c:\TheTravellersNotes_384\bin\win_x64</OutDir>
 	</PropertyGroup>
 	<ItemGroup>
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\AABBSV.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\AIFormationDescriptor.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\AISystemListener.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\AgePriorityQueue.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\AgentParams.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Allocator.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\AndroidSpecific.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\AnimKey.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\AnimTime.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\AppleSpecific.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Base64.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\BaseTypes.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\BehaviorTree\Action.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\BehaviorTree\Composite.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\BehaviorTree\Decorator.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\BehaviorTree\IBehaviorTree.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\BehaviorTree\IBehaviorTreeGraft.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\BehaviorTree\Node.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\BehaviorTree\NodeFactory.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\BehaviorTree\Readme.txt' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\BehaviorTree\TimestampCollection.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\BehaviorTree\XmlLoader.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Bezier.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Bezier_impl.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\BitFiddling.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\BitMask.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\BitmapDilation.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\BoostHelpers.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\BucketAllocator.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\BucketAllocatorImpl.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\BucketAllocatorPolicy.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CGFContent.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CGFContent_info.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CREBaseCloud.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CREBreakableGlass.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CREBreakableGlassConfig.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CREBreakableGlassHelpers.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CREFarTreeSprites.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CREFogVolume.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CREGameEffect.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CREGeomCache.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CREImposter.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CRELightPropagationVolume.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CREMesh.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CREOcclusionQuery.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CREParticle.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CREPostProcess.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CRESky.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CREVolumeObject.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CREWaterOcean.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CREWaterVolume.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CheatProtection.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CoherentValue.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Common_TypeInfo.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Common_TypeInfo2.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CompileTimeAssert.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CompileTimeUtils.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CopyProtection.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CountedValue.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CrtDebugStats.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryArray.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryAssert.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryAssert_Android.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryAssert_IOS.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryAssert_Linux.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryAssert_Mac.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryAssert_Windows.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryAssert_impl.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryBufferedFileReader.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryCharAnimationParams.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryCharMorphParams.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryCommon.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryCrc32.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryCustomTypes.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryDLMalloc.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryEndian.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryEngineDecalInfo.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryExtension\CryCreateClassInstance.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryExtension\CryGUID.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryExtension\CryTypeID.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryExtension\ICryFactory.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryExtension\ICryFactoryRegistry.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryExtension\ICryUnknown.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryExtension\Impl\ClassWeaver.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryExtension\Impl\Conversion.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryExtension\Impl\CryGUIDHelper.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryExtension\Impl\ICryFactoryRegistryImpl.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryExtension\Impl\RegFactoryNode.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryExtension\Impl\TypeList.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryFile.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryFixedArray.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryFixedString.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryFlags.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryHalf.inl' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryHalf_info.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryHeaders.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryHeaders_info.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryLibrary.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryListenerSet.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryLobbyEvent.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryLobbyPacket.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryMemBlock.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryMemReplay.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryMemReplayTrackedPtr.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryMemoryAllocator.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryMemoryManager.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryMemoryManager_impl.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryModuleDefs.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryName.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryParticleSpawnInfo.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryPath.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryPhysics.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryPlatform.Darwin.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryPlatform.Linux.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryPlatform.Win32.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryPlatform.Win64.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryPlatform.fwd.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryPlatform.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryPlatformDefines.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryPodArray.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryPool\Allocator.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryPool\Container.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryPool\Defrag.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryPool\Fallback.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryPool\Inspector.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryPool\List.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryPool\Memory.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryPool\PAUnitTest.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryPool\PoolAlloc.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryPool\STLWrapper.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryPool\ThreadSafe.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryPool\example.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryProfileMarker.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryProfileMarker_impl.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryProfileMarker_impl.pc.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryPtrArray.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryRandomInternal.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CrySizer.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CrySocks.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryString.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryStructPack.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryStructPack.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryThread.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryThreadImpl.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryThreadImpl_pthreads.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryThreadImpl_windows.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryThreadSafeRendererContainer.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryThreadSafeWorkerContainer.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryThread_dummy.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryThread_pthreads.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryThread_windows.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryTypeInfo.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryTypeInfo.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryUnitTest.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryVersion.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CryWindows.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Cry_Camera.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Cry_Color.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Cry_Geo.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Cry_GeoDistance.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Cry_GeoIntersect.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Cry_GeoOverlap.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Cry_HWMatrix.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Cry_HWVector3.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Cry_Math.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Cry_Matrix33.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Cry_Matrix34.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Cry_Matrix44.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Cry_MatrixDiag.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Cry_Quat.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Cry_ValidNumber.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Cry_Vector2.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Cry_Vector3.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Cry_Vector4.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Cry_XOptimise.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\CustomMemoryHeap.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\DeferredActionQueue.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\EntityDesc.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ExtensionDefines.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\FinalizingSpline.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\FindZeroRanges.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\FixedAllocator.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\FixedPoint.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Force.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\FrameProfiler.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\FunctorBaseFunction.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\FunctorBaseMember.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\GameUtils.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\GenericParam.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\GeomCacheFileFormat.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\GeomQuery.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\HardwareBreakpoint.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\HashGrid.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\HashedString.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\HeapAllocator.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\HeapContainer.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\HidespotQueryContext.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\I3DEngine.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\I3DEngine_info.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\I3DSampler.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IAIAction.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IAIActionSequence.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IAIActor.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IAIActorProxy.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IAIDebugRenderer.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IAIGroup.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IAIGroupProxy.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IAIMannequin.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IAIObject.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IAIObjectManager.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IAIRateOfDeathHandler.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IAIRecorder.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IAISystem.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IAVI_Reader.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IAgent.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IAnimEventPlayer.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IAnimationPoseModifier.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IAntiCheatManager.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IAttachment.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IAudioInterfacesCommonData.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IAudioSystem.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IBitStream.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IBlackBoard.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IBreakableGlassSystem.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IBreakableManager.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IBudgetingSystem.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IChunkFile.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IClusterDetector.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ICmdLine.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ICodeCheckpointMgr.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IColorGradingController.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ICommunicationManager.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IComponent.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IConsole.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ICoverSystem.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ICryAnimation.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ICryFriends.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ICryFriendsManagement.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ICryLobby.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ICryLobbyUI.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ICryMatchMaking.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ICryMiniGUI.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ICryOnlineStorage.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ICryPak.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ICryReward.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ICrySignIn.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ICryStats.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ICryTCPService.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ICryVoice.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ICrysis3Lobby.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ICustomActions.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ICustomEvents.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IDMap.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IDataProbe.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IDebugHistory.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IDeferredCollisionEvent.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IDefragAllocator.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IDialogSystem.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IDiskProfiler.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IDynamicResponseAction.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IDynamicResponseCondition.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IDynamicResponseSystem.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IEdgeConnectivityBuilder.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IEditorGame.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IEngineModule.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IEntity.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IEntityAttributesProxy.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IEntityClass.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IEntityPoolManager.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IEntityProxy.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IEntityRenderState.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IEntityRenderState_info.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IEntitySerialize.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IEntitySystem.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IFaceGen.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IFacialAnimation.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IFactionMap.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IFileChangeMonitor.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IFlares.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IFlashPlayer.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IFlashUI.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IFlowGraphDebugger.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IFlowGraphModuleManager.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IFlowSystem.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IFont.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IFuncVariable.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IFunctorBase.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IGame.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IGameFramework.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IGameFrameworkExtension.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IGameRef.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IGameStartup.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IGameStatistics.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IGameTokens.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IGameVolumes.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IGeneralMemoryHeap.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IGeomCache.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IGoalPipe.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IHMDDevice.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IHMDManager.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IHardwareMouse.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IImage.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IIndexedMesh.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IIndexedMesh_info.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IInput.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IInterestSystem.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IJobManager.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IJobManager_JobDelegator.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IJoystick.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ILMSerializationManager.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ILZ4Decompressor.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ILipSync.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ILipSyncProvider.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ILiveCreateCommon.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ILiveCreateHost.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ILiveCreateManager.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ILiveCreatePlatform.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ILocalMemoryUsage.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ILocalizationManager.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ILog.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IMNM.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IMaterial.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IMaterialEffects.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IMemory.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IMeshBaking.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IMiniLog.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IMovementActor.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IMovementSystem.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IMovieSystem.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\INavigation.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\INavigationSystem.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\INetwork.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\INetworkService.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\INetworkingState.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\INotificationNetwork.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IOffMeshNavigationManager.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IOverloadSceneManager.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IParticles.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IPathfinder.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IPerceptionHandler.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IPerceptionHandlerModifier.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IPerfHud.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IPhysics.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IPhysicsDebugRenderer.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IPlatformOS.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IProcess.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IReadWriteXMLSink.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IRealtimeRemoteUpdate.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IRemoteCommand.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IRemoteControl.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IRenderAuxGeom.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IRenderMesh.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IRenderer.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IResourceCollector.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IResourceManager.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IScriptSystem.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ISelectionTreeManager.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ISerialize.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ISerializeHelper.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ISerialize_info.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IServiceNetwork.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IShader.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IShaderParamCallback.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IShader_info.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ISimpleHttpServer.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ISplines.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IStatObj.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IStatoscope.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IStereoRenderer.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IStreamEngine.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IStreamEngineDefs.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IStreamPersist.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ISurfaceType.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ISystem.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ISystemScheduler.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ITacticalPointSystem.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ITargetTrackManager.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ITelemetrySystem.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ITestSystem.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ITextModeConsole.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ITexture.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IThreadTask.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ITimer.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IUIFramework.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IValidator.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IVertexAnimation.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IVisionMap.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IVisualLog.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IWindowMessageHandler.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IXml.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IZLibCompressor.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IZlibDecompressor.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\InplaceFactory.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\InterpolationHelpers.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\IntersectionTestQueue.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\LCGRandom.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\LevelHeap.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\LineStreamBuffer.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Linux32Specific.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Linux64Specific.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\LinuxSpecific.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Linux_Win32Wrapper.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\MSVCspecific.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryCommon\MTPseudoRandom.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\MTPseudoRandom.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\MacSpecific.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\MemoryAccess.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\MetaUtils.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\MiniQueue.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\MovementBlock.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\MovementRequest.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\MovementRequestID.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\MovementStyle.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\MovementUpdateContext.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\MultiThread.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\MultiThread_Containers.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\NameCRCHelper.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Name_TypeInfo.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\NetHelpers.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Octree.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Options.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\PNoise3.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ParseEngineConfig.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ParticleParams.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ParticleParams_TypeInfo.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ParticleParams_info.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Pipe.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\PoolAllocator.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ProfileLog.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ProjectDefines.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ProjectDefinesInclude.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\QTangent.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Random.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Range.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\RayCastQueue.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\RendElement.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\RenderObjectDefines.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ResourceCompilerHelper.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ResourceCompilerHelper.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\SFunctor.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\STLGlobalAllocator.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\STLPoolAllocator.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\STLPoolAllocator_ManyElems.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\STLPortConfig.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ScopedVariableSetter.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ScreenPlotter.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ScriptHelpers.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\SerializationTypes.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\BlackBox.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\CRCRef.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\CRCRefImpl.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\ClassFactory.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\Color.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\ColorImpl.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\CryExtension.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\CryExtensionImpl.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\CryName.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\CryNameImpl.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\CryStrings.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\CryStringsImpl.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\Decorators\ActionButton.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\Decorators\BitFlags.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\Decorators\BitFlagsImpl.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\Decorators\JointName.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\Decorators\JointNameImpl.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\Decorators\LocalFrame.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\Decorators\LocalFrameImpl.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\Decorators\OutputFilePath.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\Decorators\OutputFilePathImpl.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\Decorators\Range.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\Decorators\RangeImpl.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\Decorators\ResourceFilePath.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\Decorators\ResourceFilePathImpl.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\Decorators\ResourceFolderPath.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\Decorators\ResourceFolderPathImpl.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\Decorators\ResourceSelector.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\Decorators\Resources.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\Decorators\ResourcesAudio.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\Decorators\Slider.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\Decorators\SliderImpl.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\Decorators\TagList.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\Decorators\TagListImpl.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\DynArray.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\DynArrayImpl.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\Enum.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\IArchive.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\IArchiveHost.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\IClassFactory.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\IntrusiveFactory.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\Math.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\MathImpl.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\STL.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\Serializer.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\SharedPtr.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\SmartPtr.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\SmartPtrImpl.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\StringList.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\TypeID.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\TypeInfo.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Serialization\TypeInfoImpl.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\SerializeBuffer.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\SerializeFwd.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\SimpleHashLookUp.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\SimpleSerialize.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\StackContainer.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\StaticInstanceList.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\StlDbgAlloc.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\StlUtils.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\StringUtils.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Synchronization.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Tarray.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\TelemetryConfig.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\TelemetryFormat.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\TelemetryParams.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\ThreadProfilerSupport.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\TimeValue.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\TimeValue_info.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Timer.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\TypeInfo_decl.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\TypeInfo_impl.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Typelist.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\TypelistUtils.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\UnalignedBlit.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\UnicodeBinding.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\UnicodeEncoding.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\UnicodeFunctions.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\UnicodeIterator.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\VariableCollection.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\VariadicParams.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\VectorMap.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\VectorSet.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Version.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Version_override.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\VertexFormats.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\VisionMapTypes.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Win32specific.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\Win64specific.h' />
-		<ClCompile Include='c:\CRYENGINE\Code\CryEngine\CryCommon\WinBase.cpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\WindowsUtils.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\XMLAttrReader.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\XMLBinaryHeaders.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\branchmask.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\crycommon.waf_files' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\functor.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\intrusive_list.hpp' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\physinterface.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\platform.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\platform_impl.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\primitives.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\primitives_info.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\smartptr.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\stl\STLAlignedAlloc.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\stridedptr.h' />
-		<ClInclude Include='c:\CRYENGINE\Code\CryEngine\CryCommon\wscript' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\AABBSV.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\AIFormationDescriptor.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\AISystemListener.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\AgePriorityQueue.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\AgentParams.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Allocator.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\AndroidSpecific.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\AnimKey.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\AnimTime.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\AppleSpecific.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Base64.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\BaseTypes.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\BehaviorTree\Action.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\BehaviorTree\Composite.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\BehaviorTree\Decorator.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\BehaviorTree\IBehaviorTree.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\BehaviorTree\IBehaviorTreeGraft.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\BehaviorTree\Node.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\BehaviorTree\NodeFactory.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\BehaviorTree\Readme.txt' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\BehaviorTree\TimestampCollection.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\BehaviorTree\XmlLoader.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Bezier.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Bezier_impl.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\BitFiddling.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\BitMask.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\BitmapDilation.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\BoostHelpers.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\BucketAllocator.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\BucketAllocatorImpl.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\BucketAllocatorPolicy.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CGFContent.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CGFContent_info.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CREBaseCloud.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CREBreakableGlass.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CREBreakableGlassConfig.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CREBreakableGlassHelpers.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CREFarTreeSprites.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CREFogVolume.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CREGameEffect.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CREGeomCache.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CREImposter.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CRELightPropagationVolume.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CREMesh.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CREOcclusionQuery.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CREParticle.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CREPostProcess.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CRESky.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CREVolumeObject.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CREWaterOcean.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CREWaterVolume.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CheatProtection.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CoherentValue.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Common_TypeInfo.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Common_TypeInfo2.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CompileTimeAssert.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CompileTimeUtils.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CopyProtection.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CountedValue.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CrtDebugStats.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryArray.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryAssert.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryAssert_Android.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryAssert_IOS.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryAssert_Linux.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryAssert_Mac.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryAssert_Windows.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryAssert_impl.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryBufferedFileReader.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryCharAnimationParams.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryCharMorphParams.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryCommon.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryCrc32.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryCustomTypes.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryDLMalloc.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryEndian.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryEngineDecalInfo.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryExtension\CryCreateClassInstance.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryExtension\CryGUID.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryExtension\CryTypeID.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryExtension\ICryFactory.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryExtension\ICryFactoryRegistry.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryExtension\ICryUnknown.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryExtension\Impl\ClassWeaver.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryExtension\Impl\Conversion.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryExtension\Impl\CryGUIDHelper.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryExtension\Impl\ICryFactoryRegistryImpl.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryExtension\Impl\RegFactoryNode.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryExtension\Impl\TypeList.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryFile.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryFixedArray.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryFixedString.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryFlags.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryHalf.inl' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryHalf_info.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryHeaders.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryHeaders_info.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryLibrary.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryListenerSet.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryLobbyEvent.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryLobbyPacket.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryMemBlock.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryMemReplay.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryMemReplayTrackedPtr.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryMemoryAllocator.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryMemoryManager.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryMemoryManager_impl.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryModuleDefs.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryName.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryParticleSpawnInfo.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryPath.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryPhysics.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryPlatform.Darwin.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryPlatform.Linux.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryPlatform.Win32.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryPlatform.Win64.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryPlatform.fwd.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryPlatform.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryPlatformDefines.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryPodArray.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryPool\Allocator.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryPool\Container.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryPool\Defrag.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryPool\Fallback.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryPool\Inspector.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryPool\List.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryPool\Memory.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryPool\PAUnitTest.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryPool\PoolAlloc.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryPool\STLWrapper.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryPool\ThreadSafe.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryPool\example.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryProfileMarker.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryProfileMarker_impl.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryProfileMarker_impl.pc.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryPtrArray.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryRandomInternal.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CrySizer.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CrySocks.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryString.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryStructPack.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryStructPack.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryThread.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryThreadImpl.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryThreadImpl_pthreads.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryThreadImpl_windows.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryThreadSafeRendererContainer.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryThreadSafeWorkerContainer.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryThread_dummy.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryThread_pthreads.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryThread_windows.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryTypeInfo.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryTypeInfo.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryUnitTest.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryVersion.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CryWindows.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Cry_Camera.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Cry_Color.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Cry_Geo.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Cry_GeoDistance.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Cry_GeoIntersect.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Cry_GeoOverlap.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Cry_HWMatrix.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Cry_HWVector3.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Cry_Math.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Cry_Matrix33.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Cry_Matrix34.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Cry_Matrix44.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Cry_MatrixDiag.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Cry_Quat.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Cry_ValidNumber.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Cry_Vector2.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Cry_Vector3.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Cry_Vector4.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Cry_XOptimise.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\CustomMemoryHeap.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\DeferredActionQueue.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\EntityDesc.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ExtensionDefines.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\FinalizingSpline.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\FindZeroRanges.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\FixedAllocator.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\FixedPoint.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Force.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\FrameProfiler.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\FunctorBaseFunction.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\FunctorBaseMember.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\GameUtils.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\GenericParam.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\GeomCacheFileFormat.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\GeomQuery.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\HardwareBreakpoint.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\HashGrid.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\HashedString.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\HeapAllocator.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\HeapContainer.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\HidespotQueryContext.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\I3DEngine.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\I3DEngine_info.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\I3DSampler.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IAIAction.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IAIActionSequence.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IAIActor.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IAIActorProxy.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IAIDebugRenderer.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IAIGroup.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IAIGroupProxy.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IAIMannequin.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IAIObject.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IAIObjectManager.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IAIRateOfDeathHandler.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IAIRecorder.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IAISystem.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IAVI_Reader.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IAgent.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IAnimEventPlayer.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IAnimationPoseModifier.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IAntiCheatManager.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IAttachment.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IAudioInterfacesCommonData.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IAudioSystem.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IBitStream.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IBlackBoard.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IBreakableGlassSystem.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IBreakableManager.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IBudgetingSystem.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IChunkFile.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IClusterDetector.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ICmdLine.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ICodeCheckpointMgr.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IColorGradingController.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ICommunicationManager.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IComponent.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IConsole.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ICoverSystem.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ICryAnimation.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ICryFriends.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ICryFriendsManagement.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ICryLobby.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ICryLobbyUI.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ICryMatchMaking.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ICryMiniGUI.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ICryOnlineStorage.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ICryPak.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ICryReward.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ICrySignIn.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ICryStats.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ICryTCPService.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ICryVoice.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ICrysis3Lobby.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ICustomActions.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ICustomEvents.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IDMap.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IDataProbe.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IDebugHistory.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IDeferredCollisionEvent.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IDefragAllocator.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IDialogSystem.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IDiskProfiler.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IDynamicResponseAction.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IDynamicResponseCondition.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IDynamicResponseSystem.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IEdgeConnectivityBuilder.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IEditorGame.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IEngineModule.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IEntity.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IEntityAttributesProxy.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IEntityClass.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IEntityPoolManager.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IEntityProxy.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IEntityRenderState.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IEntityRenderState_info.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IEntitySerialize.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IEntitySystem.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IFaceGen.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IFacialAnimation.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IFactionMap.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IFileChangeMonitor.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IFlares.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IFlashPlayer.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IFlashUI.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IFlowGraphDebugger.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IFlowGraphModuleManager.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IFlowSystem.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IFont.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IFuncVariable.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IFunctorBase.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IGame.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IGameFramework.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IGameFrameworkExtension.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IGameRef.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IGameStartup.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IGameStatistics.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IGameTokens.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IGameVolumes.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IGeneralMemoryHeap.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IGeomCache.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IGoalPipe.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IHMDDevice.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IHMDManager.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IHardwareMouse.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IImage.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IIndexedMesh.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IIndexedMesh_info.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IInput.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IInterestSystem.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IJobManager.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IJobManager_JobDelegator.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IJoystick.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ILMSerializationManager.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ILZ4Decompressor.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ILipSync.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ILipSyncProvider.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ILiveCreateCommon.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ILiveCreateHost.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ILiveCreateManager.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ILiveCreatePlatform.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ILocalMemoryUsage.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ILocalizationManager.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ILog.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IMNM.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IMaterial.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IMaterialEffects.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IMemory.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IMeshBaking.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IMiniLog.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IMovementActor.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IMovementSystem.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IMovieSystem.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\INavigation.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\INavigationSystem.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\INetwork.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\INetworkService.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\INetworkingState.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\INotificationNetwork.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IOffMeshNavigationManager.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IOverloadSceneManager.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IParticles.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IPathfinder.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IPerceptionHandler.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IPerceptionHandlerModifier.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IPerfHud.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IPhysics.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IPhysicsDebugRenderer.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IPlatformOS.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IProcess.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IReadWriteXMLSink.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IRealtimeRemoteUpdate.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IRemoteCommand.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IRemoteControl.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IRenderAuxGeom.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IRenderMesh.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IRenderer.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IResourceCollector.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IResourceManager.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IScriptSystem.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ISelectionTreeManager.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ISerialize.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ISerializeHelper.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ISerialize_info.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IServiceNetwork.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IShader.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IShaderParamCallback.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IShader_info.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ISimpleHttpServer.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ISplines.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IStatObj.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IStatoscope.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IStereoRenderer.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IStreamEngine.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IStreamEngineDefs.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IStreamPersist.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ISurfaceType.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ISystem.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ISystemScheduler.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ITacticalPointSystem.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ITargetTrackManager.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ITelemetrySystem.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ITestSystem.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ITextModeConsole.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ITexture.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IThreadTask.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ITimer.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IUIFramework.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IValidator.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IVertexAnimation.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IVisionMap.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IVisualLog.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IWindowMessageHandler.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IXml.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IZLibCompressor.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IZlibDecompressor.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\InplaceFactory.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\InterpolationHelpers.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\IntersectionTestQueue.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\LCGRandom.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\LevelHeap.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\LineStreamBuffer.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Linux32Specific.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Linux64Specific.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\LinuxSpecific.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Linux_Win32Wrapper.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\MSVCspecific.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\MTPseudoRandom.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\MTPseudoRandom.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\MacSpecific.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\MemoryAccess.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\MetaUtils.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\MiniQueue.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\MovementBlock.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\MovementRequest.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\MovementRequestID.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\MovementStyle.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\MovementUpdateContext.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\MultiThread.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\MultiThread_Containers.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\NameCRCHelper.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Name_TypeInfo.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\NetHelpers.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Octree.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Options.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\PNoise3.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ParseEngineConfig.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ParticleParams.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ParticleParams_TypeInfo.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ParticleParams_info.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Pipe.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\PoolAllocator.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ProfileLog.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ProjectDefines.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ProjectDefinesInclude.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\QTangent.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Random.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Range.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\RayCastQueue.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\RendElement.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\RenderObjectDefines.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ResourceCompilerHelper.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ResourceCompilerHelper.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\SFunctor.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\STLGlobalAllocator.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\STLPoolAllocator.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\STLPoolAllocator_ManyElems.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\STLPortConfig.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ScopedVariableSetter.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ScreenPlotter.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ScriptHelpers.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\SerializationTypes.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\BlackBox.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\CRCRef.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\CRCRefImpl.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\ClassFactory.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\Color.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\ColorImpl.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\CryExtension.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\CryExtensionImpl.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\CryName.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\CryNameImpl.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\CryStrings.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\CryStringsImpl.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\Decorators\ActionButton.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\Decorators\BitFlags.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\Decorators\BitFlagsImpl.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\Decorators\JointName.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\Decorators\JointNameImpl.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\Decorators\LocalFrame.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\Decorators\LocalFrameImpl.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\Decorators\OutputFilePath.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\Decorators\OutputFilePathImpl.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\Decorators\Range.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\Decorators\RangeImpl.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\Decorators\ResourceFilePath.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\Decorators\ResourceFilePathImpl.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\Decorators\ResourceFolderPath.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\Decorators\ResourceFolderPathImpl.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\Decorators\ResourceSelector.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\Decorators\Resources.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\Decorators\ResourcesAudio.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\Decorators\Slider.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\Decorators\SliderImpl.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\Decorators\TagList.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\Decorators\TagListImpl.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\DynArray.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\DynArrayImpl.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\Enum.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\IArchive.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\IArchiveHost.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\IClassFactory.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\IntrusiveFactory.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\Math.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\MathImpl.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\STL.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\Serializer.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\SharedPtr.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\SmartPtr.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\SmartPtrImpl.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\StringList.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\TypeID.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\TypeInfo.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Serialization\TypeInfoImpl.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\SerializeBuffer.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\SerializeFwd.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\SimpleHashLookUp.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\SimpleSerialize.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\StackContainer.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\StaticInstanceList.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\StlDbgAlloc.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\StlUtils.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\StringUtils.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Synchronization.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Tarray.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\TelemetryConfig.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\TelemetryFormat.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\TelemetryParams.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\ThreadProfilerSupport.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\TimeValue.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\TimeValue_info.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Timer.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\TypeInfo_decl.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\TypeInfo_impl.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Typelist.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\TypelistUtils.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\UnalignedBlit.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\UnicodeBinding.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\UnicodeEncoding.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\UnicodeFunctions.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\UnicodeIterator.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\VariableCollection.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\VariadicParams.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\VectorMap.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\VectorSet.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Version.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Version_override.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\VertexFormats.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\VisionMapTypes.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Win32specific.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\Win64specific.h' />
+		<ClCompile Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\WinBase.cpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\WindowsUtils.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\XMLAttrReader.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\XMLBinaryHeaders.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\branchmask.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\crycommon.waf_files' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\functor.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\intrusive_list.hpp' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\physinterface.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\platform.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\platform_impl.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\primitives.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\primitives_info.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\smartptr.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\stl\STLAlignedAlloc.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\stridedptr.h' />
+		<ClInclude Include='c:\TheTravellersNotes_384\Code\CryEngine\CryCommon\wscript' />
 	</ItemGroup>
 	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
 	<Import Project="$(MSBuildProjectDirectory)\..\..\_WAF_\msbuild\waf_build.targets" />
